@@ -1,0 +1,683 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_space"
+	group: "7ADB1FD7A13BCA31"
+	icon: "ad_astra:oxygen_sensor"
+	id: "0F586C9E74F7F108"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"05054675CA8103E3"
+				"68E328EBE8F5686C"
+			]
+			description: [
+				"Cryo fuel allows you to make renewable and eco fuel!"
+				""
+				"You can now also fly at cost of only one bucket instead of three"
+			]
+			id: "5CA14B96060D33AF"
+			rewards: [{
+				count: 2
+				id: "2739A38E13AADA4D"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "global unwarming"
+			tasks: [{
+				id: "69B22F5E34C46637"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68E328EBE8F5686C"]
+			id: "7E61363BFD9255D7"
+			rewards: [{
+				count: 4
+				id: "6BCAC83C73601BB9"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F527FC7DE1203A6"
+				item: "ad_astra:ostrum_fluid_pipe"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["088E28D273108962"]
+			id: "3E530BFC5F88A60D"
+			rewards: [{
+				count: 4
+				id: "27D17D93B42F6104"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11A1D0F2CDFB1DE0"
+				item: "ad_astra:desh_fluid_pipe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["68E328EBE8F5686C"]
+			id: "5015475B0FB4249D"
+			rewards: [{
+				count: 3
+				id: "7FC7E03540CBB63D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47A58D67F7CABAC5"
+				item: {
+					Count: 1
+					id: "ad_astra:energizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["637FAAAE6058E6E8"]
+			id: "62995E2B9A0195A4"
+			rewards: [{
+				id: "1B379E9A98929148"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08684F84AABA01A7"
+				item: "ad_astra:gravity_normalizer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["088E28D273108962"]
+			id: "3860ED3AE4A5F704"
+			rewards: [{
+				id: "6BB2BF2E9C7EA0EC"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72070C58E98C511A"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["088E28D273108962"]
+			id: "5EB3A3A04F67A00F"
+			rewards: [{
+				id: "1B10B8B506D3066B"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76D24F59C065584F"
+				item: "ad_astra:water_pump"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["088E28D273108962"]
+			id: "554E607CA90BD21A"
+			rewards: [{
+				count: 2
+				id: "29BA5FDF3F29E627"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "617829C275C76E8F"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["595B41FFB5C47A9A"]
+			id: "68E328EBE8F5686C"
+			rewards: [{
+				count: 2
+				id: "732DD03273D0EDBD"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Jevelery for engineers"
+			tasks: [{
+				id: "0E239F631234FB6D"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["088E28D273108962"]
+			id: "28953B83DFEC15E3"
+			rewards: [{
+				count: 2
+				id: "351ECB9C5188EF71"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CABFA13491C112B"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28DED135B4E2D211"]
+			id: "70FBBD307DF7CF25"
+			rewards: [{
+				count: 2
+				id: "6ACFF3FAEE2CA7C7"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06DDD94E062B6157"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "109D47454D84CF2C"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B9D377D79650039"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59D1D9DDCB14D8F7"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["68E328EBE8F5686C"]
+			id: "47E2F327D163D307"
+			rewards: [{
+				count: 2
+				id: "353A0D8426B98E42"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "I don't wanna burn!"
+			tasks: [
+				{
+					id: "0940EF4D1EAB4213"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77599C251CCDBE29"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "515A0148ECEBCB80"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CE4E553D197E8B6"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7AFB7717D9C0E2DD"]
+			id: "07E7B5D26A4369A1"
+			rewards: [{
+				count: 4
+				id: "553F91DF924683AA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34CA8CD50D3600E1"
+				item: "ad_astra:ti_69"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F578055EF6213F8"]
+			id: "28DED135B4E2D211"
+			rewards: [{
+				id: "1E17FC9144D3AA3C"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Ruby of the planets"
+			tasks: [{
+				id: "2DD10164CF473458"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["68E328EBE8F5686C"]
+			id: "472303774C1EE395"
+			rewards: [{
+				count: 3
+				id: "042563027CB00526"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "77D5C0E71A5EADEC"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28DED135B4E2D211"]
+			description: [
+				"Here we go!"
+				""
+				"Tier 4 allows you to make intersolar flights!"
+			]
+			id: "2061F2B4F6BEAFFD"
+			rewards: [{
+				count: 3
+				id: "0E76CFE8261C0C12"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "What next?"
+			tasks: [{
+				id: "63C100A6DECDB51F"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["637FAAAE6058E6E8"]
+			id: "0ADAB81CE6A79D45"
+			rewards: [{
+				id: "67C03125A2CBC5B3"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "314AAD5558C5A070"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["088E28D273108962"]
+			id: "0DA9E74EB0963D80"
+			rewards: [{
+				id: "667283A3E36ECB5C"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E2390F913341BB2"
+				item: "ad_astra:desh_cable"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68E328EBE8F5686C"]
+			id: "05054675CA8103E3"
+			rewards: [{
+				id: "5B40372342A8DF50"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19BD0CCF0EE8B6A4"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AFB7717D9C0E2DD"]
+			description: [
+				"Second most wanted ingot after steel."
+				""
+				"Make you got enought!"
+			]
+			id: "088E28D273108962"
+			rewards: [{
+				id: "7757AEECCDA45A45"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Not any copper"
+			tasks: [{
+				id: "50B8D6325D4D843F"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"27122A7A7588F961"
+				"6A1ECC275EC200F9"
+				"4B347904F393BCF2"
+			]
+			description: [
+				"What next?"
+				""
+				"What about an entire solar system?"
+				""
+				"What about my own space station?"
+				""
+				"YES!"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "7AFB7717D9C0E2DD"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Mama I'm an astronaut"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "2D697DD0EA4240F0"
+				title: "To the moon!"
+				type: "dimension"
+			}]
+			title: "To the moon!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"472303774C1EE395"
+				"47E2F327D163D307"
+			]
+			icon: "ad_astra:venus_globe"
+			id: "4F578055EF6213F8"
+			rewards: [
+				{
+					id: "2BEE6BF46D2845DB"
+					item: "ad_astra:venus_globe"
+					type: "item"
+				}
+				{
+					id: "4DB568E05DCABE0E"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Sunglasses mandatory"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "150B181C11323C9B"
+				type: "dimension"
+			}]
+			title: "Hot here!"
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"62995E2B9A0195A4"
+				"0ADAB81CE6A79D45"
+			]
+			icon: "ad_astra:earth_globe"
+			id: "3D040E5E7819007D"
+			rewards: [
+				{
+					id: "67A1B37A003F2F92"
+					item: "ad_astra:earth_globe"
+					type: "item"
+				}
+				{
+					id: "1C0D19921B140462"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "My floating kingdom"
+			tasks: [{
+				dimension: "ad_astra:earth_orbit"
+				id: "32843D34234A8573"
+				type: "dimension"
+			}]
+			title: "Hello down there!"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2061F2B4F6BEAFFD"]
+			description: [
+				"That's all for today folks..."
+				""
+				"Hope you travelled a little..."
+			]
+			icon: "ad_astra:glacio_globe"
+			id: "3372D35868739E60"
+			rewards: [
+				{
+					id: "2CA327DEC12D8004"
+					item: "ad_astra:glacio_globe"
+					type: "item"
+				}
+				{
+					id: "28BE4405E4678FFC"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Cold end"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "21C6A9E28BA62DFC"
+				type: "dimension"
+			}]
+			title: "Brrr, cold here"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["554E607CA90BD21A"]
+			icon: "ad_astra:mars_globe"
+			id: "595B41FFB5C47A9A"
+			rewards: [
+				{
+					id: "5A73F3DAF19477C9"
+					item: "ad_astra:mars_globe"
+					type: "item"
+				}
+				{
+					id: "7304750137CC374A"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Red planet under feet"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "3358F792245CE022"
+				type: "dimension"
+			}]
+			title: "Welcome To the Mars!"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F578055EF6213F8"]
+			icon: "ad_astra:mercury_globe"
+			id: "1CC1BAF77D3E077C"
+			rewards: [
+				{
+					id: "2D0F977CFCF83BC9"
+					item: "ad_astra:mercury_globe"
+					type: "item"
+				}
+				{
+					id: "499BC1D016B3743E"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Hot stop"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "437BC0FD448BC9E4"
+				type: "dimension"
+			}]
+			title: "Mercury"
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7AFB7717D9C0E2DD"]
+			id: "637FAAAE6058E6E8"
+			rewards: [{
+				count: 3
+				id: "28A07EFCC24380C2"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30FC7000DB556AB3"
+				item: {
+					Count: 1
+					id: "ad_astra:etrionic_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "To The Stars"
+}

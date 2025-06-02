@@ -1,0 +1,210 @@
+{
+	autofocus_id: "4DFC0FDEC7981012"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_flying_age"
+	group: "071AA7D6E6315F75"
+	icon: "vs_clockwork:physics_infuser"
+	id: "3FE53C73FC64567C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&lATTENTION:&r Before mining this ore make sure you have obstructed it with blocks."
+				""
+				"I heard it likes flying!"
+			]
+			id: "4DFC0FDEC7981012"
+			rewards: [{
+				id: "19166DF4FACA8C47"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Let's go flying!"
+			tasks: [{
+				id: "6DF4B070EFDB4B74"
+				item: "vs_clockwork:wanderlite_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DFC0FDEC7981012"]
+			id: "2232026CFCB83CE3"
+			rewards: [{
+				id: "2B89C9D2FC352821"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Shinier than crystal"
+			tasks: [{
+				id: "4189DF3BA7FAD1B1"
+				item: "vs_clockwork:wanderlite_cube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2232026CFCB83CE3"]
+			id: "373FF7637B14D824"
+			rewards: [{
+				id: "33052DC4858B2748"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Garfield! noooooooooooo!"
+			tasks: [{
+				id: "22D81C659199A75C"
+				item: "vs_clockwork:wanderlite_matrix"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["373FF7637B14D824"]
+			id: "58D4A88C789BE289"
+			rewards: [{
+				count: 2
+				id: "19BC2BD8687757D6"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Scientists hates him!"
+			tasks: [{
+				id: "3107485EF9FAEA9F"
+				item: "vs_clockwork:physics_infuser"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["373FF7637B14D824"]
+			id: "16AF9871A3A98D24"
+			rewards: [{
+				count: 3
+				id: "339378DE33EF2019"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Balance your ship with this simple trick"
+			tasks: [{
+				id: "2DEDEFBD5A5CBBE2"
+				item: "vs_clockwork:gyro"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DFC0FDEC7981012"]
+			id: "4CE85039BA3F416F"
+			rewards: [{
+				id: "612B4AF822A929F0"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Much better than Harry's wand"
+			tasks: [{
+				id: "5337EB2E7BEFDF2A"
+				item: "vs_clockwork:incomplete_wanderwand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"373FF7637B14D824"
+				"4CE85039BA3F416F"
+			]
+			id: "48780C78A5F0BE9E"
+			rewards: [{
+				count: 3
+				id: "66C18996AD5C6842"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Unlimited power!"
+			tasks: [{
+				id: "31D6747EE49D3670"
+				item: "vs_clockwork:wanderwand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["373FF7637B14D824"]
+			id: "1E2E2A6E46EF79F0"
+			rewards: [{
+				count: 3
+				id: "17C95B6849215992"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Block goes weeeeee"
+			tasks: [{
+				id: "46A5D45750AEF8BE"
+				item: "vs_clockwork:gravitron"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4DFC0FDEC7981012"]
+			id: "6797C7E2A972EA2A"
+			rewards: [{
+				id: "45BC2A9405AA1E21"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Steering issues?"
+			tasks: [
+				{
+					id: "5045FBBF979BB533"
+					item: "vs_clockwork:flap_bearing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "548653E778365357"
+					item: {
+						Count: 4
+						id: "vs_clockwork:wing"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DFC0FDEC7981012"]
+			id: "210A1C654CB7C7DE"
+			rewards: [{
+				count: 3
+				id: "50AA34807F42583D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Take a seat"
+			tasks: [{
+				id: "34F03B952C417E0C"
+				item: "vs_clockwork:command_seat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "Create Flying Age"
+}

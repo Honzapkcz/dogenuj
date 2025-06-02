@@ -1,0 +1,352 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "computer_craft"
+	group: "7ADB1FD7A13BCA31"
+	icon: "computercraft:computer_normal"
+	id: "6EF9CF4F79AFCB7C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Computers are very powerful ivention!"
+				""
+				"They doesn't look like much, but programers (like me) can do miracles!"
+			]
+			id: "680BC3955C72DC3D"
+			rewards: [{
+				id: "2CCADAA84C798033"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Beep beep boop"
+			tasks: [{
+				id: "68C984E071C20CB2"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			title: "Computers!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["680BC3955C72DC3D"]
+			id: "6E7E0764E6B1FC54"
+			rewards: [{
+				id: "78BAC48234C3B3A2"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "ping is leaking somewere"
+			tasks: [{
+				id: "0B45A8C222142368"
+				item: "computercraft:cable"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["494D444421AEE3B3"]
+			id: "463E569C133F2B4B"
+			rewards: [{
+				id: "72ADFABE497CFFB4"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41973E6AFA193AF1"
+				item: "computercraft:wireless_modem_advanced"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["680BC3955C72DC3D"]
+			id: "494D444421AEE3B3"
+			rewards: [{
+				id: "140B963A57ADC294"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "WiFi from wish"
+			tasks: [{
+				id: "5D4F7C7DE65B1094"
+				item: "computercraft:wireless_modem_normal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26056A44B14482E1"]
+			id: "47747691BA075FCC"
+			rewards: [{
+				id: "68C8DB11C6C7FAC6"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "184443B39C9C7322"
+				item: {
+					Count: 1
+					id: "computercraft:pocket_computer_advanced"
+					tag: {
+						ComputerId: 12
+						InstanceId: [I;
+							1375109859
+							888292517
+							-1428255892
+							870030767
+						]
+						SessionId: 1304576567
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6D8C182BC3A565E1"]
+			id: "26056A44B14482E1"
+			rewards: [{
+				id: "1F0C91A061B5C646"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35EAFF5D074909F8"
+				item: {
+					Count: 1
+					id: "computercraft:pocket_computer_normal"
+					tag: {
+						ComputerId: 11
+						InstanceId: [I;
+							-1686288110
+							-2062332709
+							-1974582379
+							621683958
+						]
+						SessionId: 1304576567
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72FA6DB42609E1F9"]
+			id: "378D62EB66AF466A"
+			rewards: [{
+				count: 3
+				id: "43D0766609B28F14"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AD430128CC04699"
+				item: "computercraft:turtle_advanced"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["680BC3955C72DC3D"]
+			id: "72FA6DB42609E1F9"
+			rewards: [{
+				count: 2
+				id: "452AC1CFB5754911"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "It could just walk off"
+			tasks: [{
+				id: "5C7992E162D80FB1"
+				item: "computercraft:turtle_normal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["680BC3955C72DC3D"]
+			id: "6D8C182BC3A565E1"
+			rewards: [{
+				count: 3
+				id: "432E89415CC1F6ED"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Colors and Mouse!"
+			tasks: [{
+				id: "2EBB78CCD2336F44"
+				item: "computercraft:computer_advanced"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["232DEDEB3AF6ABC4"]
+			id: "43C0177F98FDC086"
+			rewards: [{
+				id: "4FCC4B26B1994F50"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "An icon for saving"
+			tasks: [{
+				id: "46ECA48DEF14586B"
+				item: {
+					Count: 1
+					id: "computercraft:disk"
+					tag: {
+						Color: 1118481
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["680BC3955C72DC3D"]
+			id: "232DEDEB3AF6ABC4"
+			rewards: [{
+				id: "7F8C6362FE74BD29"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Don't forget so save"
+			tasks: [{
+				id: "2D477B79827C5BAE"
+				item: "computercraft:disk_drive"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23AC429C100F0948"]
+			id: "4A692A55E2AA245A"
+			rewards: [{
+				id: "0FD5909E528D5DF5"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46090F9C0EA673AD"
+				item: "computercraft:printed_book"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2E04DFA98576DDA8"]
+			id: "23AC429C100F0948"
+			rewards: [{
+				id: "4613395C5276F124"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45B9F264D76BC783"
+				item: "computercraft:printed_page"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["680BC3955C72DC3D"]
+			id: "2E04DFA98576DDA8"
+			rewards: [{
+				id: "264D1CB1CBF5331D"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Books just got obsolete"
+			tasks: [{
+				id: "7BF72D4E0818ABC7"
+				item: "computercraft:printer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["680BC3955C72DC3D"]
+			id: "0659EC4B35BB03A2"
+			rewards: [{
+				id: "6CA10EC1FEDED336"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "I make noise now"
+			tasks: [{
+				id: "45E36E9D748981AF"
+				item: "computercraft:speaker"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A9F8D3F39C410C8"]
+			id: "0E77606E8A413A40"
+			rewards: [{
+				id: "76F72AAB212F6C73"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24AD205393B1D118"
+				item: "computercraft:monitor_advanced"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["680BC3955C72DC3D"]
+			id: "4A9F8D3F39C410C8"
+			rewards: [{
+				id: "74156F38142400F4"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CAAAD57D1FBBB63"
+				item: "computercraft:monitor_normal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E7E0764E6B1FC54"]
+			id: "2A8A22AC043794D8"
+			rewards: [{
+				id: "4317F958230907B2"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19DACDAAF7A7DB4F"
+				item: "computercraft:wired_modem"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+	]
+	title: "Computer Craft"
+}

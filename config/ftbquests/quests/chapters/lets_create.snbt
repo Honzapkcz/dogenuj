@@ -1,0 +1,670 @@
+{
+	autofocus_id: "2D02E946B596F800"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_create"
+	group: "071AA7D6E6315F75"
+	icon: "create:andesite_casing"
+	id: "3354DE74878081BC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The Create world is waiting for you."
+				""
+				"&lNEED HELP?!&r"
+				"Create has valuable help system called Ponder."
+				"All you need to do is hold W for supported items in inventory."
+			]
+			id: "2D02E946B596F800"
+			rewards: [{
+				id: "23A99DAE9022E2A9"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "This is the beggining."
+			tasks: [{
+				id: "67DA950F22867C65"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Is this the beggining?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D02E946B596F800"]
+			description: [
+				"&lCreate has two units:&r"
+				" - SU (Stress Units) = how many machines can be connected"
+				" - RPM (Speed rot/min) = how fast they will go"
+				""
+				"The faster will machine go, the faster will the process be and the more SU will eat."
+				""
+				"Cogwheels: Very useful ones. Make sure you have LOTS of them when doing anything."
+				""
+				"Can be used to make gearshift."
+			]
+			id: "4BD224A6F6B4B7A0"
+			rewards: [{
+				count: 2
+				id: "66E862B96E573541"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Hey it's moving!"
+			tasks: [
+				{
+					count: 4L
+					id: "4913D6F30FB991DC"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "4282B1263CCA28DE"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Cogwheels"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F6025879942DFBE"]
+			description: [
+				"Overpowered Source Machines."
+				""
+				"Bigger variant exists, has double the SU but half the Speed."
+			]
+			id: "017FCC2BBAE70CD8"
+			rewards: [{
+				count: 2
+				id: "12673485398E9E79"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "OP SU Source"
+			tasks: [{
+				id: "50DC0849F0CBCD9E"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4BD224A6F6B4B7A0"]
+			id: "6C43510AC383627A"
+			rewards: [{
+				id: "724EA17934326F9D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Your first power source"
+			tasks: [{
+				id: "66C4A8058F96773C"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["210D898558A74C1B"]
+			description: ["Seriosly, you should get one as soon possible, the wrench is very helpful when building machines, even essential in some cases."]
+			id: "19480DAD0994370D"
+			rewards: [{
+				id: "678BEB8B2E7463A6"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Tool of The Create God"
+			tasks: [{
+				id: "6D859F70FFF4891A"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7DFD2EBA235C8A85"]
+			description: [
+				"Fans are great for blowing things."
+				""
+				"But did you know if you put lava in front of them, they can now smelt you your iron? Look into EMI / JEI for more use cases."
+			]
+			id: "2FB4D49F70287EF3"
+			rewards: [{
+				id: "379DCC6BBE4449DC"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Big fan of fans"
+			tasks: [{
+				id: "4D62CD461683957A"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["06B7065FF95A7E81"]
+			id: "64A7914C9C3A2805"
+			rewards: [{
+				id: "3BF8AE9948FCF110"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "How's my SU doin?"
+			tasks: [{
+				id: "7DE473AB7363D0C0"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4BD224A6F6B4B7A0"]
+			description: [
+				"&lHOW TO:&r Click with andesite alloy over stripped log."
+				""
+				"Every casing is essential when making machines."
+				""
+				"There are more variants in later playthrough used for next tiers."
+			]
+			id: "3F6025879942DFBE"
+			rewards: [{
+				id: "6D915BBCC2937CB9"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Not just a fancy block"
+			tasks: [{
+				id: "7F8A142E83E2872F"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["017FCC2BBAE70CD8"]
+			description: [
+				"You can use windmill bearings to make an power source."
+				""
+				"&lNOTICE:&r Don't forget to click on that bearing to activate it!"
+				""
+				"The more sails, the more speed and power!"
+			]
+			id: "06A76F28E82458AB"
+			rewards: [{
+				count: 2
+				id: "16884E8EDBC17289"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Wind power source?"
+			tasks: [
+				{
+					id: "7474D9484812284F"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					id: "5A0C676AC561FA83"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4BD224A6F6B4B7A0"]
+			id: "023B9BE7F8E8FBD8"
+			rewards: [{
+				id: "4CE0D70BBE435ABA"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Todo list++"
+			tasks: [{
+				id: "33F88DF241FD5029"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D02E946B596F800"]
+			description: ["Did you know that slimeballs can be made by coloring dought?"]
+			id: "08991174746960C7"
+			rewards: [{
+				id: "33093EBBD3FDFE5A"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0268F381CDD59AB9"
+				item: "create:dough"
+				type: "item"
+			}]
+			title: "Low on slimeballs?"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F6025879942DFBE"]
+			description: ["Sometime, if one wishes to change direction of shaft, can use gearboxes."]
+			id: "06B7065FF95A7E81"
+			rewards: [{
+				id: "1CE92E297C66DB80"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Master of Bending"
+			tasks: [{
+				id: "5D241B68282BF22B"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7DFD2EBA235C8A85"]
+			description: [
+				"Early-game crushing wheels."
+				""
+				"Useful for dye extraction."
+			]
+			id: "56C352CEB5AF3D0F"
+			rewards: [{
+				id: "078AC0EC7197CDD0"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Milling out of my bussiness"
+			tasks: [{
+				id: "343501BA30B609CC"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3F6025879942DFBE"]
+			description: [
+				"Machines are used for more sofisticated processes than crafting."
+				""
+				"They often require only one item, like your next task of crushing iron."
+			]
+			id: "210D898558A74C1B"
+			rewards: [{
+				id: "2F10E12D624FA938"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Your first machine"
+			tasks: [{
+				id: "04B7892D298B108B"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7DFD2EBA235C8A85"]
+			id: "073860841EED4535"
+			rewards: [{
+				id: "1EAE8AE7C67E638F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "188DF2131B4E4792"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7DFD2EBA235C8A85"]
+			description: [
+				"Befriend mixers as they'll be used to produce more alloys."
+				""
+				"Note that mechanical mixers have minimal operation speed (2x speed of water wheels), so gearbox is needed."
+			]
+			id: "76DB6DBEBBB85AED"
+			rewards: [{
+				count: 3
+				id: "211DC8A895F09857"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Whaaaaaaaaaaaa!"
+			tasks: [
+				{
+					id: "54BC844AD90212FD"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "5D7C7324BA79CC92"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7DFD2EBA235C8A85"]
+			id: "3B3275CE4D9C865E"
+			rewards: [{
+				id: "61302B9A07B555BB"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3301A78AEF97AD4F"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7DFD2EBA235C8A85"]
+			id: "45035C1A41218002"
+			rewards: [{
+				id: "3E3BD7054C7D90D6"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4863D70667050704"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7DFD2EBA235C8A85"]
+			id: "56C644121FD018F5"
+			rewards: [{
+				id: "2522076BC61B4717"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "We must go deeper"
+			tasks: [{
+				id: "69BBD0BFC380CC78"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["48911787337BF388"]
+			id: "1E380BBC8226935B"
+			rewards: [{
+				id: "13EDB954DFC202FC"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "The Better Hopper"
+			tasks: [{
+				id: "745C16E04DC34DF3"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DFD2EBA235C8A85"]
+			description: ["Very useful for laying out items under machines."]
+			id: "53FFAF43EEFF9A2A"
+			rewards: [{
+				id: "314A76BCCAD8B41B"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Item frame Pro++ 3000"
+			tasks: [{
+				id: "1E34D6907FC8E9BD"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4F67FBEBB062FCD4"]
+			description: [
+				"To fill empty blaze burner, you must go to nether fortress and catch blaze."
+				""
+				"Also note that blaze burners need to be fueled like furnaces (thus \"burners\")"
+			]
+			id: "6918FE8F8DD97481"
+			rewards: [{
+				count: 2
+				id: "64BFCFF15819FF4D"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Hell technology!"
+			tasks: [{
+				id: "17FAAD2FE9DD97BF"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["76DB6DBEBBB85AED"]
+			description: ["You've propably seen that some mixing recipes need to be heated. Blaze burner fulfills this requirement."]
+			id: "4F67FBEBB062FCD4"
+			rewards: [{
+				id: "04AB1957E38493D7"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Prepare for The Nether!"
+			tasks: [{
+				id: "7ABF055D2E47BD07"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2D02E946B596F800"]
+			description: [
+				"Everyone knows that ores can be smelted in furnaces or using fans."
+				""
+				"One knows, they can be processed by crushing wheels to get spare resources and experience gems, which ultimately doubles the outcome."
+			]
+			id: "0895D87A591BF086"
+			rewards: [{
+				count: 2
+				id: "750CBDB0A58A4511"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D6FD760E56E120F"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			title: "Ore duplication"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DFD2EBA235C8A85"]
+			description: [
+				"You, may be familiarized with contraptions, abitaryli moving groups of blocks such as trains."
+				""
+				"Glue is used for gluing those group of blocks so they don't fall apart."
+			]
+			id: "345102330C4B01E7"
+			rewards: [{
+				id: "1B21EE616B8C9D90"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Stronger that FlexTape"
+			tasks: [{
+				id: "3092D5D55875D2D3"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["210D898558A74C1B"]
+			id: "7DFD2EBA235C8A85"
+			rewards: [{
+				id: "1FD6F6520206E3BF"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Industrial Revolution"
+			tasks: [{
+				id: "6E9A5C3FA361D355"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6918FE8F8DD97481"]
+			description: ["Brass allows you to make variety of advanced components and machines."]
+			id: "69D4D4240EC11E1D"
+			rewards: [{
+				count: 3
+				id: "29A541DDB8BE774D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Just a shinier andesite"
+			tasks: [{
+				id: "163FFBEE4E698B62"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "The Brass Age"
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["2D02E946B596F800"]
+			description: [
+				"Conveyor belts can be used for transporting anything."
+				""
+				"The best thing is when placing any machine ove it, any passing items will be processed. This allows for automation."
+			]
+			id: "48911787337BF388"
+			rewards: [{
+				id: "765228356C7C46E0"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Trasportation Revolution"
+			tasks: [{
+				id: "5D878B951B421EB7"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Making Assembly Lines"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48911787337BF388"]
+			id: "714F0B55BA0423C3"
+			rewards: [{
+				id: "6D8346D6A5B5F42A"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Your best conveyor-item-plitting friend"
+			tasks: [{
+				id: "166DEEE4F02433A2"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["48911787337BF388"]
+			description: [""]
+			id: "38D92966800FBA51"
+			rewards: [{
+				id: "3CD96F48B4301C22"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Yout best inventory-item-getting friend"
+			tasks: [{
+				id: "286CB0D63A0C5566"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			title: "Funnels"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["210D898558A74C1B"]
+			description: ["Also very useful, they give you access to any information about machines, tanks and containers."]
+			id: "44C9A873984B84C8"
+			rewards: [{
+				id: "21E8F4C3703E5FFC"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Glasses of Ponder"
+			tasks: [{
+				id: "5D7374629D9BF806"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+	]
+	title: "Let's Create"
+}

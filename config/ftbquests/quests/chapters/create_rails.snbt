@@ -1,0 +1,259 @@
+{
+	autofocus_id: "5AAD7757A4577B11"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_rails"
+	group: "071AA7D6E6315F75"
+	icon: "create:railway_casing"
+	id: "3EF19A2E1588CF51"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2670B793A3C3B6C2"]
+			description: ["While this quest tree is straightforward, building actual train infrastructure isn't. I recommend experimenting in creative!"]
+			id: "5AAD7757A4577B11"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Chochoo!!"
+			tasks: [{
+				id: "2670B793A3C3B6C2"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			title: "The Train Age"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AAD7757A4577B11"]
+			id: "42A9B70D5A542089"
+			rewards: [{
+				count: 2
+				id: "09609127670542D5"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Sturdier that it looks!"
+			tasks: [{
+				id: "46DAE867D259D412"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AAD7757A4577B11"]
+			description: ["Tired of driving? Craft some schedules, seat any mob into train and let them drive!"]
+			id: "0FAEF7D6A45F8AF0"
+			rewards: [{
+				count: 3
+				id: "11877A9FFEB669F3"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Free labour"
+			tasks: [{
+				id: "28B882E0F072DB14"
+				item: "create:schedule"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42A9B70D5A542089"]
+			description: [
+				"Train stations are starting points or destinations for schedules and places for assembling new trains."
+				""
+				"&lWhen building new train:&r Set station to edit mode, then click on blue highlited track with train casing. Build your along train boggey and glue with superglue. After having built the train, simply assemble it."
+			]
+			id: "712CF491D4854783"
+			rewards: [{
+				count: 5
+				id: "1CBF0DE0522929CE"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Last Station, Please Get off"
+			tasks: [{
+				id: "6E93CE5CF6446FFA"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["42A9B70D5A542089"]
+			description: [
+				"Train signals are required to operate multi-train networks."
+				""
+				"They esentialy split track into multiple segments passable in one direction (use two for bidirectional)."
+			]
+			id: "4383D1BC004C3207"
+			rewards: [{
+				count: 5
+				id: "1851BCACADE91222"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Don't hit another train (optional)"
+			tasks: [{
+				id: "0BDFD9D31FBBE846"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42A9B70D5A542089"]
+			description: ["Useful for simply detecting trains."]
+			id: "329D637B4FFFE244"
+			rewards: [{
+				count: 5
+				id: "69DDB5465A3D440D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Huh? Train? Here?"
+			tasks: [{
+				id: "4B104253368C77F6"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["42A9B70D5A542089"]
+			description: [
+				"Train cannot drive without controls."
+				""
+				"The way you place the controls the way will your train go."
+			]
+			id: "193AD6B2A27F06DB"
+			rewards: [{
+				count: 3
+				id: "016D2BB118404511"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Where's the pedal?"
+			tasks: [{
+				id: "482E61542A7D6FBA"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5AAD7757A4577B11"]
+			description: ["There is never enought train tracks. Make sure to automatize them as tens of stacks will be needed!"]
+			id: "5736577B79A0922C"
+			rewards: [{
+				count: 2
+				id: "145B08EE60B28FE2"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Road for trains"
+			tasks: [{
+				count: 64L
+				id: "43796D6178BCC7C4"
+				item: "create:track"
+				type: "item"
+			}]
+			title: "Train Tracks"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42A9B70D5A542089"]
+			description: ["You can now couple vagons and locomotives without actualy dissasembling trains!"]
+			id: "2C821399E3C981F4"
+			rewards: [{
+				count: 5
+				id: "347325747FB90735"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Where did my vagon go?"
+			tasks: [{
+				id: "57FD497450AA019C"
+				item: "railways:track_coupler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AAD7757A4577B11"]
+			id: "54DD7BC54AEB4694"
+			rewards: [{
+				id: "261E00EB230F2A94"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Tired of nixie tubes?"
+			tasks: [{
+				id: "572E4C307932116A"
+				item: "railways:semaphore"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AAD7757A4577B11"]
+			id: "5BB1128D35CD3DF7"
+			rewards: [{
+				id: "4D7EE04DA250C946"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Wanna change where to go?"
+			tasks: [{
+				id: "1C6C4702EA3CD38B"
+				item: "railways:track_switch_andesite"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AAD7757A4577B11"]
+			id: "7ADC3E47C6039FDE"
+			rewards: [{
+				id: "240494AD6F0D73D7"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Don't derail your trains!"
+			tasks: [{
+				id: "4CC846A59F609DE0"
+				item: "railways:buffer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "5BB332172B38D57A"
+			subtitle: "Find your way back!"
+			tasks: [{
+				id: "05E37274F42FBA29"
+				item: "createrailwaysnavigator:navigator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	tags: ["create"]
+	title: "Create Rails Age"
+}

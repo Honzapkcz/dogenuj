@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tr_endgame"
+	group: "7ADB1FD7A13BCA31"
+	icon: "techreborn:industrial_machine_frame"
+	id: "20F126BC5F9A7416"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2033BEAE261118EB"]
+			id: "41CD3943F00F7F15"
+			rewards: [{
+				id: "6FDC4B5E6D5954B6"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79BC7D7AF61A18F8"
+				item: "techreborn:distillation_tower"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73C71EFEDCAF4A75"]
+			id: "2033BEAE261118EB"
+			rewards: [{
+				id: "54D1E957909607DA"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Who's making money?"
+			tasks: [{
+				id: "27F05444B2B305FE"
+				item: "techreborn:industrial_machine_frame"
+				type: "item"
+			}]
+			title: "Endgame"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2033BEAE261118EB"]
+			description: ["Matter fabricators allows you to make UU-Matter which is essential for creating renewable rare ores."]
+			id: "5E081241CC3F0CC7"
+			rewards: [{
+				id: "52C94078D6499F18"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "513EE11110502E2C"
+				item: "techreborn:matter_fabricator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2033BEAE261118EB"]
+			id: "67C0F9B4CAA4F5F9"
+			rewards: [{
+				id: "2205E321A79CEDD1"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				id: "615C6CCE313A514B"
+				item: "techreborn:fluid_replicator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2033BEAE261118EB"]
+			id: "2B1FCA5BC5B3E2A1"
+			rewards: [{
+				count: 3
+				id: "72C8167B93AE0E1E"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76996BD19C5D6549"
+				item: "techreborn:lightning_rod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2033BEAE261118EB"]
+			id: "097837219911E5F7"
+			rewards: [{
+				count: 2
+				id: "079525B56EE9F942"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BAECFF60060D9FC"
+				item: "techreborn:fusion_coil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2033BEAE261118EB"]
+			id: "45FA1F6D17AE25B7"
+			rewards: [{
+				count: 3
+				id: "5FDCA7C3275FECA1"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F616F11997F8BB2"
+				item: "techreborn:plasma_generator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["097837219911E5F7"]
+			description: [
+				"Go check the techreborn wiki!"
+				""
+				"&nwiki.techreborn.ovh&r"
+			]
+			id: "44BB5312773ADF4E"
+			rewards: [{
+				count: 2
+				id: "7281677C1B002063"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7DB91B89B9C9578E"
+				item: "techreborn:fusion_control_computer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+	title: "TR Endgame"
+}

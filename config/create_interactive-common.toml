@@ -1,0 +1,3 @@
+#.
+#Disable warning message in chat on loading a world
+disableChatWarning = true

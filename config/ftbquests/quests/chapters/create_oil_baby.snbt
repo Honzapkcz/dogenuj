@@ -1,0 +1,348 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_oil_baby"
+	group: "071AA7D6E6315F75"
+	icon: "createdieselgenerators:large_diesel_engine"
+	id: "76316BDA852EE185"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"OIL OIL OIL!!!"
+				""
+				"GOD BLESS AMERICA!!!"
+				""
+				"FREEDOM!!!"
+			]
+			id: "1D666736E0D8A6B6"
+			rewards: [{
+				id: "3DC01497BFC431AC"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "GOD BLESS AMERICA"
+			tasks: [{
+				id: "15018B6453E394F5"
+				item: "createdieselgenerators:oil_scanner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D666736E0D8A6B6"]
+			id: "0873326132CC24DF"
+			rewards: [{
+				id: "4D3BCFBE559A3317"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59775513528ADA0A"
+				item: "createdieselgenerators:canister"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0873326132CC24DF"]
+			id: "65D3B640FA53AFC3"
+			rewards: [{
+				id: "4250F9CD2E395D75"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03E1597B210B3C4D"
+				item: "createdieselgenerators:oil_barrel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["061AD9113C445904"]
+			id: "30E332BB4FACA5D2"
+			rewards: [{
+				count: 2
+				id: "3725D8CF7B391B19"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "67D9573E6A513E01"
+				item: "createdieselgenerators:asphalt_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1D666736E0D8A6B6"]
+			id: "12893FC9479154A0"
+			rewards: [{
+				count: 2
+				id: "5B42AF613C3692F4"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54100D298D1A63FA"
+				item: "createdieselgenerators:chemical_sprayer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"34E3F6A7A4A1D755"
+				"2D03ED193494A7BF"
+			]
+			id: "38E89A96BBBB02D5"
+			rewards: [{
+				id: "22A827FAF340F8D3"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Eco alternative"
+			tasks: [{
+				id: "08CA9EAE5CBD0E3D"
+				item: "createdieselgenerators:biodiesel_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5F61A4BA11C57CD8"]
+			id: "6EBFC6626F446AFE"
+			rewards: [{
+				id: "7DC6D9AAD3F7AA92"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0870F12BCB864D1E"
+				item: "createdieselgenerators:diesel_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5F61A4BA11C57CD8"]
+			id: "0C423880BF2C00C3"
+			rewards: [{
+				id: "58E584121EC47EBA"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "215DD573F1766267"
+				item: "createdieselgenerators:gasoline_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2E6AC1FF08B359B3"]
+			id: "061AD9113C445904"
+			rewards: [{
+				count: 3
+				id: "64E96D303A2B28FE"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Your uncle has never been happier before"
+			tasks: [{
+				id: "03163E63DE8BA704"
+				item: "createdieselgenerators:crude_oil_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "2D03ED193494A7BF"
+			rewards: [{
+				count: 2
+				id: "688AD8FB65637160"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40B931552198D0AA"
+				item: "createdieselgenerators:plant_oil_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0C7329EA2500F68C"]
+			id: "34E3F6A7A4A1D755"
+			rewards: [{
+				id: "289F6ED396DDC13B"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EE249E686655C9D"
+				item: "createdieselgenerators:ethanol_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1D666736E0D8A6B6"]
+			description: [
+				"Finally found some that black beauty?"
+				""
+				"Watch an ponder and get into pumping!"
+			]
+			id: "2E6AC1FF08B359B3"
+			rewards: [{
+				count: 2
+				id: "27FC05362F2517A2"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Black blood"
+			tasks: [
+				{
+					id: "32E2AC8A52FD7B5E"
+					item: "createdieselgenerators:pumpjack_bearing"
+					type: "item"
+				}
+				{
+					id: "351E3DCA40231A47"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "1AE99EA91BE51E4B"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+				{
+					id: "1692688A30FE81BE"
+					item: "createdieselgenerators:pumpjack_hole"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["061AD9113C445904"]
+			id: "5F61A4BA11C57CD8"
+			rewards: [{
+				count: 3
+				id: "48F6D3C15ED40A13"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Let's get refining"
+			tasks: [
+				{
+					id: "0755EEF775F03217"
+					item: "createdieselgenerators:distillation_controller"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "2D454FA78E4FEC4D"
+					item: { Count: 12, id: "create:fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1D666736E0D8A6B6"]
+			id: "7CA1D5B0E478DD19"
+			rewards: [{
+				id: "1D928384919C1AE0"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "080623AFB46CDEC3"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CA1D5B0E478DD19"]
+			id: "183521E067F8DEE6"
+			rewards: [{
+				id: "6874374FBBC1E92E"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "273C031B00494776"
+				item: "createdieselgenerators:large_diesel_engine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CA1D5B0E478DD19"]
+			id: "60897A485884E073"
+			rewards: [{
+				id: "7AB5B6E53283D097"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05BB9CBDCE3E3DFC"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D666736E0D8A6B6"]
+			id: "0C7329EA2500F68C"
+			tasks: [
+				{
+					id: "16B1C2CF42C5E865"
+					item: "createdieselgenerators:basin_lid"
+					type: "item"
+				}
+				{
+					id: "7C5CE236784A136B"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "16E4A7CB5C0B9697"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Create OIL BABY!"
+}

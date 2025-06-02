@@ -1,0 +1,11 @@
+cacheTextures = true
+verboseLogs = false
+refreshOnConfigSave = true
+loaderTimeout = 2.0
+uuidMode = "ALWAYS"
+
+[[hosts]]
+type = "MOJANG"
+
+[[hosts]]
+type = "FALLBACK"

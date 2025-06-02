@@ -1,0 +1,338 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tb_advanced"
+	group: "7ADB1FD7A13BCA31"
+	icon: "techreborn:advanced_machine_frame"
+	id: "13463EBCCB373278"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0D9F33DC7C274877"]
+			description: ["Get one as fast as you can!"]
+			id: "73036CA2D689263F"
+			rewards: [{
+				count: 3
+				id: "0E523A3F3A49FBBF"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "First thing to craft!"
+			tasks: [{
+				id: "585EC1285434EB36"
+				item: "techreborn:industrial_centrifuge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["21D103782353509A"]
+			description: [
+				"Tech Reborn does not have strict tiers like Greg Tech or machines with higher tiers."
+				""
+				"The only difference is that midgame is now much more expensive but also interesting with some new processing."
+				""
+				"Multiblock machines also appear here!"
+			]
+			id: "0D9F33DC7C274877"
+			rewards: [{
+				count: 2
+				id: "1E744FC9E8EE72AF"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "1B49FE5F2BFF3266"
+				item: "techreborn:advanced_machine_frame"
+				type: "item"
+			}]
+			title: "Midgame!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73036CA2D689263F"]
+			description: ["Recommended and cheaper way to make circuuts and other components."]
+			id: "569695312E04AD41"
+			rewards: [{
+				id: "4C19CD279752F36C"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12F7223667837EE3"
+				item: "techreborn:assembly_machine"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CC81CB34000131B"]
+			description: [
+				"Needed for aluminium, tungsten and whole lot of metals."
+				""
+				"Also your first multiblock machine!"
+				""
+				"&lABOUT HEAT&r:"
+				""
+				"Recipe needs some heat to work."
+				""
+				"Every lava bucket adds 500+ heat."
+				""
+				"If heat is insufficient, then replace basic casings with industrial. (will be needed for tungsten)"
+			]
+			id: "45299DF98EA4AA3F"
+			rewards: [{
+				count: 2
+				id: "33DEA1B24BB06016"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Furnace++"
+			tasks: [{
+				id: "7FD10E79FC9BE2EB"
+				item: "techreborn:industrial_blast_furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"21385A412A358941"
+				"7ACDC24BFA313793"
+			]
+			description: [
+				"The best way to grind and process ores!"
+				""
+				"Make sure to also make and use sodium persulfate and mercury for bonus yields."
+			]
+			id: "446A2D0D6F46D6FC"
+			rewards: [{
+				count: 3
+				id: "6024E1D8A6666CD8"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Unlimited redstone!"
+			tasks: [{
+				id: "158D6C0151763DBD"
+				item: "techreborn:industrial_grinder"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0D9F33DC7C274877"]
+			id: "26D0F8FAD0E61265"
+			rewards: [{
+				count: 2
+				id: "03B0C4BC65E76C21"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EE089E9CBDFA708"
+				item: "techreborn:industrial_sawmill"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["752C61E18F23FE6F"]
+			id: "24C601C3A8AE240F"
+			rewards: [{
+				count: 4
+				id: "16782D4E6CD1A019"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "472B999720D2EA58"
+				item: "techreborn:vacuum_freezer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0D9F33DC7C274877"]
+			id: "2AA3B0B17D9DB50B"
+			rewards: [{
+				count: 3
+				id: "28980B8A0F4CC786"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C1E87581AEA5534"
+				item: "techreborn:implosion_compressor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73036CA2D689263F"
+				"45299DF98EA4AA3F"
+			]
+			id: "09D3BCDAAE5C58CA"
+			rewards: [{
+				id: "1FF6E8C9C821C072"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "We need to cook!"
+			tasks: [{
+				id: "294FA50577294095"
+				item: "techreborn:chemical_reactor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0D9F33DC7C274877"]
+			description: [
+				"Another must-need machine."
+				""
+				"Nicely extracts minerals and fluids from some items."
+			]
+			id: "21385A412A358941"
+			rewards: [{
+				count: 2
+				id: "36793F078B771B9D"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "ElectroBOOM!"
+			tasks: [{
+				id: "4057E1988EA6C4F8"
+				item: "techreborn:industrial_electrolyzer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D9F33DC7C274877"]
+			id: "529FC43954F526E8"
+			rewards: [{
+				count: 2
+				id: "7AAB25B35D49DAFE"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BEA76D1640A09AF"
+				item: "techreborn:greenhouse_controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D9F33DC7C274877"]
+			id: "6D81F65023365166"
+			rewards: [{
+				count: 5
+				id: "460602D9B24E0785"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FD5842146D7EA20"
+				item: "techreborn:fishing_station"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D9F33DC7C274877"]
+			description: [
+				"Casings are used for making multiblock machines."
+				""
+				"Blast furnace is your first one."
+				""
+				"Simply click on help button [H] and follow the hologram."
+			]
+			id: "4CC81CB34000131B"
+			rewards: [{
+				id: "6F2BFB5FCF95C76E"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Multiblock?"
+			tasks: [{
+				id: "3ECF7C935DF5E4A6"
+				item: "techreborn:basic_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"45299DF98EA4AA3F"
+				"09D3BCDAAE5C58CA"
+				"446A2D0D6F46D6FC"
+				"569695312E04AD41"
+			]
+			id: "73C71EFEDCAF4A75"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "5721089EAADE5056"
+				item: "techreborn:industrial_machine_frame"
+				type: "item"
+			}]
+			title: "Endgame!"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4CC81CB34000131B"]
+			id: "7ACDC24BFA313793"
+			rewards: [{
+				count: 2
+				id: "0B0E806F67DFD96D"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D46DA722CB367F0"
+				item: "techreborn:advanced_machine_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7ACDC24BFA313793"]
+			id: "752C61E18F23FE6F"
+			rewards: [{
+				count: 4
+				id: "75274FC69267CEEA"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AAAB20B2391873A"
+				item: "techreborn:industrial_machine_casing"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+	]
+	title: "TR Midgame"
+}

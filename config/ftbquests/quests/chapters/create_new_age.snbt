@@ -1,0 +1,627 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_new_age"
+	group: "071AA7D6E6315F75"
+	icon: "create_new_age:redstone_magnet"
+	id: "0E62D2512F266836"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["57220249E9ACFEB2"]
+			id: "57BA8C0FEF3A28D2"
+			rewards: [{
+				id: "5A66F433DA79347F"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "66A71C5408201A7B"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			title: "12.5% Power!"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57BA8C0FEF3A28D2"]
+			id: "4BC812F3B78D0F5A"
+			rewards: [{
+				count: 2
+				id: "268B3273FCC7372C"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "4B122A36EF32CB1C"
+				item: "create_new_age:redstone_magnet"
+				type: "item"
+			}]
+			title: "25% Power!"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4BC812F3B78D0F5A"]
+			id: "71B8F8D392EA94F6"
+			rewards: [{
+				count: 3
+				id: "60F8F39E197C4661"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "09F1950DBB119729"
+				item: "create_new_age:layered_magnet"
+				type: "item"
+			}]
+			title: "50% Power!"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7BD169FAA8F622CB"]
+			id: "07E44462E2DB55F4"
+			rewards: [{
+				count: 6
+				id: "27A4B4191BC751F7"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C71F446CBC47A94"
+				item: "create_new_age:netherite_magnet"
+				type: "item"
+			}]
+			title: "400% Power!"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["71B8F8D392EA94F6"]
+			id: "7BD169FAA8F622CB"
+			rewards: [{
+				count: 4
+				id: "1F149152C3AB84E9"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "20718F8A2ACF886F"
+				item: "create_new_age:fluxuated_magnetite"
+				type: "item"
+			}]
+			title: "100% Power!"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["57220249E9ACFEB2"]
+			id: "1D12B63BE152554A"
+			rewards: [{
+				count: 3
+				id: "4DDB4F18F26FC5A0"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "More like plasma cannon"
+			tasks: [{
+				id: "770F87769E4D6801"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D12B63BE152554A"]
+			id: "48FF0761186244E2"
+			rewards: [{
+				count: 4
+				id: "23189518429DD3E3"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22D2E5C102D7C704"
+				item: "create_new_age:energiser_t2"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["48FF0761186244E2"]
+			id: "4CD53A9BBABDF337"
+			rewards: [{
+				count: 5
+				id: "220DEB6DF0BE0F63"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "225091BDB5B12449"
+				item: "create_new_age:energiser_t3"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50EFCC7ACC233072"]
+			id: "4838C5FB429DE7D9"
+			rewards: [{
+				count: 6
+				id: "7A6F603361C06E19"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67F3F2C7772A5C0C"
+				item: "create_new_age:basic_motor_extension"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4838C5FB429DE7D9"]
+			id: "52868AF2B5755AEC"
+			rewards: [{
+				count: 8
+				id: "134D1549C5C1129E"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C0A5D2434AF99BB"
+				item: "create_new_age:advanced_motor_extension"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["57220249E9ACFEB2"]
+			id: "5D5F18BFBB8DE2DE"
+			rewards: [{
+				id: "6AE80CB380B65D0A"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Something's rotating!"
+			tasks: [{
+				id: "5E34CB6D8C324DB6"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D5F18BFBB8DE2DE"]
+			id: "0EF3E804CFE031EF"
+			rewards: [{
+				count: 2
+				id: "69E51CDA5B985655"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49FEEF2025442449"
+				item: "create_new_age:advanced_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0EF3E804CFE031EF"]
+			id: "50EFCC7ACC233072"
+			rewards: [{
+				count: 4
+				id: "569E4F787ED62060"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55C9C63E61F44B42"
+				item: "create_new_age:reinforced_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["57220249E9ACFEB2"]
+			id: "48477C91AE411B39"
+			rewards: [{
+				id: "48BDBC58605EFCA7"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "178E7239172CCE4F"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48477C91AE411B39"]
+			id: "26DBBDAF4BCA3456"
+			rewards: [{
+				count: 2
+				id: "0A832BBCD2FA4E68"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AD357740C98FE14"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["57220249E9ACFEB2"]
+			id: "5CFE5C8A0C71F4BD"
+			rewards: [{
+				count: 3
+				id: "2C325612DE8398A5"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "WOW, that's hot!"
+			tasks: [{
+				id: "06093C08510C6211"
+				item: "create_new_age:heat_pump"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57220249E9ACFEB2"]
+			id: "5C4B104576541055"
+			rewards: [{
+				id: "03E021B15E6A7517"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Back in my old days..."
+			tasks: [{
+				id: "4F54FED0607F7392"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70CBDFF50CB82DAF"]
+			id: "1A32950DBBB8CFE5"
+			rewards: [{
+				id: "1E90DA717F98649B"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Do not recreate chernobyl (optional)"
+			tasks: [
+				{
+					count: 8L
+					id: "7584C213BF6C00FF"
+					item: "create_new_age:reactor_casing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "732707CC8AD39ED4"
+					item: "create_new_age:reactor_glass"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2C5128587A274DB4"
+				"1A32950DBBB8CFE5"
+			]
+			id: "4ED96B50D75ABB10"
+			rewards: [{
+				count: 3
+				id: "004A9C21B3D092D7"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "I wonder what does this red button do"
+			tasks: [
+				{
+					count: 4L
+					id: "3249E2D7701AF01E"
+					item: "create_new_age:reactor_rod"
+					type: "item"
+				}
+				{
+					id: "08514DDA5529BA72"
+					item: "create_new_age:reactor_heat_vent"
+					type: "item"
+				}
+				{
+					id: "3C8ADA2A7F30246D"
+					item: "create_new_age:reactor_fuel_acceptor"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["57220249E9ACFEB2"]
+			id: "70CBDFF50CB82DAF"
+			rewards: [{
+				id: "2E86A68F46683CF4"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Nice and warm"
+			tasks: [{
+				id: "1CAAA75C2A8408B2"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57220249E9ACFEB2"]
+			id: "725077B8D0A90056"
+			rewards: [{
+				id: "382158DEBFB2F632"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05D20E43A3D6811B"
+				item: "create_new_age:electrical_connector"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Create: New Age is beautiful addon that adds electricity to power your machines over just a wire."
+				""
+				"I don't want to mention it but I know some of you will use the nuclear reactors to simulate chernobyl..."
+			]
+			id: "57220249E9ACFEB2"
+			rewards: [{
+				id: "12A9CBDF8F621EBF"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Electricity?"
+			tasks: [
+				{
+					id: "5E844731891147D7"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+				{
+					id: "30F178BFDB9DE4B5"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+			]
+			title: "New Age Begins"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57220249E9ACFEB2"]
+			id: "68F2BF6E8A4F1101"
+			rewards: [{
+				id: "239E8530CF9D4AE6"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Why's my tail growing"
+			tasks: [{
+				id: "5B28D0B86FDAEC78"
+				item: "create_new_age:thorium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68F2BF6E8A4F1101"]
+			id: "0C160E797F4AB7D0"
+			rewards: [{
+				id: "76BFCEA07C883A7A"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Very safe to eat!"
+			tasks: [{
+				id: "714158A873EE2DEC"
+				item: "create_new_age:radioactive_thorium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0C160E797F4AB7D0"]
+			id: "2C5128587A274DB4"
+			rewards: [{
+				count: 3
+				id: "3C50ECDEDFA07B77"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Best selling energy drink"
+			tasks: [{
+				id: "5EE0A920E151728B"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["725077B8D0A90056"]
+			id: "3E659D0CE8438A30"
+			rewards: [{
+				count: 2
+				id: "4EEC480A9E750A94"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48B5E21DA8693280"
+				item: "create_new_age:copper_wire"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E659D0CE8438A30"]
+			id: "3AC1D47D64DD8E24"
+			rewards: [{
+				count: 3
+				id: "74310642B43C48CF"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33844B3E8DC810C1"
+				item: "create_new_age:overcharged_iron_wire"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3AC1D47D64DD8E24"]
+			id: "75B932CEF2871431"
+			rewards: [{
+				count: 4
+				id: "42B2DC1C5A0BB77F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48AF3C0782971680"
+				item: "create_new_age:overcharged_golden_wire"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["75B932CEF2871431"]
+			id: "0586840A022B449E"
+			rewards: [{
+				count: 5
+				id: "02D5A9BC6D4E7F26"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53A8A5E1345E41F3"
+				item: "create_new_age:overcharged_diamond_wire"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6F69CAEF4829510F"]
+			id: "7F14838F191B548C"
+			rewards: [{
+				count: 5
+				id: "3F4B74C72AA3A237"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "More like diamond amethyst"
+			tasks: [{
+				id: "290C81E4A3D79345"
+				item: "create_new_age:overcharged_diamond"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["45FF5274F70DF4C8"]
+			id: "6F69CAEF4829510F"
+			rewards: [{
+				count: 3
+				id: "1769671988024BFE"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "The shininest gold"
+			tasks: [{
+				id: "2E5B782DCE1D9E1D"
+				item: "create_new_age:overcharged_gold"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["57220249E9ACFEB2"]
+			id: "45FF5274F70DF4C8"
+			rewards: [{
+				id: "259AED0ECA477914"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Is it supposed to glow like that?"
+			tasks: [{
+				id: "1EAEA68418EC3F8C"
+				item: "create_new_age:overcharged_iron"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F14838F191B548C"]
+			id: "471DE59960EE70AF"
+			rewards: [{
+				count: 6
+				id: "1D5403DA7FDCF05D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "What the f**k is a mechanism!!"
+			tasks: [{
+				id: "62416DC83F153730"
+				item: "create_new_age:copper_circuit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+	]
+	title: "Create New Age"
+}

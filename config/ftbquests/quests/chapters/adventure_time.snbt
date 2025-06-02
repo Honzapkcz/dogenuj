@@ -1,0 +1,592 @@
+{
+	autofocus_id: "46E2B82631B736BB"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure_time"
+	group: "7FCB2793F6968011"
+	icon: {
+		Count: 1
+		id: "travelersbackpack:standard"
+		tag: { }
+	}
+	id: "2EAD399ECC2C6021"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Everyone knows the world outside is dangerous."
+				""
+				"You're not that type of guy who would spend many hours setting up his factory."
+				""
+				"You're not that guy who's still mining underground these days."
+				""
+				"You're not yust gonna sit home and do nothing."
+				""
+				"&oYou're different...&r"
+			]
+			id: "46E2B82631B736BB"
+			rewards: [{
+				count: 4
+				id: "4ED508AAE5DC33D1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Just explore"
+			tasks: [{
+				id: "04E64254C8C73FC4"
+				title: "Land is yours"
+				type: "checkmark"
+			}]
+			title: "The land is yours"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6A00AC2D16B4FD34"
+			rewards: [{
+				id: "6FC0B12CD08ED8F0"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "67C987B2A3215FE0"
+				item: "advancednetherite:netherite_iron_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A00AC2D16B4FD34"]
+			id: "145B2A2C92989F5C"
+			rewards: [{
+				id: "6440B099B0B35FDE"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43B4DE3E8107276A"
+				item: "advancednetherite:netherite_gold_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["145B2A2C92989F5C"]
+			id: "55E176DBED60B371"
+			rewards: [{
+				id: "6E0AECB7292555BE"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28A6D0EE8211D186"
+				item: "advancednetherite:netherite_emerald_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55E176DBED60B371"]
+			id: "5D8C75F639A06394"
+			rewards: [{
+				id: "03C3C410A710CC52"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4095118DB2C84F66"
+				item: "advancednetherite:netherite_diamond_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6A00AC2D16B4FD34"]
+			id: "68F304C09CF63754"
+			rewards: [{
+				id: "35A790C058F22BBE"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07F96CB7EA257AA2"
+				item: "advancednetherite:netherite_iron_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["145B2A2C92989F5C"]
+			id: "4FF00844BF2CF55F"
+			rewards: [{
+				id: "7B2431B47DA7412B"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38B90BFE96B93B25"
+				item: "advancednetherite:netherite_gold_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55E176DBED60B371"]
+			id: "147C99982AF3FB59"
+			rewards: [{
+				id: "407C3910DDF78C48"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E29D36FAD00EE9B"
+				item: "advancednetherite:netherite_emerald_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5D8C75F639A06394"]
+			id: "186FCD995111EB94"
+			rewards: [{
+				id: "63E60EEEE532D150"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56180C63354C6CDD"
+				item: "advancednetherite:netherite_diamond_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26119424B4D89C59"]
+			id: "36542498302B16DA"
+			rewards: [{
+				count: 3
+				id: "253858FE609C136A"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A456B8F2952CBE5"
+				item: "travelersbackpack:blank_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36542498302B16DA"]
+			id: "6B7BD1E199DDAD79"
+			rewards: [{
+				count: 3
+				id: "7FC23F2972953645"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5161A49581CA9737"
+				item: "travelersbackpack:crafting_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36542498302B16DA"]
+			id: "6F1A3785CA6F4593"
+			rewards: [{
+				count: 3
+				id: "4D9EDC0B5CDACA53"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B299185ED0600DD"
+				item: "travelersbackpack:iron_tier_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F1A3785CA6F4593"]
+			id: "4013CFD1CD1E01D0"
+			rewards: [{
+				count: 3
+				id: "4392AB5F013C394F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A23C27F15EC65F7"
+				item: "travelersbackpack:gold_tier_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4013CFD1CD1E01D0"]
+			id: "33F6CB456CA79291"
+			rewards: [{
+				count: 3
+				id: "72F0837719DC6DCC"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00978A8A51B2E7D4"
+				item: "travelersbackpack:diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["33F6CB456CA79291"]
+			id: "1745FD09595E40C8"
+			rewards: [{
+				count: 3
+				id: "2A82FAEC678F36DA"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30825A6E0F61FA84"
+				item: "travelersbackpack:netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "26119424B4D89C59"
+			rewards: [{
+				id: "67F7E7B84C89B5AA"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "13EE901609670B52"
+				item: "travelersbackpack:backpack_tank"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Access backpack invetory using: &lB&r"
+				""
+				"You should make one backpack as quick as possible as this is gamechanger in inventory management."
+			]
+			id: "4F34A5145A3D84F1"
+			rewards: [{
+				count: 2
+				id: "3CDE71261869C03D"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Your friend in storage space"
+			tasks: [{
+				id: "312C044D93DC1A43"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"10DF37380B034EFE"
+				"453CC1414A125054"
+			]
+			id: "45987E3AC8107B3C"
+			rewards: [{
+				id: "38FF178986FC5650"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41F5FE51211875F6"
+				item: "mythicupgrades:ruby_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"10DF37380B034EFE"
+				"5B56E7C0714EF070"
+			]
+			id: "54E9100B3030FAF7"
+			rewards: [{
+				id: "63138AD464151793"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "571B9E419E97D79C"
+				item: "mythicupgrades:peridot_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"10DF37380B034EFE"
+				"46FAA03B050E4A14"
+			]
+			id: "32B5CC3122A10A24"
+			rewards: [{
+				id: "1619E1A07FBA8AA8"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "793B53C63A483662"
+				item: "mythicupgrades:aquamarine_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"10DF37380B034EFE"
+				"6645674565036880"
+			]
+			id: "63BE858C66D00FA4"
+			rewards: [{
+				id: "52B24550BC876D09"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54B592FA0FD26B11"
+				item: "mythicupgrades:ametrine_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"10DF37380B034EFE"
+				"0A7999D336DA6180"
+			]
+			id: "4E5023124480DD73"
+			rewards: [{
+				id: "464ED6C3913C42C6"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63F5C2B93AA061FB"
+				item: "mythicupgrades:topaz_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"10DF37380B034EFE"
+				"5BF70CBA0C181EA8"
+			]
+			id: "3191170D3211F073"
+			rewards: [{
+				id: "31D24357A54A93F0"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "641C8B5B7CE8E3E4"
+				item: "mythicupgrades:jade_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"10DF37380B034EFE"
+				"2F5583076E8C1A1C"
+			]
+			id: "6EFEA5A7696529AD"
+			rewards: [{
+				id: "2C8F79BB854CC962"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DB40CA62BAFCE10"
+				item: "mythicupgrades:sapphire_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["042582189D9D7D57"]
+			id: "10DF37380B034EFE"
+			rewards: [{
+				id: "69DE5D3944475C7E"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5073D06E3DCD2B6F"
+				item: "mythicupgrades:necoium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "453CC1414A125054"
+			rewards: [{
+				id: "619BCA18B5B2AEFB"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24017CBB3660FB5A"
+				item: "mythicupgrades:ruby"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "5B56E7C0714EF070"
+			rewards: [{
+				id: "6311B129AD7F01B3"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3062729201A46693"
+				item: "mythicupgrades:peridot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "46FAA03B050E4A14"
+			rewards: [{
+				id: "0993A455117C187C"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ED3C0D7B525681C"
+				item: "mythicupgrades:aquamarine"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "6645674565036880"
+			rewards: [{
+				id: "7B98B0149DF2DD3F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DCD90A9F04EEFD3"
+				item: "mythicupgrades:ametrine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "0A7999D336DA6180"
+			rewards: [{
+				id: "433D990B404722E6"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A5C95ACC7C044CA"
+				item: "mythicupgrades:topaz"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "5BF70CBA0C181EA8"
+			rewards: [{
+				id: "316A7C6799E8C83F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0952988ECAC2E77A"
+				item: "mythicupgrades:jade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "2F5583076E8C1A1C"
+			rewards: [{
+				id: "66FE35E468063014"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C429983E7D10D48"
+				item: "mythicupgrades:sapphire"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "042582189D9D7D57"
+			rewards: [{
+				id: "61E6B1F321C7BA5E"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "678B231C47C59FD8"
+				item: "mythicupgrades:raw_necoium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Adventure time!"
+}

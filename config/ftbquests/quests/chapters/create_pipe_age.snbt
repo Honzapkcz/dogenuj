@@ -1,0 +1,241 @@
+{
+	autofocus_id: "191BF999C294A54C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_pipe_age"
+	group: "071AA7D6E6315F75"
+	icon: "create:copper_casing"
+	id: "24FB94C2B68C1B13"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Mixing recipes sometimes need variety of fluids. They cannot be transported as easily as items (I'd like to see you moving lava in your heands)."
+				""
+				"Thus this chapter covers the basic items for fluid transportation."
+			]
+			id: "191BF999C294A54C"
+			rewards: [{
+				id: "27910F42FCEBB0E6"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Finally a use for copper!"
+			tasks: [{
+				id: "781682888344B547"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			title: "The Fluid Age"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["191BF999C294A54C"]
+			description: [
+				"Every guy with at least 50 IQ knows what these are for."
+				""
+				"What every guy doesn't know is that he they can click on them with wrench to make them transparent."
+				""
+				"Also make sure yo have only one liquid in pipes!"
+			]
+			id: "49D3B7AD1D30B249"
+			rewards: [{
+				id: "660A896DFBD089B4"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Don't tell rats"
+			tasks: [{
+				id: "0804A8CFF9946DEE"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49D3B7AD1D30B249"]
+			description: ["Make sure you heve at least one pump to get your lazy ass fluids moving."]
+			id: "4ABFAEB41E1282E7"
+			rewards: [{
+				count: 2
+				id: "639D46F06B34F049"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Strong Sip Boy"
+			tasks: [{
+				id: "1CAE762D6DBD7CDF"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["49D3B7AD1D30B249"]
+			id: "2F9F35F6E3CE0FCC"
+			rewards: [{
+				count: 2
+				id: "1F9BD7B2D953BDDA"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Dumb ass valve"
+			tasks: [{
+				id: "249C273898D762C4"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FB9B719F4B867C6"]
+			description: [
+				"Tanks are more useful for storing liquids than chest full of buckets."
+				""
+				"The storage ratio is 8 buckets/block."
+			]
+			id: "4C491EAA3EB36F84"
+			rewards: [{
+				id: "7B709B97815D4D00"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Big ass fluid chest"
+			tasks: [{
+				id: "5C42E8CDD4D94538"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49D3B7AD1D30B249"]
+			id: "77BF2D5B5F0F26DC"
+			rewards: [{
+				count: 2
+				id: "791AB47EA5D01736"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Smart ass fluid filter"
+			tasks: [{
+				id: "02043F65EA1BF2B2"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4C491EAA3EB36F84"]
+			id: "5013116615198326"
+			rewards: [{
+				id: "26322EEE5583CBE6"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Isn't that coffee machine?"
+			tasks: [{
+				id: "2BD3CDB066AD762B"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["191BF999C294A54C"]
+			id: "0FB9B719F4B867C6"
+			rewards: [{
+				id: "55680542A9F2378B"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Isn't andesite casing enought?"
+			tasks: [{
+				id: "03648E7C34524CEE"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C491EAA3EB36F84"]
+			id: "55F17F038D335E38"
+			rewards: [{
+				id: "35A230C51A061405"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "As useful as the one in bathroom"
+			tasks: [{
+				id: "4ED5A2AC777982E3"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4ABFAEB41E1282E7"
+				"4C491EAA3EB36F84"
+			]
+			description: [
+				"Steam power is the end game power."
+				""
+				"Make sure to stabilize all three inputs!"
+			]
+			id: "702D5ED16F859C02"
+			rewards: [{
+				count: 3
+				id: "6AD1BE6D01F23AB1"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Yeeeahhh, what the fuck is steam revolution!!!"
+			tasks: [
+				{
+					id: "2FEC82FB2502C799"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "5DFECF36D87C9926"
+					item: "create:flywheel"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FB9B719F4B867C6"]
+			id: "63BD744A4A0D8700"
+			rewards: [{
+				id: "64BE8CBC05B4DB3E"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Well, how about draining a well?"
+			tasks: [{
+				id: "5FB71170A8454815"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+	]
+	title: "Create Pipe Age"
+}

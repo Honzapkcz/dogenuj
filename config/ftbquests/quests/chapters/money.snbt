@@ -1,0 +1,742 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "money"
+	group: ""
+	icon: "numismatics:crown"
+	id: "1AAFCDE6B04EA2B2"
+	images: [
+		{
+			height: 1.0d
+			image: "supplementaries:block/display_8"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/display_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/display_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/display_8"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/display_8"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "ftblibrary:icons/money"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 7.0d
+			image: "computercraft:textures/gui/blank_screen.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -5.75d
+			y: -0.25d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/gui/shop.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "28D7A44D292F4D5F"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "4BCE665280EFC332"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4439594A132BAE34"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "6DAC4A1867274032"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "333BE05219FFBC49"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "03313D10D6D0BE5C"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "4FD66E5D5BB9CBF1"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "25BDD59D02378D92"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "246F33BC03DCB2B9"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "60B030601AC9D621"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "326277ABE7F78E4A"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "52BDFDBE5BD59997"
+				item: "numismatics:sun"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "55286CC949275DBC"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "3D5F7819CEB697E0"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5CDAB21ED3D9A995"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Terminal offers secure way to store all your money using your personal or credit card account."
+				""
+				"You can also exchange your money all at once instead using quest exchange."
+				""
+				"&lIMPORTANT:&r If you want shared or just more accounts, look at credit cards."
+			]
+			id: "7571F7432B0F375D"
+			rewards: [{
+				id: "4F920E18146AB5E8"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "D1g1ta1 M0ne1"
+			tasks: [{
+				id: "521AB90B548B3B69"
+				item: "numismatics:bank_terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Blaze bankers allows you to make more accounts either shared or not."
+				""
+				"By putting named tag you authorize named player to access blaze account."
+			]
+			id: "43CA7615FA81444D"
+			rewards: [{
+				id: "4B8285206E9BB016"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Let's commit tax fraud!"
+			tasks: [{
+				id: "50C9E30F509F03C4"
+				item: "numismatics:banking_guide"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Vendor offers secure way to setup shop and trade things."]
+			id: "1D1B9FC5C0157ED6"
+			rewards: [{
+				id: "7AFDB0EE80B74619"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Trade offer"
+			tasks: [{
+				id: "3CD1820DC70F330C"
+				item: "numismatics:vendor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Many players don't like useless trash after completing quests, so they now get cash which can be traded here for unavailible resources."
+				""
+				"&lNOTE:&r Most quests here are repeatable and optional!"
+			]
+			id: "6816F50BE79517DF"
+			rewards: [{
+				count: 4
+				id: "09779965A272C2DB"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "My Mani Money"
+			tasks: [{
+				id: "1507DB1A3D25A59D"
+				title: "Nomicoins"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "175A2538C254815B"
+			optional: true
+			rewards: [{
+				id: "4B9F7412642B8DE5"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "2BFB3EC11B183CD4"
+				item: { Count: 8, id: "numismatics:spur" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			id: "5D54385BDC1D5E0B"
+			optional: true
+			rewards: [{
+				id: "2C0C6456B8CC963F"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4DD4148F466D5453"
+				item: { Count: 2, id: "numismatics:bevel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "6D64074948AAF3E8"
+			optional: true
+			rewards: [{
+				id: "18688204EEA28A61"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "02C95AE5B73783FC"
+				item: { Count: 4, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "1596DF5F1538BE5F"
+			optional: true
+			rewards: [{
+				id: "7E2FEED36F6A0F65"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "6A0C06CD4BF52A8D"
+				item: { Count: 8, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "08C1A30B38E6846D"
+			optional: true
+			rewards: [{
+				id: "37A139F8C6E65C47"
+				item: "numismatics:sun"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "5ABA5D3094C6FB0C"
+				item: { Count: 8, id: "numismatics:crown" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&lNOTICE:&r This is for early game! For exchanging big amounts of money use bank terminal."
+				""
+				"Here you can exchange money. Numbers in the middle show how's the exchange rate."
+			]
+			id: "682F115CD0E62B04"
+			rewards: [{
+				count: 4
+				id: "3D63EE42B10AF6F6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Money exchange"
+			tasks: [{
+				id: "653AB6FD38E9341E"
+				title: "Trade Hall"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			description: ["Money is still money, so you can do normal money activities like using depostior to get money from others."]
+			id: "4D38239496C1836B"
+			rewards: [{
+				id: "0187022C9B0BAD84"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Gimme your money!"
+			tasks: [{
+				id: "1B8CF5ADB50E66A4"
+				item: "numismatics:andesite_depositor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: "create:zinc_ore"
+			id: "0E6F45508326E044"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "1E8C7670AF786BEF"
+				item: "create:zinc_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3897F83E2CE4FD45"
+				item: { Count: 2, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:diamond_ore"
+			id: "318CA5CF492CC6C5"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "10AC46E0D19B7898"
+				item: "minecraft:diamond_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "4BC2A4FB62845C79"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: "ae2:certus_quartz_crystal"
+			id: "7E34C415426A97A0"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "3B1D2998AA1625D5"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "792F8F1D92346E6B"
+				item: { Count: 2, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:coal_ore"
+			id: "2D3A0B2193B09379"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "0E3ED74301C1A2B5"
+				item: "minecraft:coal_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7CA7C8E789938F1A"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			icon: "techreborn:tin_ore"
+			id: "342A316E37DAE157"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "6AB1901F6AE0C1BB"
+				item: "techreborn:tin_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1B3128837D37B8D2"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			icon: "create:blaze_burner"
+			id: "12124E5838C300A2"
+			optional: true
+			rewards: [{
+				id: "3072DA0B546F5AF2"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "55B3A24158E84CEF"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "77D7F32CE219993E"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:gold_ore"
+			id: "59D5A13BBFC22259"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "6CB59990B7D6146F"
+				item: "minecraft:gold_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "70741B87C1246AC9"
+				item: { Count: 2, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:iron_ore"
+			id: "12A4D41B0196914E"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "7C64DD20BB4123D5"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "6699802C70E89168"
+				item: { Count: 2, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:copper_ore"
+			id: "02B70EBBA511818D"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "7D38D8F320AE960C"
+				item: "minecraft:copper_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2BF91F8E9BC17755"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			icon: "techreborn:lead_ore"
+			id: "1AC6D969DF9CD3CD"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "4C3437E4A18984C3"
+				item: "techreborn:lead_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6166AD28ABC74A1F"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: "techreborn:silver_ore"
+			id: "265CD8BFE934BAF4"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "1A9D9960DE0A4ED0"
+				item: "techreborn:silver_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6E797E398FA2F7BB"
+				item: { Count: 2, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:redstone_ore"
+			id: "27094E34F76FC8EC"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "23BEC33BB31FCE9D"
+				item: "minecraft:redstone_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2D5731C7419CF103"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:emerald_ore"
+			id: "093E0F8DD12BA1F5"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "6F3DA777894C455D"
+				item: "minecraft:emerald_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "69E62DD9BFD7E3CC"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:lapis_ore"
+			id: "4D27B422581B6AD5"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "4A8BC7EC37E1AFDF"
+				item: "minecraft:lapis_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1CBF0C78F7986D22"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: "ae2:mysterious_cube"
+			id: "53082D2432D9BC66"
+			optional: true
+			rewards: [{
+				id: "6549C6B0770205F7"
+				item: "ae2:mysterious_cube"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4C7647EF7DE1AF70"
+				item: { Count: 2, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:ancient_debris"
+			id: "79EC0D5F6AFA12AD"
+			optional: true
+			rewards: [{
+				id: "4642CCEE85EDA937"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "242E18ECF9E5B2A4"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+	]
+	title: "Money!"
+}

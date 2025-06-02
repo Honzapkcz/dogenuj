@@ -1,0 +1,400 @@
+{
+	autofocus_id: "02827BD982EDCEB4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_brass_age"
+	group: "071AA7D6E6315F75"
+	icon: "create:brass_casing"
+	id: "0F1C3E5B4458514E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["69D4D4240EC11E1D"]
+			description: [
+				"&lCongratulations!&r, you've just unlocked next tier of more advanced machines than before!"
+				""
+				"At this point you want to have automated essential resources as they'll be used more that before."
+				""
+				"You should start thinking about making automated assembly lines for things you're gonna need more than twice."
+			]
+			id: "02827BD982EDCEB4"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "The Better Andesite Stuff"
+			tasks: [{
+				id: "5836CEB5CD666E94"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Brass Age"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02827BD982EDCEB4"]
+			id: "0CADD1EA403C89B2"
+			rewards: [{
+				count: 3
+				id: "645272CDBCFE62E6"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Shinier that andesite!"
+			tasks: [{
+				id: "728A82B8863AF2FB"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13E9324B4BDFE705"]
+			id: "4737B8A16DDFBEBC"
+			rewards: [{
+				id: "0DB99DB726DBED8C"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "I like the color..."
+			tasks: [{
+				id: "4F8261DECB02FE07"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1680B43A757086F1"]
+			id: "6027E808CEA7D9F8"
+			rewards: [{
+				id: "128032E6D071BBDF"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "The Better Tunnel"
+			tasks: [{
+				id: "4E69B7EDD7EB494C"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1680B43A757086F1"]
+			id: "1B3524D2F8714217"
+			rewards: [{
+				count: 2
+				id: "2B9C935F3C7E60A5"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "The Better Funnel"
+			tasks: [{
+				id: "233A0604BAB55B20"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02827BD982EDCEB4"]
+			description: [
+				"Vaults are more industrial version of barrels and chests."
+				""
+				"They function the same as fluid tanks except they hold items instead of fluids."
+				""
+				"They can also hold more than one item (use filters then)."
+			]
+			id: "1680B43A757086F1"
+			rewards: [{
+				id: "497083622F580A49"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Fancier Than Chest"
+			tasks: [{
+				id: "36C9265D1236C037"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			title: "Vaults"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D3006C1EEC71FA4"]
+			description: ["&lTRY&r to play some music near them!"]
+			id: "6D49A51D83DCB7FB"
+			rewards: [{
+				id: "3FF622A069E68374"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			subtitle: "Labourers at risk!"
+			tasks: [{
+				id: "7CD37CE82D3B7E8F"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2D3006C1EEC71FA4"]
+			description: [
+				"Regular gearboxes are made using system of big and small cogwheels."
+				""
+				"What if I told you there is a better way? You can use Ratational Speed Controller for that!"
+			]
+			id: "41708CA1F71EE5D3"
+			rewards: [{
+				count: 2
+				id: "52AD44D4AF52A07C"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Gearbox for Noobies"
+			tasks: [{
+				id: "0BD1EB03ADCF7E1A"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["30404066B8106CBC"]
+			id: "2E26BB3B6FE05DAB"
+			rewards: [{
+				count: 3
+				id: "54E88E1EAAA7A127"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Left, Right, Up, Down"
+			tasks: [{
+				id: "65E911EED79331B6"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30404066B8106CBC"]
+			description: ["Automate player clicking with this simple click! The design is very human."]
+			id: "78F9A082151D6C4E"
+			rewards: [{
+				count: 2
+				id: "1584F1F734D43295"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "STOP TOUCHING ME!"
+			tasks: [{
+				id: "53418731901A218D"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30404066B8106CBC"]
+			description: ["&lNOTE:&r Crafters do not have speed so if you do not have strong infrastructure you can make them rotate as slow as you want at the cost of longer waiting."]
+			id: "07AC58E7D2A362F9"
+			rewards: [{
+				count: 5
+				id: "72EFB219701B5A95"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "My Stess Units!"
+			tasks: [{
+				count: 12L
+				id: "3461DB5CE990C2F8"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Auto Crafting"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0CADD1EA403C89B2"]
+			description: ["Never heard of electronics or circuts. This isn't GregTech! We have electron tubes instead!"]
+			id: "30404066B8106CBC"
+			rewards: [{
+				count: 3
+				id: "3C11AC769FE8E8D3"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "01011001 01100101 01100001"
+			tasks: [{
+				count: 3L
+				id: "2C630BE24A1E9E95"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Electron Tubes"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["78F9A082151D6C4E"]
+			description: ["Mechanisms are steampunk replacement for circuts from technical mods."]
+			id: "2D3006C1EEC71FA4"
+			rewards: [{
+				count: 3
+				id: "1E9EC917CEA9323A"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Ciurcuts with cogwheels"
+			tasks: [{
+				id: "433C844F3ADEDFF2"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4737B8A16DDFBEBC"]
+			description: ["Trains are the best long distance transportation as they can travel in unloaded chunks and can be automated."]
+			id: "7D17DE0B51F18BCD"
+			rewards: [{
+				count: 5
+				id: "3310A69D7999D6EE"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Train goes Chocho"
+			tasks: [{
+				id: "24197DE1F96577B5"
+				item: "create:sturdy_sheet"
+				title: "Train Age"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1680B43A757086F1"]
+			description: ["Do you want to know everything and have ecerything at one place? Displays and display links get the job done."]
+			id: "75A254D5419C2C7E"
+			rewards: [{
+				count: 2
+				id: "3D2222C89E9355B1"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "I wanna know MORE!"
+			tasks: [
+				{
+					id: "239689C9C6890AE8"
+					item: "create:display_link"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "31B37EB5FC919B42"
+					item: "create:display_board"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07AC58E7D2A362F9"]
+			description: ["As said in the beggining, when crushing ores instead of smelting them directly, you get additional yields of resources."]
+			id: "13E9324B4BDFE705"
+			rewards: [{
+				count: 2
+				id: "142BA7BE4BC15573"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Time to trash that nillstone"
+			tasks: [{
+				count: 2L
+				id: "39A84DE846CEEF58"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Crushing Wheels"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0CADD1EA403C89B2"]
+			description: [
+				"Id you wanted to make elevator in older versions of Create, you had to use rope pulleys with advanced circutry."
+				""
+				"Nowadays, you just need to use elevator pulley instead!"
+			]
+			id: "6D9D98B210760D04"
+			rewards: [{
+				count: 3
+				id: "4D4C9900EC558FBD"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Elevators go weeeee"
+			tasks: [
+				{
+					id: "2DC0D4AA11459F34"
+					item: "create:elevator_pulley"
+					type: "item"
+				}
+				{
+					id: "31C9040731737204"
+					item: "create:contraption_controls"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0CADD1EA403C89B2"
+				"30404066B8106CBC"
+			]
+			description: [
+				"Stop lagging your base with unnesecary cobblestone generators!"
+				""
+				"Supports up to six types or blocks with no hassle."
+			]
+			id: "552C34DB5037FC56"
+			subtitle: "Mining away..."
+			tasks: [{
+				id: "314E7425DBA4912A"
+				item: {
+					Count: 1
+					id: "createcobblestone:mechanical_generator"
+					tag: {
+						BlockEntityTag: {
+							type: "none"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+	]
+	title: "Create Brass Age"
+}

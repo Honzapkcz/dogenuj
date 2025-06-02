@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "7FCB2793F6968011", title: "Adventure!" }
+		{ id: "7ADB1FD7A13BCA31", title: "High Tech" }
+		{ id: "071AA7D6E6315F75", title: "Create Time" }
+	]
+}

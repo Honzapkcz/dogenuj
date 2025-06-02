@@ -1,0 +1,500 @@
+{
+	autofocus_id: "1C69D41634E18466"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_reborn"
+	group: "7ADB1FD7A13BCA31"
+	icon: "techreborn:electric_furnace"
+	id: "0EE5E47B01ED60DD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&lINFO:&r Tech Reborn is a HUGE mod, so I don't have time to finish it. Expect more content soon!"
+				""
+				"{@pagebreak}"
+				""
+				"Bored of steampunk create addons?"
+				""
+				"Wanna try something in style of GregTech?"
+				""
+				"Tech Reborn is here for you!"
+			]
+			icon: "techreborn:electric_furnace"
+			id: "1C69D41634E18466"
+			rewards: [
+				{
+					id: "64D751A9167D24B9"
+					item: "techreborn:manual"
+					type: "item"
+				}
+				{
+					id: "5FE75C48951BA5B8"
+					item: "techreborn:rubber_sapling"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Coming soon..."
+			tasks: [{
+				id: "3B410A270BF19B2C"
+				item: {
+					Count: 1
+					id: "techreborn:treetap"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tech Reborn"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: ["Make sure you craft wiremill!"]
+			id: "75DAC090697EFD89"
+			rewards: [{
+				id: "4340269FB6B6E60B"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17B1C3BB2C7408BC"
+				item: "techreborn:copper_cable"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"75DAC090697EFD89"
+				"5F29B5F786099F8E"
+				"2B9D20818312BDB6"
+			]
+			description: [
+				"Even though there are lower tier cables, this one is really good even for midgame."
+				""
+				"Make sure to craft also few stacks! (They are also used in making circuits)"
+			]
+			id: "37700B07857612EA"
+			rewards: [{
+				id: "71D60EDA989C38B5"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "575140D58CC552A0"
+				item: "techreborn:insulated_copper_cable"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["74752B37FA094EF3"]
+			id: "0F9E9FFEE2C83FD7"
+			rewards: [{
+				id: "42FAF9E835E0B3BA"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AB904DB5A30E8B2"
+				item: "techreborn:electric_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["74752B37FA094EF3"]
+			description: ["From this point you should start investing to make pickaxe or drill with silk touch"]
+			id: "6445900DBDBACE6C"
+			subtitle: "Doubling ores since 1984"
+			tasks: [{
+				id: "3D51D1D3CDEB4DEF"
+				item: "techreborn:grinder"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["74752B37FA094EF3"]
+			description: [
+				"Your first generator!"
+				""
+				"Don't worry it doesn't eat fuel like vanilla furnaces."
+				""
+				"This means you can put in stack of coal which will stay there until you start some machines."
+			]
+			id: "56D1F46005A7A770"
+			rewards: [{
+				id: "075C50599E894F10"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "And your coal is gone."
+			tasks: [{
+				id: "2FD30F3D8AF01E3E"
+				item: "techreborn:solid_fuel_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			description: [
+				"Yeah and about iron..."
+				""
+				"Prepare a handful pile of iron (few stacks for beginning) and redstone."
+				""
+				"They are main ingredient for making machines."
+			]
+			id: "5F29B5F786099F8E"
+			rewards: [{
+				id: "62A6820A0DF90C82"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Shiny iron."
+			tasks: [{
+				id: "47C708F72612198E"
+				item: "techreborn:refined_iron_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0C1A64B6B3F250F4"]
+			description: [
+				"&lAbout electricity&r:"
+				""
+				"Tech Reborn doesn't have voltage levels like GregTech."
+				""
+				"This means you can power tier 1 machines with ultimate solar panels and all around."
+				""
+				"Transformers are just a way to connect two different types of cables."
+			]
+			id: "74752B37FA094EF3"
+			rewards: [{
+				id: "42FA4A59C93616D5"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "63976B043C0A841A"
+				item: "techreborn:basic_machine_frame"
+				type: "item"
+			}]
+			title: "Low Tier!"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1C69D41634E18466"]
+			description: [
+				"Rubber trees are very interesting..."
+				""
+				"Some times sap generates on their bark whitch can be harvested with treesap."
+			]
+			id: "31431937B0DD0634"
+			rewards: [{
+				id: "21EF58560DACA46D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Eww so sticky"
+			tasks: [{
+				id: "281674FCD4D0C15F"
+				item: "techreborn:sap"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["31431937B0DD0634"]
+			id: "2B9D20818312BDB6"
+			rewards: [{
+				id: "174BB36EC77C7D31"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Not so sticky"
+			tasks: [{
+				id: "1EA4BE068596380A"
+				item: "techreborn:rubber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37700B07857612EA"]
+			description: ["This is the part where good amount of cables, iron and redstone really helps!"]
+			id: "0C1A64B6B3F250F4"
+			rewards: [{
+				id: "6240A0014B0B75AD"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Braining..."
+			tasks: [{
+				id: "136097844C7BD886"
+				item: "techreborn:electronic_circuit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0F9E9FFEE2C83FD7"]
+			id: "1592D41708A18F03"
+			rewards: [{
+				count: 2
+				id: "68D864965B3CF69C"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26BB3BE8002892C0"
+				item: "techreborn:alloy_smelter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7401FB02B3ECE9DD"]
+			id: "24F09D7A9B5391CF"
+			rewards: [{
+				count: 2
+				id: "5ECF2CF9204A66D0"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F5A1B387008832F"
+				item: "techreborn:rolling_machine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["74752B37FA094EF3"]
+			id: "7401FB02B3ECE9DD"
+			rewards: [{
+				count: 2
+				id: "7EADF3C806968217"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5205937D649AF33D"
+				item: "techreborn:compressor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["74752B37FA094EF3"]
+			id: "0884ABACF233EAED"
+			rewards: [{
+				count: 3
+				id: "0149D9C5F966A724"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Canning stuff."
+			tasks: [{
+				id: "2E67C0CB769CDE45"
+				item: "techreborn:solid_canning_machine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7401FB02B3ECE9DD"]
+			id: "023A7CAFEBF55EC0"
+			rewards: [{
+				id: "1960C85522A239AC"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DEECCAB75C47442"
+				item: "techreborn:recycler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["023A7CAFEBF55EC0"]
+			id: "553361F19CDB12DF"
+			rewards: [{
+				id: "7F19BCBCD1FB947B"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D968FCED6440B5D"
+				item: "techreborn:scrapboxinator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["74752B37FA094EF3"]
+			id: "7AE0CB8DF26382C7"
+			rewards: [{
+				id: "6602B6B8B762FBAD"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7560FFA46D7030AC"
+				item: "techreborn:extractor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["56D1F46005A7A770"]
+			id: "677671F7AB7C5688"
+			rewards: [{
+				id: "10F3790BBA8C8728"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15B752063E01C464"
+				item: "techreborn:water_mill"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7AE0CB8DF26382C7"]
+			id: "3A66EBBAFBB1A8A7"
+			rewards: [{
+				id: "1E9C2D66BB78F021"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68EE6730EBE75B52"
+				item: "techreborn:wire_mill"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["74752B37FA094EF3"]
+			description: [
+				"Note that batteries have 5 input sides and 1 output side."
+				""
+				"That means you can use them as one-way blocks."
+				""
+				"That also means you have to connect cable to two sides in order to work like battery."
+			]
+			id: "09143D29EE515FA8"
+			rewards: [{
+				count: 2
+				id: "5A95ED0194C59B5D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Storing some energy"
+			tasks: [{
+				id: "58C72AB97D330549"
+				item: "techreborn:low_voltage_su"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["56D1F46005A7A770"]
+			id: "52D386960B8A6FF4"
+			rewards: [{
+				id: "23CAE54BF18BA1B4"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34ADD21D86DC5D01"
+				item: "techreborn:basic_solar_panel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["74752B37FA094EF3"]
+			id: "684A7055B80F5442"
+			rewards: [{
+				id: "6843C38D2A9C39BD"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33FBFD0BB8C5C77C"
+				item: "techreborn:advanced_alloy_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["74752B37FA094EF3"]
+			id: "48005A67AEEF0962"
+			rewards: [{
+				id: "684B6D6E39314E42"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12B56BFFF6E7A9E6"
+				item: "techreborn:advanced_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"684A7055B80F5442"
+				"48005A67AEEF0962"
+			]
+			id: "21D103782353509A"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Entering the midgame"
+			tasks: [{
+				id: "165F46947E6B48FD"
+				item: "techreborn:advanced_machine_frame"
+				type: "item"
+			}]
+			title: "Advanced Alloys!"
+			x: -0.5d
+			y: -16.5d
+		}
+	]
+	title: "Tech Reborn"
+}

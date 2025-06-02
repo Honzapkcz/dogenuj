@@ -1,0 +1,57 @@
+[VModConfig]
+	#MAY BREAK SOMETHING. if true, will automatically remove massless ships if they appear.
+	AUTOREMOVE_MASSLESS_SHIPS = true
+	#No comment
+	SCALE_THRUSTERS_THRUST = true
+	#DO NOT CHANGE
+	DIMENSION_GRAVITY_VALUES = "minecraft:dimension:minecraft:overworld 0.0 -10.0 0.0"
+	#The amount of ticks VMod will try to create constraint if it failed to create one. Why is it needed? VS lags sometimes and fails to create constraints, idk why.
+	#Range: > 20
+	CONSTRAINT_CREATION_ATTEMPTS = 12000
+
+	[VModConfig.Permissions]
+		#No Comment
+		#Range: 0 ~ 4
+		VMOD_COMMANDS_PERMISSION_LEVEL = 2
+		#No Comment
+		#Range: 0 ~ 4
+		VMOD_OP_COMMANDS_PERMISSION_LEVEL = 4
+		#No Comment
+		#Range: 0 ~ 4
+		VMOD_TOOLGUN_PERMISSION_LEVEL = 2
+		#No Comment
+		#Range: 0 ~ 4
+		VMOD_CHANGING_SERVER_SETTINGS_LEVEL = 4
+		#No Comment
+		#Range: 0 ~ 4
+		VS_COMMANDS_PERMISSION_LEVEL = 2
+		#DO NOT CHANGE
+		ALWAYS_ALLOWED = ""
+		#DO NOT CHANGE
+		ALWAYS_DISALLOWED = ""
+
+	[VModConfig.ServerPhysgunSettings]
+		#A bit buggy.
+		GRAB_ALL_CONNECTED_SHIPS = false
+		#a
+		#Range: 0.0 ~ 1.7976931348623157E308
+		PCONST = 160.0
+		#a
+		#Range: 0.0 ~ 1.7976931348623157E308
+		DCONST = 20.0
+		#a
+		#Range: 0.0 ~ 1.7976931348623157E308
+		IDKCONST = 90.0
+
+	[VModConfig.Schematics]
+		#No Comment
+		#Range: 0 ~ 20000
+		TIMEOUT_TIME = 50
+
+	[VModConfig.ServerToolgunSettings]
+		#No Comment
+		#Range: 1.0 ~ 1.7976931348623157E308
+		MAX_RAYCAST_DISTANCE = 100.0
+		#Reload the game for change to take the effect.
+		#Range: 512 ~ 1000000
+		SCHEMATIC_PACKET_PART_SIZE = 30000

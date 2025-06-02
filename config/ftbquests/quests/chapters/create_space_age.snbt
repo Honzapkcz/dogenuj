@@ -1,0 +1,464 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_space_age"
+	group: "7ADB1FD7A13BCA31"
+	icon: "ad_astra:oxygen_loader"
+	id: "73985127B08F090A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bored of the constant green hills, blue lakes and beautiful clouds?"
+				""
+				"Why not not limit yourself to our Earth?"
+				""
+				"Why not make a rocket and go to the space?"
+				""
+				"Don't worry, it's not a rocket science ;)"
+			]
+			icon: "ad_astra:oxygen_loader"
+			id: "35F4CECFE05ACE8D"
+			rewards: [
+				{
+					id: "5D0659AEA9BA6ED4"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "ad_astra:astrodux"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F90FA46A59D2773"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "To the Moon!"
+			tasks: [
+				{
+					id: "6B67E82F6A7FB0BE"
+					item: "ad_astra:coal_generator"
+					type: "item"
+				}
+				{
+					id: "549190BC2D88F53F"
+					item: "ad_astra:compressor"
+					type: "item"
+				}
+			]
+			title: "Ad Astra"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1765B235CC17DFF8"]
+			description: [
+				"Steel is THE basic material for all next things."
+				""
+				"You should make at least a stack to continue."
+			]
+			id: "19BF7DAD24087243"
+			rewards: [{
+				id: "576E0D23718AB17B"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "The Cool Iron"
+			tasks: [{
+				id: "68903EE84790E3B9"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["002EFA3DD8DCD4F4"]
+			id: "32A9902C1C46E9E3"
+			rewards: [{
+				id: "3208BEF89E7A96FE"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C8ECA0EB3142206"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["19BF7DAD24087243"]
+			id: "5C0F225AB388089F"
+			rewards: [{
+				id: "36F0B3C9B2C4C311"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "322523D441A4E213"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19BF7DAD24087243"]
+			id: "6F48E34DEA21988F"
+			rewards: [{
+				id: "6CF217B3B86D386A"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04AD49B0B92FEDEE"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"2782519748139A5C"
+				"002EFA3DD8DCD4F4"
+			]
+			description: [
+				"Please read Chapter &oFefore First Launch&r in Astrodux before going to the moon!"
+				""
+				"There are things you can forget and get stuck!"
+			]
+			id: "27122A7A7588F961"
+			rewards: [{
+				count: 2
+				id: "623DE09DA7A43EDE"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "To the moon?"
+			tasks: [{
+				id: "0DF74EC289D29531"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["564399BC2857D53C"]
+			id: "5B1E785E3DBE5D2D"
+			rewards: [{
+				id: "58E2AF3650361765"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "364DEF712DCC68BD"
+				item: "ad_astra:steel_cable"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["19BF7DAD24087243"]
+			id: "2782519748139A5C"
+			rewards: [{
+				count: 3
+				id: "6C3B805BFA82F3BC"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F930E09ECBDE83A"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4DA3A0D576122056"]
+			id: "1765B235CC17DFF8"
+			rewards: [{
+				id: "4AA35CADEF093F09"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69EFC0FFED52597A"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["35F4CECFE05ACE8D"]
+			id: "082CD3EC54D89A7B"
+			rewards: [{
+				count: 4
+				id: "0A8515630616139B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E4F53BC6657A9D6"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["35F4CECFE05ACE8D"]
+			id: "0E157868A53F4819"
+			rewards: [{
+				count: 4
+				id: "41C9EC4200A5729E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "203B44F17ADCC068"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19BF7DAD24087243"]
+			id: "564399BC2857D53C"
+			rewards: [{
+				id: "50E89FC3A883C701"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3479C6456B8E075C"
+				item: "ad_astra:steel_rod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["19BF7DAD24087243"]
+			id: "002EFA3DD8DCD4F4"
+			rewards: [{
+				count: 4
+				id: "5166192C01375726"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A456B4AFB242F70"
+				item: {
+					Count: 1
+					id: "ad_astra:gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["002EFA3DD8DCD4F4"]
+			id: "6E2654FA50F5252A"
+			rewards: [{
+				id: "002733A6AAD5D5F2"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "554866EAE208993E"
+				item: {
+					Count: 1
+					id: "ad_astra:large_gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"082CD3EC54D89A7B"
+				"0E157868A53F4819"
+			]
+			id: "4DA3A0D576122056"
+			rewards: [{
+				count: 4
+				id: "69EE521CC24797B5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05BDEBAD33C4868C"
+				item: "ad_astra:iron_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["002EFA3DD8DCD4F4"]
+			id: "6A1ECC275EC200F9"
+			rewards: [{
+				count: 2
+				id: "19F12B7C6E27E239"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5835E7F26E5FDA7D"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "672115274DC28F2D"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51239AD90F8F3695"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E661B89E715061A"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			description: ["To succesfully land on the moon and get back you should get at least 6 buckets of fuel!"]
+			id: "2A65465380172525"
+			rewards: [{
+				count: 2
+				id: "648EA549E063FED8"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "FREEEEDOOOMMM!"
+			tasks: [{
+				id: "3F0435BA291DD6CE"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5C0F225AB388089F"
+				"2A65465380172525"
+			]
+			description: [
+				"Prepare three buckets for one flight."
+				""
+				"Six if you would want to go also back ;)"
+			]
+			id: "4B347904F393BCF2"
+			rewards: [{
+				id: "5B67BF49DBE78570"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "FREEEENOOOOOMMMM!"
+			tasks: [{
+				id: "02A45EF2AA4A18FB"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"27122A7A7588F961"
+				"6A1ECC275EC200F9"
+				"4B347904F393BCF2"
+			]
+			description: [
+				"You should be at this point pretty much familiarized with book Astrodux."
+				""
+				"If not, start reading!"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "77CAA30B804F7C89"
+			rewards: [
+				{
+					id: "6765C13DF285302C"
+					item: "ad_astra:moon_globe"
+					type: "item"
+				}
+				{
+					id: "2F96D895F3F44D6C"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Mama I'm an astronaut"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "191BD9DD9FBC952B"
+				title: "To the moon!"
+				type: "dimension"
+			}]
+			title: "To the moon!"
+			x: 6.0d
+			y: -7.0d
+		}
+	]
+	title: "Ad Astra"
+}
