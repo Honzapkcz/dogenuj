@@ -5,17 +5,17 @@
 Dogenuj (formally known as KUJNUJ) is Minecraft modpack made by Honzapkcz for his semi-private server.
 Started by forking Majnr+, it grew up to 400 mods giving optimal performance for even running on mashed potato (honzapkcz here, yes i'm playing on 4k monitor with 14 years old office laptop) and a lot of new content for everyone to never get bored (from looting dungeons to building fusion reactors)!
 
-Everything tech-y goes around these:
+**Everything tech-y goes around these:**
 
 - Create (being the main one)
-- Tech Reborn (quite new guy)
+- Tech Reborn (the tech classic)
 - Ad Astra (to the moon!)
 - Applied Energistics 2
 - Computer Craft Tweaked
 - about 30 other Create addons
 - Valkirien Skies (Clockwork integration)
 
-For adventurers, magicians and gardeners:
+**For adventurers, magicians and gardeners:**
 
 - Archon (magic)
 - Travelers Backpacks
@@ -29,7 +29,7 @@ For adventurers, magicians and gardeners:
 - Better Nether
 - Mythic Upgrades
 
-For builders and tinkerers:
+**For builders and tinkerers:**
 
 - Chipped
 - Handcrafted
@@ -39,7 +39,7 @@ For builders and tinkerers:
 - AlcoCraft
 - so many mods I'll rather free up some space
 
-Other notable mods:
+**Other notable mods:**
 
 - Origins
 - Lootr
@@ -49,9 +49,26 @@ Other notable mods:
 - Goblin Traders
 - A LOT of Quality of Life mods
 
+## Communicating
+
+Dogenuj is a Czech server, so expect many people talking in Czech.
+Don't use a translator, ask us, we know English really well.
+
 ## Installing
 
-> **TODO**: you'll figure it out ;)
+> **TODO**: finish this section
+
+We use our own installer instead of standard zips. Why? See #Contributing section.
+
+They don't do much, installing, uninstalling, showing diagnostics and warning if something feels off.
+(if the folder isn't .minecraft or if there are already mods in mods folder)
+
+Shove one into your minecraft folder (or clone with repository) and run correspondingly.
+
+We have `.ps1` for windows users (use the compiled `.exe` in Releases for no hassle)
+And `.sh` for Linux. (just `chmod +x installer.sh` and run it)
+
+A new cross-compatible installer with more advanced interface in Lua is in development.
 
 ## A ~~little bit of~~ history
 
@@ -110,4 +127,42 @@ yet big modpack you just found!
 
 ## Contributing
 
-> **TODO**: you'll figure it out ;)
+At the time writing this paragraph, I was, I am and I will be for a long time the only one who makes this modpack alone.
+So ask me absolutely anything, like everything because I am the only one so far.
+
+Until 3.0.0, this modpack was basicly a kitchensink modpack (get as much you can!). I am now fortunately working on
+making this a logical modpack with some real progression, trying to connect more them together.
+
+This progress is for viewing in the huge file TODO.md.
+
+For quick info, we (I to be correct) use KubeJS for recipes, FTBQuests for questbook and our installer in (Power)shell.
+
+### Installer
+
+**Why don't we supply standard zips?**
+
+- Most of the players here have never used their brain or ability to think.
+- Nobody (yet) uses launcher that supports modpack installing.
+- You don't need to wait 2 hours to download preinstalled zipped modpack. (I have 2 ISPs yet 15MB/s peak)
+- Some scumbags don't even know how to properly unpack zips!
+- I don't know much about their format.
+
+This is the reason this repository consists of mostly Powershell and shell.
+
+### Recipes & Stuff
+
+Before 3.0.0 we used CraftTweaker, but due to it's esoteric design, constant error splash and terrible writing speed (like 5 LoC per hour),
+we'we switched to KubeJS.
+
+Files mostly named after the mod they modify or more rarely thing they do.
+
+### Questbook
+
+Questbook is done through the game (as one expected).
+
+Instead of awarding random crap, we use Create Numismatics coins. Those coins cannot be earned in any way, so they are really good multiplayer currency.
+
+To have a use for coins in singleplayer, players can buy some items which they might rather pay for then go for the hassle (like blae burners)
+in the special *Money* chapter.
+
+
