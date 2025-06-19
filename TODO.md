@@ -62,7 +62,7 @@ enchanting knížky v better oltáři
 Gregifikovat beeter nether a end
 nerfnout goblin tradery
 meth má jít sníst a mít efekty
-snížitrecepty advanced alloye
+snížit recepty advanced alloye
 carbon fibers: coal dust (etrionic)
 sky stone: obsidian obsidian + ender dust
 doplnit arsenál z narcotics cookbook
@@ -80,6 +80,7 @@ Gregifikace střelného prachu
 wafery (krystaly) pro Midgame obvody
 přidat simple drawers (earlygame)
 čistírna vody pro obvody a výrobu
+realistická výroba počítačů
 
 
 # QUESTBOOK
@@ -107,7 +108,7 @@ přidat simple drawers (earlygame)
 
 # MOD INTEGRATION
 
-> 🔨 receipts
+> 🔨 recipes
 > 📖 questbook
 > 🧹 tweaks
 

@@ -9,7 +9,7 @@
 
 ## 2.3.0 [18/05/2025]
 
-* Added receipt for tr (= tech reborn) nuke
+* Added recipe for tr (= tech reborn) nuke
 * Ae2 cells must be crafted in tr assemblers
 * Replaced ae2 silicon with tr silicon plates
 * Remaped keys (some use alt as modifier)
