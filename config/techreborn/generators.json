@@ -20,7 +20,7 @@
   "dragon_egg_siphoner": {
     "DragonEggSiphonerMaxEnergy": {
       "comment": "Dragon Egg Siphoner Max Energy",
-      "value": 1000
+      "value": 10000
     },
     "DragonEggSiphonerMaxOutput": {
       "comment": "Dragon Egg Siphoner Max Output (Energy per tick)",
@@ -28,7 +28,7 @@
     },
     "DragonEggSiphonerEnergyPerTick": {
       "comment": "Dragon Egg Siphoner Energy Per Tick",
-      "value": 4
+      "value": 64
     }
   },
   "water_mill": {
@@ -42,7 +42,7 @@
     },
     "WaterMillEnergyPerTick": {
       "comment": "Water Mill generation rate per water block (Energy per tick)",
-      "value": 0.1
+      "value": 0.2
     }
   },
   "wind_mill": {
@@ -56,7 +56,7 @@
     },
     "WindMillEnergyPerTick": {
       "comment": "Wind Mill generation rate (Energy Per Tick)",
-      "value": 2
+      "value": 3
     },
     "WindMillThunderMultiplier": {
       "comment": "Wind Mill Thunder Multiplier",
