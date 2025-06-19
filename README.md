@@ -3,9 +3,9 @@
 ## Introduction
 
 Dogenuj (formally known as KUJNUJ) is Minecraft modpack made by Honzapkcz for his semi-private server.
-Started by forking Majnr+, it grew up to 400 mods giving optimal performance for even running on mashed potato (honzapkcz here, yes i'm playing on 4k monitor with 14 years old office laptop) and a lot of new content for everyone to never get bored (from looting dungeons to building fusion reactors)!
+Started by forking Majnr+, it grew up to 400 mods giving optimal performance for running on mashed potatoes (honzapkcz here, yes i'm playing on 4k monitor with 14 years old office laptop) and a lot of new content for everyone to never get bored (from looting dungeons to building fusion reactors)!
 
-**Everything tech-y goes around these:**
+**Everything tech related goes around these:**
 
 - Create (being the main one)
 - Tech Reborn (the tech classic)
@@ -65,7 +65,7 @@ They don't do much, installing, uninstalling, showing diagnostics and warning if
 
 Shove one into your minecraft folder (or clone with repository) and run correspondingly.
 
-We have `.ps1` for windows users (use the compiled `.exe` in Releases for no hassle)
+We supply `.ps1` for windows users (use the compiled `.exe` in Releases for painless experience)
 And `.sh` for Linux. (just `chmod +x installer.sh` and run it)
 
 A new cross-compatible installer with more advanced interface in Lua is in development.
@@ -95,10 +95,10 @@ Ubuntu Server USB stick and some screwing.
 ### Merging with Dogecraft
 
 This is where Dogecraft comes to play. Dogecraft was another server, whose discord I joined through a lot
-of interesting relations and friends. They were nothing special, public server with about 20 people trying
-to appeal with it's events, giveaways and vanilla+ content. But they had something, players.
+of interesting relationships and friends. They were nothing special, a public server with about 20 people trying
+to appeal with it's events, giveaways and vanilla+ content. But they had something I didn't, players.
 
-My server had problems that it was empty, someone joined so on, but they came through the "2 week grind" and
+My server had problems that it was empty, someone always joined, but they came through the "2 week grind" and
 left. Dogecraft had problems with Aternos (who wouldn't...) they hosted server on. Aternos gives 2.5GB you of 
 RAM while the minimal requirements are 4GB! Every time someone joined there was a chance of crash.
 
@@ -109,18 +109,18 @@ Applied Energistics and whole lot of really nice mods.
 
 ### The hassle of beight Fat
 
-The 2.0.0 update is really bulky, yeah the previous were too but here we are on 350+ mods. And things start
+The 2.0.0 update was really bulky, yeah the previous were too but now we have 350+ mods. And things start
 to get complicated (or rather interesting?). Many mods now get really opiniated how things are made,
-thus creating recipe conflicts or worse, add some really common material like steel, zinc or tin.
+thus creating recipe conflicts or worse, they add some really common materials like steel, zinc or tin.
 
 I tried to fight back with CraftTweaker, but CraftTweaker soon became my main enemy. It's own language,
 it's quirks and every single line throwing more errors that an entire application burned me down.
 
 Then while browsing help on Reddit I found some comment downwoted ("disliked") into oblivion "Just use KubeJS
 lmao". Editing recipes and even blocks with javascript became my most favourite thing. (for other developers,
-coumentation does mean a lot!!!)
+documentation and ease of use does mean a lot!!!)
 
-So yeah, I'm currently tweaking my modpack with KubeJS to not fall apart you poke into it.
+So yeah, I'm currently tweaking my modpack with KubeJS so it doesn't fall apart once you peek into it.
 
 I hope you enjoyed this ride of dozen paragraphs written at like midnight, documenting this obscure, small,
 yet big modpack you just found!
@@ -130,8 +130,8 @@ yet big modpack you just found!
 At the time writing this paragraph, I was, I am and I will be for a long time the only one who makes this modpack alone.
 So ask me absolutely anything, like everything because I am the only one so far.
 
-Until 3.0.0, this modpack was basicly a kitchensink modpack (get as much you can!). I am now fortunately working on
-making this a logical modpack with some real progression, trying to connect more them together.
+Until 3.0.0, this modpack was basicly a kitchensink modpack (pack as much as you can!). I am now fortunately working on
+making this a logical modpack with some real progression, trying to connect more mods together.
 
 This progress is for viewing in the huge file TODO.md.
 
@@ -145,24 +145,23 @@ For quick info, we (I to be correct) use KubeJS for recipes, FTBQuests for quest
 - Nobody (yet) uses launcher that supports modpack installing.
 - You don't need to wait 2 hours to download preinstalled zipped modpack. (I have 2 ISPs yet 15MB/s peak)
 - Some scumbags don't even know how to properly unpack zips!
-- I don't know much about their format.
+- I'm just lazy to look how it works >:).
 
 This is the reason this repository consists of mostly Powershell and shell.
 
 ### Recipes & Stuff
 
 Before 3.0.0 we used CraftTweaker, but due to it's esoteric design, constant error splash and terrible writing speed (like 5 LoC per hour),
-we'we switched to KubeJS.
+we switched to KubeJS.
 
-Files mostly named after the mod they modify or more rarely thing they do.
+Files are mostly named after the mod they modify or (more rarely) thing they do.
 
 ### Questbook
 
-Questbook is done through the game (as one expected).
+Questbook is done through the game (as one expects).
 
 Instead of awarding random crap, we use Create Numismatics coins. Those coins cannot be earned in any way, so they are really good multiplayer currency.
 
-To have a use for coins in singleplayer, players can buy some items which they might rather pay for then go for the hassle (like blae burners)
-in the special *Money* chapter.
+To have a use for coins in singleplayer, players can buy some items in the special *Money* chapter which they might rather pay for then having to go to find it (like blaze burners)
 
 
