@@ -41,7 +41,7 @@ ServerEvents.recipes(e => {
     e.remove({output: "ae2:silicon"})
     e.remove({input: "ae2:silicon"})
 
-    e.replaceInput({}, "ae2:silicon", "techreborn:silicon_plate")
+    e.replaceInput({mod: "ae2"}, "ae2:silicon", "techreborn:silicon_plate")
 
     e.custom({
         type: "ae2:inscriber",
