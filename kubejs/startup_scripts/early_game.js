@@ -15,8 +15,8 @@ StartupEvents.registry("item", e => {
     e.create("firebrick_dust")
     e.create("firebrick_form")
     e.create("firebrick")
-    //e.create("sand_dust")
-    //e.create("glass_dust")
+    e.create("sand_dust")
+    e.create("glass_dust")
 })
 
 StartupEvents.registry("block", e => {
