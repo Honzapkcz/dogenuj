@@ -1,1 +1,9 @@
-./luastatic main.lua modules/lib/* modules/lib/*/* modules/share/* modules/share/*/* /usr/lib/liblua.so.5.4 -I/usr/include/
+shopt -s globstar
+./luastatic main.lua    \
+    share/**/*.lua      \
+    lib/**/*.so         \
+    /lib/liblua.so      \
+    -I/usr/include/
+if [ -n "$1" ]; then
+    ./main
+fi
