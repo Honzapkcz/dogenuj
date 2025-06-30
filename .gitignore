@@ -34,3 +34,4 @@ rhino.local.properties
 /VMod-Schematics
 /xaero
 /XaeroWaypoints_BACKUP240807
+*.luastatic.c
