@@ -31,4 +31,9 @@ ServerEvents.recipes(e => {
     e.remove({id: "createbigcannons:cutting/autocannon_cartridge_sheet_iron"})
     e.remove({id: "createbigcannons:cutting/autocannon_cartridge_sheet_gold"})
     e.remove({id: "createbigcannons:cutting/autocannon_cartridge_sheet_copper"})
+
+    e.remove({id: "createdeco:pressing/andesite_sheet"})
+    e.replaceInput({input: "createdeco:andesite_sheet"},
+        "createdeco:andesite_sheet", "create_dd:andesite_sheet"
+    )
 })
