@@ -27,60 +27,60 @@
   - [ ] ae2 inscriber?
   
 ## BRAINSTORMING
-timeless zero hardedned
-oddělat auto-packing
-wirecoil konflikt
-electric hook konflink
-TR x create x AE x astra elektřina
-tin, brass, bronze konflikt
-spojit ropu v jedno
-podívat se na Factorio, satisfactory
-inifinifactory, GregTech, Skyblock Z
-Raketa a ad astra na endgame
-více druhů a tierů ocelí
-moltenmetals alloying recepty
-zajímavější rafinérie ropy
-vyzkoušet efektivitu Diesel generatorů
-oddělat crushing nehladkého limestonu
-koks namísto uhlí při výrobě oceli
-multiblock/stroj koksárna
-endstone: cobble + písek heated?
-brass: tekutá měď a zinek
-TR alloy furnace: využití
-3x iron + 1x tin => ref iron 4x
-iron alloy musí jít bez ref ironu
-sequenceed assembly pro obvody?
-jaderný odpad new age reaktoru?
-dělat z vody led (freezer)
-farmers poty na refurbishe sporáku
-opravit engine silencer?
-estrogen centrifuga na čistění
-chemie a chemie! (calcium, sodium)
-většina TR materiálů na nic
-smáčení lnu/vlny ve farmers potu?
-enchanting knížky v better oltáři
-Gregifikovat beeter nether a end
-nerfnout goblin tradery
-meth má jít sníst a mít efekty
-snížit recepty advanced alloye
-carbon fibers: coal dust (etrionic)
-sky stone: obsidian obsidian + ender dust
-doplnit arsenál z narcotics cookbook
-GregTech manuální nástroje (Earlygame)
-estrogen automatizace moth silku
-Gregifikovat Create? (reálnější recepty)
-čistiti kameny se šmirgl papírem
-hancrafted misky a nádoby: využití
-Gregové získávání end star
-Hammer, Mortar, File, Wirecutters (Shears)
-Alkohol (slivovica, (M)ethanol) earlygame
-griding crushed oreček v ind. grinderu
-plasty z rafinerie? (endgame?)
-Gregifikace střelného prachu
-wafery (krystaly) pro Midgame obvody
-přidat simple drawers (earlygame)
-čistírna vody pro obvody a výrobu
-realistická výroba počítačů
+- [ ] timeless zero hardedned
+- [ ] oddělat auto-packing
+- [ ] wirecoil konflikt
+- [ ] electric hook konflink
+- [ ] TR x create x AE x astra elektřina
+- [ ] tin, brass, bronze konflikt
+- [ ] spojit ropu v jedno
+- [ ] podívat se na Factorio, satisfactory
+- [ ] inifinifactory, GregTech, Skyblock Z
+- [ ] Raketa a ad astra na endgame
+- [ ] více druhů a tierů ocelí
+- [ ] moltenmetals alloying recepty
+- [ ] zajímavější rafinérie ropy
+- [ ] vyzkoušet efektivitu Diesel generatorů
+- [ ] oddělat crushing nehladkého limestonu
+- [ ] koks namísto uhlí při výrobě oceli
+- [ ] multiblock/stroj koksárna
+- [ ] endstone: cobble + písek heated?
+- [ ] brass: tekutá měď a zinek
+- [ ] TR alloy furnace: využití
+- [ ] 3x iron + 1x tin => ref iron 4x
+- [ ] iron alloy musí jít bez ref ironu
+- [ ] sequenceed assembly pro obvody?
+- [ ] jaderný odpad new age reaktoru?
+- [ ] dělat z vody led (freezer)
+- [ ] farmers poty na refurbishe sporáku
+- [ ] opravit engine silencer?
+- [ ] estrogen centrifuga na čistění
+- [ ] chemie a chemie! (calcium, sodium)
+- [ ] většina TR materiálů na nic
+- [ ] smáčení lnu/vlny ve farmers potu?
+- [ ] enchanting knížky v better oltáři
+- [ ] Gregifikovat beeter nether a end
+- [ ] nerfnout goblin tradery
+- [ ] meth má jít sníst a mít efekty
+- [ ] snížit recepty advanced alloye
+- [ ] carbon fibers: coal dust (etrionic)
+- [ ] sky stone: obsidian obsidian + ender dust
+- [ ] doplnit arsenál z narcotics cookbook
+- [ ] GregTech manuální nástroje (Earlygame)
+- [ ] estrogen automatizace moth silku
+- [ ] Gregifikovat Create? (reálnější recepty)
+- [ ] čistiti kameny se šmirgl papírem
+- [ ] hancrafted misky a nádoby: využití
+- [ ] Gregové získávání end star
+- [ ] Hammer, Mortar, File, Wirecutters (Shears)
+- [ ] Alkohol (slivovica, (M)ethanol) earlygame
+- [ ] griding crushed oreček v ind. grinderu
+- [ ] plasty z rafinerie? (endgame?)
+- [ ] Gregifikace střelného prachu
+- [ ] wafery (krystaly) pro Midgame obvody
+- [ ] přidat simple drawers (earlygame)
+- [ ] čistírna vody pro obvody a výrobu
+- [ ] realistická výroba počítačů
 
 
 # QUESTBOOK
