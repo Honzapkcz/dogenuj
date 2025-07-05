@@ -4,20 +4,28 @@ console.info('Hello, early_game!')
 
 ServerEvents.recipes(e => {
     /* SMELTING RAW IRON/TIN */
+    e.remove({id: "minecraft:iron_ingot_from_smelting_raw_iron"})
+    e.remove({id: "minecraft:iron_ingot_from_blasting_raw_iron"})
+    e.remove({id: "create_ironworks:materials/tin/tin_ingot_from_smelting_raw_tin"})
+    e.remove({id: "create_ironworks:materials/tin/tin_ingot_from_blasting_raw_tin"})
+    e.remove({id: "techreborn:smelting/tin_ingot_from_c_raw_tin_ores"})
+    e.remove({id: "techreborn:blasting/tin_ingot_from_c_raw_tin_ores"})
+    e.remove({id: "create_dd:smelting/tin_ingot_from_raw_ore"})
+    e.remove({id: "create_dd:blasting/tin_ingot_from_raw_ore"})
     e.shapeless(
         Item.of("kubejs:dirty_crushed_iron"),
         [
             "minecraft:raw_iron",
-            "#create:pickaxes"
+            "#kubejs:pickaxes"
         ]
-    )
+    ).damageIngredient("#kubejs:pickaxes")
     e.shapeless(
-        Item.of("kubejs:dirty_crushed_iron"),
+        Item.of("kubejs:dirty_crushed_tin"),
         [
             "#c:raw_tin_ores",
-            "#create:pickaxes"
+            "#kubejs:pickaxes"
         ]
-    )
+    ).damageIngredient("#kubejs:pickaxes")
     e.custom({
         type: "ae2:transform",
         circumstance: {
@@ -48,6 +56,8 @@ ServerEvents.recipes(e => {
             item: "create_ironworks:crushed_raw_tin"
         }
     })
+    e.campfireCooking("create_ironworks:tin_ingot", "create_ironworks:crushed_raw_tin", 0, 400)
+    e.campfireCooking("minecraft:stone", "minecraft:cobblestone", 0, 400)
 
     /* CRAFTING TABLE */
     e.remove({id: "minecraft:crafting_table"})
@@ -66,7 +76,12 @@ ServerEvents.recipes(e => {
 
     /* PADDING AND BED */
     e.remove({output: "#travelersbackpack:sleeping_bags", input: "#minecraft:wool"})
-    e.remove({output: "#minecraft:beds", type: "minecraft:crafting", input: "#minecraft:wool"})
+    e.remove({id: "supplementaries:bed_from_feather_block"})
+    /*for (const color of ["white", "light_gray", "gray", "black", "brown", "red", "orange", "yellow",
+                         "lime", "green", "cyan", "light_blue", "ble", "purple", "magenta", "pink"]) {
+        e.remove({id: "minecraft:"+color+"_bed"})
+    }*/
+    e.remove({output: "#minecraft:beds", type: "minecraft:crafting_shaped", input: "#minecraft:wool"})
     e.shaped(
         Item.of("kubejs:padding"),
         [
@@ -103,24 +118,32 @@ ServerEvents.recipes(e => {
     /* FLINT/IRON TOOLS */
 
     // TODO: hammer and paxel
-    for (mat in ["wooden", "stone"]) {
+    for (const mat of ["wooden", "stone", "iron"]) {
         e.remove({id: "minecraft:"+mat+"_shovel"})
         e.remove({id: "minecraft:"+mat+"_pickaxe"})
         e.remove({id: "minecraft:"+mat+"_axe"})
         e.remove({id: "minecraft:"+mat+"_hoe"})
         e.remove({id: "minecraft:"+mat+"_sword"})
+        if (mat == "iron") {
+            e.remove({id: "create_ironworks:tools/paxel/"+mat})
+            e.remove({id: "create_ironworks:tools/hammer/"+mat})
+        }
     }
-    for (mat in ["iron", "copper", "bronze", "brass", "steel"]) {
-        e.remove({id: "minecraft:"+mat+"_shovel"})
-        e.remove({id: "minecraft:"+mat+"_pickaxe"})
-        e.remove({id: "minecraft:"+mat+"_axe"})
-        e.remove({id: "minecraft:"+mat+"_hoe"})
-        e.remove({id: "minecraft:"+mat+"_sword"})
-        e.remove({id: "create_ironworks:"+mat+"_paxel"})
-        e.remove({id: "create_ironworks:"+mat+"_hammer"})
+    for (const mat of ["copper", "bronze", "brass", "steel"]) {
+        e.remove({id: "create_ironworks:tools/shovel/"+mat})
+        e.remove({id: "create_ironworks:tools/pickaxe/"+mat})
+        e.remove({id: "create_ironworks:tools/axe/"+mat})
+        e.remove({id: "create_ironworks:tools/hoe/"+mat})
+        e.remove({id: "create_ironworks:tools/sword/"+mat})
+        e.remove({id: "create_ironworks:tools/paxel/"+mat})
+        e.remove({id: "create_ironworks:tools/hammer/"+mat})
     }
     e.remove({id: "farmersdelight:flint_knife"})
     e.remove({id: "farmersdelight:iron_knife"})
+    e.shaped(Item.of("farmersdelight:iron_knife"),
+             ["PH", "S "],
+             {P: "#c:iron_plates", S: "minecraft:stick", H: "#create:hammers"}
+    )
 
     e.shaped(Item.of("minecraft:wooden_shovel"),
         [" F", "ST"],
@@ -164,51 +187,52 @@ ServerEvents.recipes(e => {
         {N: "minecraft:smooth_stone", S: "minecraft:string", T: "minecraft:stick"}
     )
 
-    function make_tool(tier, ingot, sheet) {
-        e.shaped(Item.of("minecraft:"+tier+"_axe"),
+    function make_tool(tier, ingot, sheet, ironworks) {
+        console.info("make_tool: "+tier)
+        const modid = ironworks ? "create_ironworks" : "minecraft"
+        e.shaped(Item.of(modid+":"+tier+"_axe"),
             ["PI ", "PS ", "HS "],
             {P: sheet, I: ingot, S: "minecraft:stick", H: "#create:hammers"}
-        )
-        e.shaped(Item.of("minecraft:"+tier+"_pickaxe"),
+        ).damageIngredient("#create:hammers", 2)
+        e.shaped(Item.of(modid+":"+tier+"_pickaxe"),
             ["PII", "HS ", " S "],
             {P: sheet, I: ingot, S: "minecraft:stick", H: "#create:hammers"}
-        )
-        e.shaped(Item.of("minecraft:"+tier+"_shovel"),
+        ).damageIngredient("#create:hammers", 2)
+        e.shaped(Item.of(modid+":"+tier+"_shovel"),
             ["HP ", " S ", " S "],
-            {P: sheet, I: ingot, S: "minecraft:stick", H: "#create:hammers"}
-        )
-        e.shaped(Item.of("minecraft:"+tier+"_hoe"),
+            {P: sheet, S: "minecraft:stick", H: "#create:hammers"}
+        ).damageIngredient("#create:hammers", 2)
+        e.shaped(Item.of(modid+":"+tier+"_hoe"),
             ["PP ", "HS ", " S "],
-            {P: sheet, I: ingot, S: "minecraft:stick", H: "#create:hammers"}
-        )
-        e.shaped(Item.of("minecraft:"+tier+"_sword"),
+            {P: sheet, S: "minecraft:stick", H: "#create:hammers"}
+        ).damageIngredient("#create:hammers", 2)
+        e.shaped(Item.of(modid+":"+tier+"_sword"),
             ["HP ", "SPS", " S "],
-            {P: sheet, I: ingot, S: "minecraft:stick", H: "#create:hammers"}
-        )
+            {P: sheet, S: "minecraft:stick", H: "#create:hammers"}
+        ).damageIngredient("#create:hammers", 2)
         e.shaped(Item.of("create_ironworks:"+tier+"_paxel"),
             ["PII", "PSH", " S "],
             {P: sheet, I: ingot, S: "minecraft:stick", H: "#create:hammers"}
         )
         e.shaped(Item.of("create_ironworks:"+tier+"_hammer"),
             ["II ", "IIS", "II "],
-            {P: sheet, I: ingot, S: "minecraft:stick", H: "#create:hammers"}
+            {I: ingot, S: "minecraft:stick"}
         )
     }
-    make_tool("iron", "minecraft:iron_ingot", "#c:iron_plates")
-    make_tool("copper", "minecraft:copper_ingot", "#c:copper_plates")
-    make_tool("bronze", "#c:bronze_ingots", "#c:bronze_plates")
-    make_tool("brass", "#c:brass_ingots", "#c:brass_plates")
-    make_tool("steel", "#c:steel_ingots", "#c:steel_plates")
+    make_tool("iron", "minecraft:iron_ingot", "#c:iron_plates", false)
+    make_tool("copper", "minecraft:copper_ingot", "#c:copper_plates", true)
+    make_tool("bronze", "#c:bronze_ingots", "#c:bronze_plates", true)
+    make_tool("brass", "#c:brass_ingots", "#c:brass_plates", true)
+    make_tool("steel", "#c:steel_ingots", "#c:steel_plates", true)
 
     /* SMOOTH STONE */
     e.remove({id: "minecraft:smooth_stone"})
     e.remove({id: "create:fan_blasting/minecraft/smooth_stone"})
-    e.blasting("minecraft:smooth_stone", "minecraft:stone")
     e.custom({
         type: "create:sandpaper_polishing",
         ingredients: [
             {
-                item: "minecraft:atone"
+                item: "minecraft:stone"
             }
         ],
         results: [
@@ -221,16 +245,31 @@ ServerEvents.recipes(e => {
     /* IRON ALLOY FURNACE */
     e.remove({id: "techreborn:crafting_table/machine/iron_furnace"})
     e.remove({id: "minecraft:brick"})
+    e.remove({id: "minecraft:furnace"})
     e.remove({id: "create:fan_blasting/minecraft/brick"})
     e.replaceInput({id: "techreborn:crafting_table/machine/iron_alloy_furnace"},
         "techreborn:refined_iron_ingot", "#c:tin_ingots"
     )
+    e.replaceInput({id: "techreborn:crafting_table/machine/iron_furnace_alt"},
+                   "minecraft:iron_ingot", "#c:tin_ingots"
+    )
+    e.remove({id: "minecraft:blast_furnace"})
+    e.remove({id: "create_dd:industrial_iron/blast_furnace"})
+    e.shaped(Item.of("minecraft:blast_furnace"),
+        [
+            "III",
+            "IFI",
+            "SSS"
+        ],
+        {
+            I: "create_dd:industrial_iron_ingot",
+            F: "minecraft:furnace",
+            S: "minecraft:smooth_stone"
+        }
+    )
 
     /* FURNACE */
-    e.replaceInput({id: "minecraft:furnace"},
-        "#minecraft:stone_tool_materials", "kubejs:firebricks"
-    )
-    e.shapeless(Item.of("2x kubejs:empty_form"),
+    e.shapeless(Item.of("kubejs:empty_form", 2),
         [
             "#c:tools/knives",
             "#minecraft:wooden_slabs"
@@ -238,17 +277,18 @@ ServerEvents.recipes(e => {
     ).damageIngredient("#c:tools/knives", 2)
     e.shapeless(Item.of("kubejs:clay_form"),
         [
-            "minecraft:clay",
+            "minecraft:clay_ball",
             "kubejs:empty_form"
         ]
     )
     e.shapeless(Item.of("techreborn:clay_dust"),
         [
             "kubejs:mortar",
-            "minecraft:clay"
+            "minecraft:clay_ball"
         ]
     ).damageIngredient("kubejs:mortar")
     e.campfireCooking("minecraft:brick", "kubejs:clay_form", 0, 300)
+    e.blasting("minecraft:brick", "kubejs:clay_form")
     e.shapeless(Item.of("kubejs:brick_dust"),
         [
             "kubejs:mortar",
@@ -268,6 +308,7 @@ ServerEvents.recipes(e => {
         ]
     )
     e.campfireCooking("kubejs:firebrick", "kubejs:firebrick_form", 0, 300)
+    e.blasting("kubejs:firebrick", "kubejs:firebrick_form")
     e.shaped(Item.of("kubejs:firebricks"),
         [
             "XX",
@@ -288,6 +329,7 @@ ServerEvents.recipes(e => {
         }
     )
     /* ANDESITE ALLOY */
+    e.remove({output: "create:andesite_alloy", input: "minecraft:andesite"})
     e.shapeless(Item.of("techreborn:andesite_dust"),
         [
             "kubejs:mortar",
@@ -367,7 +409,6 @@ ServerEvents.recipes(e => {
     })
 
     /* WOOD AND PLANKS */
-    e.remove({input: "#minecraft:logs", output: "#minecraft:planks", type: "minecraft:crafting"})
     e.remove({id: "minecraft:stick"})
     e.shapeless(Item.of("4x minecraft:stick"),
         [
@@ -376,8 +417,10 @@ ServerEvents.recipes(e => {
         ]
     ).damageIngredient("#c:tools/knives")
     for (const mod in global.wood) {
-        for (const wood in global.wood[mod]) {
-            e.shapeless(Item.of("4x "+mod+":"+wood+"_planks"),
+        for (const wood of global.wood[mod]) {
+            console.info(mod+":"+wood+"_planks => #"+mod+":"+wood+"_logs")
+            e.remove({id: mod+":"+wood+"_planks"})
+            e.shapeless(Item.of(mod+":"+wood+"_planks", 4),
                 [
                     "#c:tools/knives",
                     "#"+mod+":"+wood+"_logs"
