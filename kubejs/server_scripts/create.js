@@ -5,6 +5,7 @@
 console.info('Hello, create!')
 
 ServerEvents.recipes(e => {
+    /* TOOL CONFLICTS */
     e.remove({id: "create_ironworks:tools/paxel/steel"})
     e.remove({id: "create_ironworks:tools/hoe/steel"})
     e.remove({id: "create_ironworks:tools/pickaxe/steel"})
@@ -36,4 +37,11 @@ ServerEvents.recipes(e => {
     e.replaceInput({input: "createdeco:andesite_sheet"},
         "createdeco:andesite_sheet", "create_dd:andesite_sheet"
     )
+
+    /* RECIPES OF RESOURCES */
+    //TODO: brass, bronze, industrial ingot, steel
+    // alloying brass
+
+    /* RECIPES OF BASIC THINGS */
+    /* RECIPES OF MACHINES */
 })
