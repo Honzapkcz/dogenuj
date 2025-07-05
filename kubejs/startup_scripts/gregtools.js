@@ -40,3 +40,19 @@ ItemEvents.modification(e => {
         crem("farmersdelight:"+mat+"knife")
     }
 })
+
+BlockEvents.modification(e => {
+    function tool(block) {
+        e.modify(block, bm => {
+            bm.requiresTool = true
+        })
+    }
+    console.info("no more easy wood for you!")
+    for (const mod in global.wood) {
+        for (const wood of global.wood[mod]) {
+            console.info("requireTool: "+mod+":"+wood)
+            tool(mod+":"+wood+"_log")
+            tool(mod+":"+wood+"_stripped_log")
+        }
+    }
+})
