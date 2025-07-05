@@ -33,5 +33,9 @@ rhino.local.properties
 /usernamecache.json
 /VMod-Schematics
 /xaero
-/XaeroWaypoints_BACKUP240807
+/XaeroWaypoints_BACKUP*
 *.luastatic.c
+hs_err_pid*
+/.fabric
+/.mixin.out
+/.replay_cache
