@@ -528,6 +528,7 @@
 ```json
 {
   "type": "create:mixing",
+  "heatRequirement": "heated",
   "ingredients": [
     {
       "item": "minecraft:sunflower"
@@ -544,6 +545,19 @@
       "item": "create_bic_bit:sunflower_seeds"
     }
   ]
+}
+```
+### Blasting
+```json
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "create:crushed_raw_gold"
+  },
+  "result": "minecraft:gold_ingot"
 }
 ```
 ### Pressing
