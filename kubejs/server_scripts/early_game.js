@@ -135,8 +135,8 @@ ServerEvents.recipes(e => {
         e.remove({id: "create_ironworks:tools/axe/"+mat})
         e.remove({id: "create_ironworks:tools/hoe/"+mat})
         e.remove({id: "create_ironworks:tools/sword/"+mat})
-        e.remove({id: "create_ironworks:tools/paxel/"+mat})
-        e.remove({id: "create_ironworks:tools/hammer/"+mat})
+        e.remove({id: "create_ironworks:tools/paxel/"+mat}) //TODO: brass paxel
+        e.remove({id: "create_ironworks:tools/hammer/"+mat}) //TODO: brass hammer
     }
     e.remove({id: "farmersdelight:flint_knife"})
     e.remove({id: "farmersdelight:iron_knife"})
@@ -320,7 +320,7 @@ ServerEvents.recipes(e => {
     )
     e.shaped(Item.of("minecraft:furnace"),
         [
-            "XXX",
+            " X ",
             "X X",
             "XXX"
         ],

@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:dread",
+  "gravity": 2.22,
+  "orbit": "planetsplus:dread_orbit",
+  "oxygen": false,
+  "solar_power": 18,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": -73,
+  "tier": 4
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:mars_globe"
+    },
+    "title": {
+      "translate": "Swiss Cheese Looks With No Cheese"
+    },
+    "description": {
+      "translate": "Land on Cration"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "glacies": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:cration"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "planetsplus:kelper_10352/glacies/glacies/glacies_landed"
+}

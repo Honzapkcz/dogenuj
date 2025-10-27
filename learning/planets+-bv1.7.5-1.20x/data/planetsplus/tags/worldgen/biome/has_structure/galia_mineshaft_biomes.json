@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "planetsplus:galia/galia_cold_desert",
+	"planetsplus:galia/galia_lowered_convert",
+	"planetsplus:galia/galia_spikey_valley",
+	"planetsplus:galia/galia_rocky_plains",
+	"planetsplus:galia/galia_snowed_over_caps",
+	"planetsplus:galia/galia_density_caves",
+	"planetsplus:galia/galia_badland_caves"
+  ]
+}

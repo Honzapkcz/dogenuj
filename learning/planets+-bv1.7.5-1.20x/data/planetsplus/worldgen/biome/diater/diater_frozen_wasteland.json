@@ -1,0 +1,50 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 3161926,
+    "fog_color": 3161926,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 7842607
+  },
+"creature_spawn_probability": 0.2,
+"spawners": {
+  "monster": [
+    {
+      "type": "ad_astra:star_crawler",
+      "weight": 100,
+      "minCount": 1,
+      "maxCount": 4
+    }
+  ]
+},
+"spawn_costs": {
+  "ad_astra:star_crawler": {
+    "energy_budget": 0.02,
+    "charge": 0.2
+  }
+},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+	  "planetsplus:diater/frozen_wastelands/ice_chasm",
+	    "planetsplus:diater/diater_lapis_ore",
+      "planetsplus:diater/diater_iron_ore",
+      "planetsplus:diater/diater_diamond_ore",
+	    "planetsplus:diater/diater_ice_shard_ore",
+      "planetsplus:diater/diater_desh_ore",
+	  "planetsplus:diater/diater_geode",
+	  "planetsplus:diater/diater_cobblestone_blobs",
+      "minecraft:amethyst_geode"
+    ]
+  ]
+}

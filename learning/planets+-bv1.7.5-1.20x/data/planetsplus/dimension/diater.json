@@ -1,0 +1,87 @@
+{
+  "type": "planetsplus:diater",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:diater",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:diater/diater_frozen_rocky_plains",
+          "parameters": {
+            "temperature": -0.515,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.315,
+            "weirdness": 0.4,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "planetsplus:diater/diater_frozen_wasteland",
+          "parameters": {
+            "temperature": -0.515,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.275,
+            "weirdness": 0.25,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:diater/diater_permafrost_borders",
+          "parameters": {
+            "temperature": -0.5175,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.175,
+            "weirdness": -0.175,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.15
+          }
+        },
+        {
+          "biome": "planetsplus:diater/diater_frozen_ocean",
+          "parameters": {
+            "temperature": -0.52,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.15,
+            "weirdness": -0.25,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:diater/diater_frozen_caves",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.25,
+            "weirdness": 0.3,
+            "depth": [
+              0.425,
+              1
+            ],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

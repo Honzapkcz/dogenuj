@@ -1,0 +1,87 @@
+{
+  "type": "planetsplus:jada",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:jada",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:jada/jada_rocky_barrens",
+          "parameters": {
+            "temperature": -0.3125,
+            "humidity": 0.15,
+            "continentalness": 0,
+            "erosion": 0.325,
+            "weirdness": 0.2,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.215
+          }
+        },
+        {
+          "biome": "planetsplus:jada/jada_wasteland",
+          "parameters": {
+            "temperature": -0.3175,
+            "humidity": 0.065,
+            "continentalness": 0,
+            "erosion": 0.255,
+            "weirdness": 0.235,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.05
+          }
+        },
+        {
+          "biome": "planetsplus:jada/jada_frozen_canyon",
+          "parameters": {
+            "temperature": -0.32,
+            "humidity": -0.1,
+            "continentalness": 0,
+            "erosion": 0.15,
+            "weirdness": 0.31,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:jada/jada_ice_desert",
+          "parameters": {
+            "temperature": -0.345,
+            "humidity": -0.165,
+            "continentalness": 0,
+            "erosion": 0.165,
+            "weirdness": 0.375,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:jada/jada_spiked_andesite_caves",
+          "parameters": {
+            "temperature": -0.335,
+            "humidity": -0.2,
+            "continentalness": 0,
+            "erosion": 0.265,
+            "weirdness": 0.2,
+            "depth": [
+              0.5,
+              1
+            ],
+            "offset": 0.1
+          }
+        }
+      ]
+    }
+  }
+}

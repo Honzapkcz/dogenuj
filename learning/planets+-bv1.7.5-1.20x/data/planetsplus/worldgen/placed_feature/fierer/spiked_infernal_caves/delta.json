@@ -1,0 +1,12 @@
+{
+  "feature": "planetsplus:fierer/spiked_infernal_caves/delta",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 35
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

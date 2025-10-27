@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:galia/galia_destroyed_village",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 749485919,
+    "spacing": 37,
+    "separation": 32,
+    "type": "minecraft:random_spread"
+  }
+}

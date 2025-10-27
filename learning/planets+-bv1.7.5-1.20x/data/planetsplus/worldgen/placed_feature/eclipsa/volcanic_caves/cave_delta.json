@@ -1,0 +1,27 @@
+{
+  "feature": "planetsplus:eclipsa/volcanic_caves/cave_delta",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 55
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+		  "type": "minecraft:height_range",
+		  "height": {
+			"type": "minecraft:trapezoid",
+			"min_inclusive": {
+			  "absolute": -52
+			},
+			"max_inclusive": {
+			  "absolute": 79
+			}
+		  }
+		},
+		{
+		  "type": "minecraft:biome"
+		}
+	  ]
+	}

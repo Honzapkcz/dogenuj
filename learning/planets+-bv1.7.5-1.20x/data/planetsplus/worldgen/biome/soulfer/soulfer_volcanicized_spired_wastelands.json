@@ -1,0 +1,58 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 5919306,
+    "fog_color": 6510920,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.4,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:sulfur_creeper",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:sulfur_creeper": {
+      "energy_budget": 0.03,
+      "charge": 0.225
+    },
+    "minecraft:magma_cube": {
+      "energy_budget": 0.02,
+      "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "planetsplus:soulfer/soulfer_iron_ore",
+	  "planetsplus:soulfer/soulfer_ostrum_ore",
+      "planetsplus:soulfer/soulfer_diamond_ore",
+	  "planetsplus:soulfer/soulfer_copper_ore",
+	  "planetsplus:soulfer/volcanicized_spired_wastelands/stone_spike",
+	  "planetsplus:soulfer/volcanicized_spired_wastelands/molten_delta",
+	  "planetsplus:soulfer/volcanicized_plains/skystone_blobs"
+    ]
+  ]
+}

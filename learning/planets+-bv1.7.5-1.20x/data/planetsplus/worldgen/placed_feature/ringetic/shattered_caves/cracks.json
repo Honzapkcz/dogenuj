@@ -1,0 +1,12 @@
+{
+  "feature": "planetsplus:ringetic/shattered_caves/cracks",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 55
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

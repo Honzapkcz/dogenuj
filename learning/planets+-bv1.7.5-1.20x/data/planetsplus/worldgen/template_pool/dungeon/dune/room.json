@@ -1,0 +1,132 @@
+{
+  "name": "planetsplus:dungeon/dune/room",
+  "fallback": "planetsplus:dungeon/dune/hallways",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_hallway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_hallway_right_turn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_hallway_fourway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_ladders_top",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"						
+      }
+    },
+    {
+      "weight": 27,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_hallway_stairs_down",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_sand_storage",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 45,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_battle1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 45,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_battle2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 45,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_battle3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 45,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_battle4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_electric_room",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"			
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_library",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_bedrooms",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_boss",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    }
+  ]
+}

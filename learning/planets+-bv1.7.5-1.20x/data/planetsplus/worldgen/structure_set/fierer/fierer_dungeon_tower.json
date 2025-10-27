@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:fierer/fierer_dungeon_tower",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 18984519,
+    "spacing": 36,
+    "separation": 26,
+    "type": "minecraft:random_spread"
+  }
+}

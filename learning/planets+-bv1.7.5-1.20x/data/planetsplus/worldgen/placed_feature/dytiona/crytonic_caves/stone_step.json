@@ -1,0 +1,12 @@
+{
+  "feature": "planetsplus:dytiona/crytonic_caves/stone_step",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 30
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

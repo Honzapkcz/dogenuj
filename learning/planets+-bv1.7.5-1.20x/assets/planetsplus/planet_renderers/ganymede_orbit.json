@@ -1,0 +1,165 @@
+{
+  "custom_clouds": true,
+  "custom_sky": true,
+  "custom_weather": false, 
+  "dimension": "planetsplus:ganymede_orbit",
+  "has_fog": true,
+  "has_thick_fog": false,
+  "render_in_rain": true,
+  "sky_renderables": [
+    {
+      "back_light_color": -39,
+      "back_light_scale": 17.0,
+      "blend": true,
+      "global_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 5.0,
+      "texture": "ad_astra:textures/environment/sun.png"
+    },
+    {
+      "back_light_color": 12950147,
+      "back_light_scale": 50.0,
+      "blend": false,
+      "global_rotation": [
+        80.0,
+        0.0,
+        30.0
+      ],
+      "local_rotation": [
+        0.0,
+        -5.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 18.0,
+      "texture": "planetsplus:textures/environment/terrariumearth/jupiter.png"
+    },
+    {
+      "back_light_color": 9013116,
+      "back_light_scale": 11.0,
+      "blend": false,
+      "global_rotation": [
+         70.0,
+        3.0,
+        -35.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 4.5,
+      "texture": "planetsplus:textures/environment/moons/callisto.png"	  	  
+    },
+    {
+      "back_light_color": 14871020,
+      "back_light_scale": 8.5,
+      "blend": false,
+      "global_rotation": [
+        -97.0,
+        -7.0,
+        70.0	
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 3.5,
+      "texture": "planetsplus:textures/environment/moons/europa.png"	  	  	  
+    },
+    {
+      "back_light_color": 14664021,
+      "back_light_scale": 7.5,
+      "blend": false,
+      "global_rotation": [
+        -102.0,
+        9.0,
+        -120.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 2.5,
+      "texture": "planetsplus:textures/environment/moons/io.png"	  	  	  	
+    },
+    {
+      "back_light_color": 9207408,
+      "back_light_scale": 240.0,
+      "blend": false,
+      "global_rotation": [
+        180.0,
+        180.0,
+        0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "STATIC",
+      "scale": 80.0,
+      "texture": "planetsplus:textures/environment/moons/ganymede.png"	  	  	  	 	  	  
+    }
+  ],
+  "star_brightness": 0.6,
+  "star_colors": [
+    {
+      "data": -1447239681,
+      "weight": 3
+    },
+    {
+      "data": -1143472129,
+      "weight": 5
+    },
+    {
+      "data": -726785,
+      "weight": 100
+    },
+    {
+      "data": -3038977,
+      "weight": 80
+    },
+    {
+      "data": -7697665,
+      "weight": 150
+    },
+    {
+      "data": -12254977,
+      "weight": 10
+    },
+    {
+      "data": -2817,
+      "weight": 60
+    },
+    {
+      "data": -464897,
+      "weight": 40
+    },
+    {
+      "data": -256,
+      "weight": 20
+    },
+    {
+      "data": -65536,
+      "weight": 1
+    }
+  ],
+  "stars": 13000,
+  "sunrise_angle": 0,
+  "sunrise_color": 14180147
+}

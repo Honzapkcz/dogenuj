@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:venus_globe"
+    },
+    "title": {
+      "translate": "advancements.kelper_10352.graze.title"
+    },
+    "description": {
+      "translate": "advancements.kelper_10352.graze.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ad_astra:tier_4_rocket",
+  "criteria": {
+    "planetsplus:flade": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:flade"
+      }
+    },
+    "planetsplus:mixeus": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:mixeus"
+      }
+    },
+    "planetsplus:dune": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:dune"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "planetsplus:flade",
+      "planetsplus:mixeus",
+      "planetsplus:dune"
+    ]
+  ],
+  "rewards": {
+    "experience": 2500
+  }
+}

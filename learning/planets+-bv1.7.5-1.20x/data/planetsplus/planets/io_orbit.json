@@ -1,0 +1,9 @@
+{
+  "dimension": "planetsplus:io_orbit",
+  "gravity": 0.0,
+  "oxygen": false,
+  "solar_power": 8,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -151,
+  "tier": 3
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:mars_globe"
+    },
+    "title": {
+      "translate": "advancements.kelper_10352.graze.dune_landed.title"
+    },
+    "description": {
+      "translate": "advancements.kelper_10352.graze.dune_landed.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dune": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:dune"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "planetsplus:kelper_10352/graze/graze_enter"
+}

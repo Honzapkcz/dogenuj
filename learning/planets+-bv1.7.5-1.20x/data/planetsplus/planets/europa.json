@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:europa",
+  "gravity": 1.315,
+  "orbit": "planetsplus:europa_orbit",
+  "oxygen": false,
+  "solar_power": 5,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -137,
+  "tier": 3
+}

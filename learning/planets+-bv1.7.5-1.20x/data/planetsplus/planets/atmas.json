@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:atmas",
+  "gravity": 1.123,
+  "orbit": "planetsplus:atmas_orbit",
+  "oxygen": false,
+  "solar_power": 8,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": -173,
+  "tier": 4
+}

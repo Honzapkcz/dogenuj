@@ -1,0 +1,87 @@
+{
+  "type": "planetsplus:dytiona",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:dytiona",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:dytiona/dytiona_dunes",
+          "parameters": {
+            "temperature": -0.75,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.2,
+            "weirdness": -0.2,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:dytiona/dytiona_ridges",
+          "parameters": {
+            "temperature": -0.75,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.185,
+            "weirdness": -0.15,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:dytiona/dytiona_glacier_dunes",
+          "parameters": {
+            "temperature": -0.75,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.1,
+            "weirdness": 0.275,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:dytiona/dytiona_quartzited_caves",
+          "parameters": {
+            "temperature": -0.75,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.15,
+            "weirdness": -0.15,
+            "depth": [
+              0.475,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:dytiona/dytiona_crytonic_caves",
+          "parameters": {
+            "temperature": -0.75,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.3,
+            "weirdness": 0.2,
+            "depth": [
+              0.475,
+              1
+            ],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

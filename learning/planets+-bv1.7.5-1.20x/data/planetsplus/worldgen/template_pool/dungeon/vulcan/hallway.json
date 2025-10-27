@@ -1,0 +1,60 @@
+{
+  "name": "planetsplus:dungeon/vulcan/hallway",
+  "fallback": "planetsplus:dungeon/vulcan/end",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_hallway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_halldrop",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_threeway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_stairsplit",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_stairwell",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_fourway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    }
+  ]
+}

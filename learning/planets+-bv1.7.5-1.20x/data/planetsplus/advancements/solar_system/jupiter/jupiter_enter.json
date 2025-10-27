@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:venus_globe"
+    },
+    "title": {
+      "translate": "advancements.solar_system.jupiter.title"
+    },
+    "description": {
+      "translate": "advancements.solar_system.jupiter.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ad_astra:tier_3_rocket",
+  "criteria": {
+    "planetsplus:io": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:io"
+      }
+    },
+    "planetsplus:europa": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:europa"
+      }
+    },
+    "planetsplus:ganymede": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:ganymede"
+      }
+    },
+    "planetsplus:callisto": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:callisto"		
+      }
+    }
+  },
+  "requirements": [
+    [
+      "planetsplus:io",
+      "planetsplus:europa",
+      "planetsplus:ganymede",
+	  "planetsplus:callisto"
+    ]
+  ],
+  "rewards": {
+    "experience": 1250
+  }
+}

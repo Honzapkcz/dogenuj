@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:galia",
+  "gravity": 4.609,
+  "orbit": "planetsplus:galia_orbit",
+  "oxygen": false,
+  "solar_power": 12,
+  "solar_system": "planetsplus:kepler_centauri",
+  "temperature": -45,
+  "tier": 4
+}

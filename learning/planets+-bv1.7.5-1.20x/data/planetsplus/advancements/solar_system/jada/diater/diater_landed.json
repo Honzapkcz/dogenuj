@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:moon_globe"
+    },
+    "title": {
+      "translate": "advancements.solar_system.diater_landed.title"
+    },
+    "description": {
+      "translate": "advancements.solar_system.diater_landed.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diater": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:diater"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "planetsplus:solar_system/jada/jada/jada_landed"
+}

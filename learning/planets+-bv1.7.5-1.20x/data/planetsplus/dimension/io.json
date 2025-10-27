@@ -1,0 +1,60 @@
+{
+  "type": "planetsplus:io",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:io",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:io/io_sulfer_wasteland",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.35,
+            "weirdness": -0.1,
+            "depth": 0,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "planetsplus:io/io_deltas",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": 0.2,
+            "continentalness": 0.115,
+            "erosion": 0.225,
+            "weirdness": -0.325,
+            "depth": 0,
+            "offset": 0.25
+          }
+        },
+        {
+          "biome": "planetsplus:io/io_frozen_deltas",
+          "parameters": {
+            "temperature": 0.05,
+            "humidity": 0.1,
+            "continentalness": 0.125,
+            "erosion": 0.315,
+            "weirdness": -0.1,
+            "depth": 0,
+            "offset": 0.25
+          }
+        },
+        {
+          "biome": "planetsplus:io/io_rocky_plains",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.3,
+            "weirdness": -0.175,
+            "depth": 0,
+            "offset": 0.2
+          }
+        }
+      ]
+    }
+  }
+}

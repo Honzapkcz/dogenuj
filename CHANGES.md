@@ -6,6 +6,8 @@
 * Added: Universal Graves
 * Downgraded Supplemetaries: crashing VS2
 * Downgraded Moonlight lib: same reason
+* AE2 Drives now require to be built in TR Assembler
+* AE2 will use TR silicon plates instead of it's own
 
 ## 2.3.0 [18/05/2025]
 

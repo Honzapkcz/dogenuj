@@ -1,0 +1,10 @@
+{
+    "dimension": "kujnuj:planet",
+    "gravity": 3.721,
+    "orbit": "kujnuj:planet_orbit",
+    "oxygen": false,
+    "solar_power": 17,
+    "solar_system": "kujnuj:kujnujus",
+    "tier": 4,
+    "temperature": -20
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "ad_astra:glacio_cobblestone",
+    "ad_astra:mars_cobblestone",
+	 "ad_astra:mars_stone",
+    "ad_astra:conglomerate",
+    "minecraft:amethyst_block",
+    "minecraft:cobblestone",
+	"minecraft:granite"
+  ]
+}

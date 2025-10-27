@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:dread/dread_crashed_rocket",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 831456619,
+    "spacing": 47,
+    "separation": 43,
+    "type": "minecraft:random_spread"
+  }
+}

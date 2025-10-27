@@ -1,0 +1,9 @@
+{
+  "dimension": "planetsplus:soulfer_orbit",
+  "gravity": 0.0,
+  "oxygen": false,
+  "solar_power": 60,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": -137,
+  "tier": 4
+}

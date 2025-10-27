@@ -1,0 +1,42 @@
+{
+  "name": "planetsplus:dungeon/dune/hallways",
+  "fallback": "planetsplus:dungeon/dune/end",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_hallway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 70,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_hallway_right_turn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_hallway_fourway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:dungeon/dune/dune_dungeon_hallway_stairs_down",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    }
+  ]
+}

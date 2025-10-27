@@ -1,0 +1,9 @@
+{
+  "dimension": "planetsplus:fierer_orbit",
+  "gravity": 0.0,
+  "oxygen": false,
+  "solar_power": 40,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -137,
+  "tier": 4
+}

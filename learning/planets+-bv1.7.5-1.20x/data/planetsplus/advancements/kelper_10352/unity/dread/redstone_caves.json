@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone_block"
+    },
+    "title": {
+      "translate": "advancements.kelper_10352.dread_redstone_caves_discover.title"
+    },
+    "description": {
+      "translate": "advancements.kelper_10352.dread_redstone_caves_discover.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "planetsplus:kelper_10352/unity/dread/dread_landed",
+  "criteria": {
+    "driping_redstone_caves": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "planetsplus:dread/dread_driping_redstone_caves"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

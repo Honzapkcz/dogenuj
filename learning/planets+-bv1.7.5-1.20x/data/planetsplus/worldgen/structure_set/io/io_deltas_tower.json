@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:io/io_deltas_tower",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 18984519,
+    "spacing": 40,
+    "separation": 27,
+    "type": "minecraft:random_spread"
+  }
+}

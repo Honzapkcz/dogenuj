@@ -1,0 +1,27 @@
+{
+  "feature": "planetsplus:glacies/ice_spike_caves/glacies_lapis_ore",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 4
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "min_inclusive": {
+          "absolute": -75
+        },
+        "max_inclusive": {
+          "absolute": 75
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

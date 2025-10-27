@@ -1,0 +1,51 @@
+{
+  "type": "planetsplus:evedva",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:evedva",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:evedva/evedva_snowed_plains",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": -0.1,
+            "erosion": 0.15,
+            "weirdness": 0.1,
+            "depth": 0,
+            "offset": 0.25
+          }
+        },
+        {
+          "biome": "planetsplus:evedva/evedva_forests",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0.1,
+            "continentalness": 0,
+            "erosion": 0.1,
+            "weirdness": -0.125,
+            "depth": 0,
+            "offset": 0.185
+          }
+        },
+        {
+          "biome": "planetsplus:evedva/evedva_mushroom_caves",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.05,
+            "weirdness": -0.1,
+            "depth": [
+              0.4,
+              0.7
+            ],
+            "offset": 0.8
+          }
+        }
+      ]
+    }
+  }
+}

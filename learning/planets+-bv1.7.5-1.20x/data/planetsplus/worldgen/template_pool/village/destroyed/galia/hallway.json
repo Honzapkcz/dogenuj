@@ -1,0 +1,105 @@
+{
+  "name": "planetsplus:village/destroyed/galia/hallway",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 80,
+      "element": {
+        "location": "planetsplus:village/destroyed/galia/galia_destoryed_base_hallway1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "planetsplus:village/destroyed/galia/galia_destoryed_base_hallway_twoturn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "planetsplus:village/destroyed/galia/galia_destoryed_base_hallway_rightturn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight":25,
+      "element": {
+        "location": "planetsplus:village/destroyed/galia/galia_destoryed_base_hallway_leftturn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "planetsplus:village/destroyed/galia/galia_destoryed_base_hallway_3threeway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "planetsplus:village/destroyed/galia/galia_destoryed_base_hallway_4way",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:village/destroyed/galia/galia_destoryed_base_dome_farm",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:village/destroyed/galia/galia_destoryed_base_dome_living_space",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:village/destroyed/galia/galia_destoryed_base_dome_terraium",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "planetsplus:village/destroyed/galia/galia_destoryed_base_dome_walkway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"	
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:village/destroyed/galia/galia_destoryed_base_hallway_end",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"								
+      }
+    }
+  ]
+}

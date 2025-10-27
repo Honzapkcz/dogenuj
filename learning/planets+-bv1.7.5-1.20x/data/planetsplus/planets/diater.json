@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:diater",
+  "gravity": 0.897,
+  "orbit": "planetsplus:diater_orbit",
+  "oxygen": false,
+  "solar_power": 12,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -173,
+  "tier": 2
+}

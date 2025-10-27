@@ -35,12 +35,12 @@ minimapRadar:true
 renderWaypoints:true
 partialYTeleportation:true
 displayStainedGlass:true
-caveModeDepth:30
+caveModeDepth:32
 caveModeStart:2147483647
 autoCaveMode:-1
 legibleCaveMaps:false
 displayCaveModeStart:true
-caveModeToggleTimer:1000
+caveModeToggleTimer:100
 defaultCaveModeType:2
 biomeBlending:true
 trackedPlayers:true

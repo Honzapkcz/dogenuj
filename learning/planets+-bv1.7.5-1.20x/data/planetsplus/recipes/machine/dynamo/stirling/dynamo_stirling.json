@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "thermal:rf_coil"
+    },
+    "G": {
+      "tag": "forge:gears/iron"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "X": {
+      "tag": "forge:dusts/redstone"
+    },
+    "Y": {
+      "item": "ad_astra:moon_stone"
+    }
+  },
+  "pattern": [
+    " C ",
+    "IGI",
+    "YXY"
+  ],
+  "result": {
+    "item": "thermal:dynamo_stirling"
+  },
+  "show_notification": true
+}

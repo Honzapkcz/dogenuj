@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:glacio_globe"
+    },
+    "title": {
+      "translate": "advancements.kelper_10352.eclipsa_landed.title"
+    },
+    "description": {
+      "translate": "advancements.kelper_10352.eclipsa_landed.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eclipsa": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:eclipsa"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "ad_astra:tier_4_rocket"
+}

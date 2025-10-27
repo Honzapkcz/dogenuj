@@ -1,0 +1,159 @@
+{
+  "name": "planetsplus:dungeon/flade/room",
+  "fallback": "planetsplus:dungeon/flade/hallways",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_hallway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_right_turn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_left_turn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_three_way",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_four_way",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_stairs_down",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"						
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_blacksmith",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_blacksmith_passway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_splitway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 27,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_stairway_down_top",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_storage_room",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_storage_room_passway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 45,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_battle1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 45,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_battle2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 45,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_battle3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_electrical_room",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"			
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_boss",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    }
+  ]
+}

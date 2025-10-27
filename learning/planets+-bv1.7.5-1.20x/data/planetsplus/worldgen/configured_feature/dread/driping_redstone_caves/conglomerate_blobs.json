@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+      "max_inclusive": 11,
+      "min_inclusive": 4
+      }
+    },
+    "state": {
+      "Name": "ad_astra:conglomerate",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "target": {
+      "Name": "minecraft:dripstone_block"
+    }
+  }
+}

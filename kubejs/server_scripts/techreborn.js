@@ -38,4 +38,19 @@ ServerEvents.recipes(e => {
             item: "techreborn:nuke",
         }
     })
+
+	// 3x iron ingot + 1x tin ingot => 4x ref iron ingot
+    e.remove({input: "miencraft:iron_ingot", output: "techreborn:refined_iron_ingot"})
+    e.custom({
+		type: "techreborn:alloy_smelter",
+		ingredients: [
+			{item: "techreborn:iron_ingot", count: 3},
+			{tag: "c:tin_ingots"}
+		],
+		power: 6,
+		results: [
+			{item: "techreborn:refined_iron_ingot", count: 4}
+		],
+		time: 200
+	})
 })

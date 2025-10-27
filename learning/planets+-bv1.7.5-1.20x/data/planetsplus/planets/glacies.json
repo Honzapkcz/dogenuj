@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:glacies",
+  "gravity": 5.11,
+  "orbit": "planetsplus:glacies_orbit",
+  "oxygen": false,
+  "solar_power": 14,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": -42,
+  "tier": 4
+}

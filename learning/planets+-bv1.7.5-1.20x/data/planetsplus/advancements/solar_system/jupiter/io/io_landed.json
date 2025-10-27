@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:mars_globe"
+    },
+    "title": {
+      "translate": "advancements.solar_system.jupiter.io_landed.title"
+    },
+    "description": {
+      "translate": "advancements.solar_system.jupiter.io_landed.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "io": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:io"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "planetsplus:solar_system/jupiter/jupiter_enter"
+}

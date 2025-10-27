@@ -1,0 +1,47 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 3756630,
+    "fog_color": 12702935,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.2,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:star_crawler",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:star_crawler": {
+      "energy_budget": 0.02,
+      "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "planetsplus:enceladus/enceladus_iron_ore",
+	    "planetsplus:enceladus/enceladus_copper_ore",
+	    "planetsplus:enceladus/enceladus_ice_shard_ore",
+      "planetsplus:enceladus/enceladus_desh_ore",
+	    "planetsplus:enceladus/enceladus_ostrum_ore",
+	    "planetsplus:ice_chasm"
+    ]
+  ]
+}

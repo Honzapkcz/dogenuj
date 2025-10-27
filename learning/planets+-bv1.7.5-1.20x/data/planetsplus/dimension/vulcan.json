@@ -1,0 +1,48 @@
+{
+  "type": "planetsplus:vulcan",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:vulcan",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:vulcan/vulcan_melting_deltas",
+          "parameters": {
+            "temperature": 2,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.175,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:vulcan/vulcan_melting_wasteland",
+          "parameters": {
+            "temperature": 2,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.05,
+            "depth": 0,
+            "offset": 0.3
+          }
+        },
+        {
+          "biome": "planetsplus:vulcan/vulcan_molten_plains",
+          "parameters": {
+            "temperature": 2,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.3,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

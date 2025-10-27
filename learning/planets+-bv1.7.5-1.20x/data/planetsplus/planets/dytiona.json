@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:dytiona",
+  "gravity": 1.555,
+  "orbit": "planetsplus:dytiona_orbit",
+  "oxygen": false,
+  "solar_power": 7,
+  "solar_system": "planetsplus:kepler_centauri",
+  "temperature": -58,
+  "tier": 4
+}

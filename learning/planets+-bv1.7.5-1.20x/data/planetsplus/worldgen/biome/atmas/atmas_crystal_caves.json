@@ -1,0 +1,69 @@
+{
+  "temperature": 1.0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 3554390,
+    "fog_color": 4339311,
+  "particle": {
+    "options": {
+      "type": "minecraft:warped_spore"
+    },
+    "probability": 0.025
+  },
+  "water_color": 4159204,
+  "water_fog_color": 329011,
+  "grass_color": 9551193,
+  "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.6,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:corrupted_lunarian",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      { 
+        "type": "minecraft:stray",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:corrupted_lunarian": {
+      "energy_budget": 0.02,
+      "charge": 0.2
+    },
+    "minecraft:stray": {
+      "energy_budget": 0.01,
+      "charge": 0.15
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "minecraft:glow_lichen",
+      "planetsplus:atmas/atmas_coal_ore",
+      "planetsplus:atmas/atmas_diamond_ore",
+      "planetsplus:atmas/atmas_gold_ore",
+      "planetsplus:atmas/atmas_ice_shard_ore",
+      "planetsplus:atmas/atmas_iron_ore",
+      "planetsplus:atmas/atmas_icy_chasm",
+      "planetsplus:atmas/crystal_caves/pillar",
+	  "planetsplus:atmas/crystal_caves/calcite_patches",
+	  "planetsplus:atmas/crystal_caves/permafrost_blobs",
+	  "planetsplus:atmas/crystal_caves/cobble_blobs",
+	  "planetsplus:atmas/crystal_caves/atmas_crystal_caves_geode"
+    ]
+  ]
+}

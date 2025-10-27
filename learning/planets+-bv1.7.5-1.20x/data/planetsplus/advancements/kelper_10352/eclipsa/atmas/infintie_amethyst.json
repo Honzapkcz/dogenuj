@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:amethyst_block"
+    },
+    "title": {
+      "translate": "advancements.kelper_10352.atmas_crystal_caves_discover.title"
+    },
+    "description": {
+      "translate": "advancements.kelper_10352.atmas_crystal_caves_discover.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "planetsplus:kelper_10352/eclipsa/atmas/atmas_landed",
+  "criteria": {
+    "crystal_caves": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "planetsplus:atmas/atmas_crystal_caves"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:molvon",
+  "gravity": 2.07,
+  "orbit": "planetsplus:molvon_orbit",
+  "oxygen": false,
+  "solar_power": 40,
+  "solar_system": "planetsplus:kepler_38516",
+  "temperature": 206,
+  "tier": 22
+}

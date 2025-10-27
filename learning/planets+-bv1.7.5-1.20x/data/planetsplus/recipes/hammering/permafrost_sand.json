@@ -1,0 +1,19 @@
+{
+  "group": "ad_astra",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:axes"
+    },
+    {
+      "item": "ad_astra:moon_cobblestone"
+    },
+	{
+	  "item": "ad_astra:permafrost"
+	}
+  ],
+  "result": {
+    "item": "minecraft:sand",
+    "count": 1
+  }
+}

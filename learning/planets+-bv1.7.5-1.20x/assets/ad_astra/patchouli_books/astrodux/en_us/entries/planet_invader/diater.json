@@ -1,0 +1,13 @@
+{
+  "name": "Diater",
+  "icon": "planetsplus:textures/environment/moons/diater.png",
+  "sortnum": 2,
+  "category": "ad_astra:planet_invader",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Diater",
+      "text": "Diater is a very icy moon with shifted frozen oceans on the surface and is the only moon of Jada. - (Atmosphere) there's basicly no atmosphere on Diater beside a little water vaper - (Surface) The surface is very icy and has a frozen oceans and some rocky parts its surface gravity is very low about 0.86 m/s."
+    }
+  ]
+}

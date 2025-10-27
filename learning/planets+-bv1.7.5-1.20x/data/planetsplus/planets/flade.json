@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:flade",
+  "gravity": 2.78,
+  "orbit": "planetsplus:flade_orbit",
+  "oxygen": false,
+  "solar_power": 12,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": 286,
+  "tier": 4
+}

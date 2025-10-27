@@ -5,6 +5,11 @@
 
 > Duplicates are in ~~strikethrough~~ text.
 
+## WIKIPEDIA PAGES
+
+* [List of named alloys](https://en.wikipedia.org/wiki/List_of_named_alloys)
+* [List of minerals](https://en.wikipedia.org/wiki/List_of_minerals)
+
 ## MATERIAL TYPES
 
 > Globalized for every mod (as should be)
@@ -110,7 +115,7 @@
 * **Create**
   - Brass
   - Andesite Alloy
-* **Create Dreams & Desires*
+* **Create Dreams & Desires**
   - Amber Alloy
   - Lapis Alloy
   - Overcharge Alloy

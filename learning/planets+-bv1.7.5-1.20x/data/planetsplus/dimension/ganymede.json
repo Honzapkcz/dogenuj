@@ -1,0 +1,48 @@
+{
+  "type": "planetsplus:ganymede",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:ganymede",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:ganymede/ganymede_highlands",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": -0.3,
+            "weirdness": 0.35,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:ganymede/ganymede_rough_plains",
+          "parameters": {
+            "temperature": -0.48,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": -0.1,
+            "weirdness": 0.15,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:ganymede/ganymede_smooth_plains",
+          "parameters": {
+            "temperature": -0.45,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.125,
+            "weirdness": -0.1,
+            "depth": 0,
+            "offset": 0.3
+          }
+        }
+      ]
+    }
+  }
+}

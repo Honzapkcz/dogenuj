@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:moon_globe"
+    },
+    "title": {
+      "translate": "advancements.solar_system.saturn.iapetus_landed.title"
+    },
+    "description": {
+      "translate": "advancements.solar_system.saturn.iapetus_landed.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iapetus": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:iapetus"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "planetsplus:solar_system/saturn/saturn_enter"
+}

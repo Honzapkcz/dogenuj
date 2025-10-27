@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:moon_globe"
+    },
+    "title": {
+      "translate": "advancements.solar_system.pluto_landed.title"
+    },
+    "description": {
+      "translate": "advancements.solar_system.pluto_landed.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pluto": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:pluto"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "ad_astra:tier_3_rocket"
+}

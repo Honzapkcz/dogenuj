@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:jada/jada_dungeon_tower_nonsnowy",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 18984519,
+    "spacing": 32,
+    "separation": 22,
+    "type": "minecraft:random_spread"
+  }
+}

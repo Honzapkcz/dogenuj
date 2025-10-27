@@ -1,0 +1,102 @@
+{
+  "type": "planetsplus:dread",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:dread",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:dread/dread_regolith_plains",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0,
+            "continentalness": 0.075,
+            "erosion": 0.175,
+            "weirdness": 0.3,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.05
+          }
+        },
+        {
+          "biome": "planetsplus:dread/dread_sulfuric_wastelands",
+          "parameters": {
+            "temperature": 0.335,
+            "humidity": 0.03,
+            "continentalness": 0,
+            "erosion": 0.135,
+            "weirdness": -0.05,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:dread/dread_volcanic_vally",
+          "parameters": {
+            "temperature": 0.3525,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.125,
+            "weirdness": -0.2,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:dread/dread_refined_plains",
+          "parameters": {
+            "temperature": 0.34,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.14,
+            "weirdness": -0.1,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.07
+          }
+        },
+        {
+          "biome": "planetsplus:dread/dread_refined_caves",
+          "parameters": {
+            "temperature": 0.365,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.15,
+            "weirdness": 0.14,
+            "depth": [
+              0.45,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:dread/dread_driping_redstone_caves",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.2,
+            "weirdness": -0.1,
+            "depth": [
+              0.45,
+              1
+            ],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

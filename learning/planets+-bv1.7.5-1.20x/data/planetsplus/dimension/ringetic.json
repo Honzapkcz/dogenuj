@@ -1,0 +1,78 @@
+{
+  "type": "planetsplus:ringetic",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:ringetic",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:ringetic/ringetic_highlands_plains",
+          "parameters": {
+            "temperature": 0.35,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.1,
+            "weirdness": 0.215,
+            "depth": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "planetsplus:ringetic/ringetic_rocky_sandy_barrens",
+          "parameters": {
+            "temperature": 0.3375,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.125,
+            "weirdness": 0.245,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:ringetic/ringetic_cooled_lowlands",
+          "parameters": {
+            "temperature": 0.325,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.2,
+            "weirdness": 0.325,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:ringetic/ringetic_shattered_caves",
+          "parameters": {
+            "temperature": 0.365,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.15,
+            "weirdness": 0.05,
+            "depth": [
+              0.425,
+              0.6
+            ],
+            "offset": 0.495
+          }
+        },
+        {
+          "biome": "planetsplus:ringetic/ringetic_conglomerate_caves",
+          "parameters": {
+            "temperature": 0.365,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.1,
+            "weirdness": 0.325,
+            "depth": [
+              0.425,
+              0.6
+            ],
+            "offset": 0.425
+          }
+        }
+      ]
+    }
+  }
+}

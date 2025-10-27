@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+      "max_inclusive": 7,
+      "min_inclusive": 3
+      }
+    },
+    "state": {
+      "Name": "minecraft:powder_snow",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "target": {
+      "Name": "minecraft:snow_block"
+    }
+  }
+}

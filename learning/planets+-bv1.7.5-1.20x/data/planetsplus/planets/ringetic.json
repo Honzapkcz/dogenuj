@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:ringetic",
+  "gravity": 2.93,
+  "orbit": "planetsplus:ringetic_orbit",
+  "oxygen": false,
+  "solar_power": 8,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": -173,
+  "tier": 4
+}

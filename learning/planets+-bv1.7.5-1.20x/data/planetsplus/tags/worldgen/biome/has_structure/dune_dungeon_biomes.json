@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "planetsplus:dune/dune_connductive_caves",
+	"planetsplus:dune/dune_dusty_caves",
+	"planetsplus:dune/dune_highlands",
+	"planetsplus:dune/dune_ridge",
+	"planetsplus:dune/dune_valleys"
+  ]
+}

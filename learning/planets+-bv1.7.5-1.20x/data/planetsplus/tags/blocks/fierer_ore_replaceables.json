@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ad_astra:venus_stone",
+	"ad_astra:mercury_stone",
+	"minecraft:cobbled_deepslate"
+  ]
+}

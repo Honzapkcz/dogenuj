@@ -1,0 +1,12 @@
+{
+  "feature": "planetsplus:soulfer/volcanicized_plains/molten_delta",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 45
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

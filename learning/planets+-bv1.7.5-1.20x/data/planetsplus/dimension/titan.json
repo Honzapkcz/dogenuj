@@ -1,0 +1,36 @@
+{
+  "type": "planetsplus:titan",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:titan",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:titan/titan_plains",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.5,
+            "depth": 0,
+            "offset": 0.7
+          }
+        },
+        {
+          "biome": "planetsplus:titan/titan_stoney_plains",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0.1,
+            "erosion": 0.3,
+            "weirdness": 0.3,
+            "depth": 0,
+            "offset": 0.3
+          }
+        }
+      ]
+    }
+  }
+}

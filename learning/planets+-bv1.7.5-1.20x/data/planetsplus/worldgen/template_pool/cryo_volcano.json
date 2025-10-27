@@ -1,0 +1,33 @@
+{
+  "name": "planetsplus:cryo_volcano",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 40,
+      "element": {
+        "location": "planetsplus:small_cryo_volcano",
+        "processors": "ad_astra:void_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:medium_cryo_volcano",
+        "processors": "ad_astra:void_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:large_cryo_volcano",
+        "processors": "ad_astra:void_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

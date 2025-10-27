@@ -1,0 +1,48 @@
+{
+  "temperature": 4.0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 2891547,
+    "fog_color": 10367263,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.6,
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:magma_cube": {
+      "energy_budget": 0.015,
+      "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "planetsplus:vulcan/vulcan_copper_ore",
+      "planetsplus:vulcan/vulcan_gold_ore",
+      "planetsplus:vulcan/vulcan_diamond_ore",
+      "planetsplus:vulcan/vulcan_ostrum_ore",
+	    "planetsplus:vulcan/vulcan_iron_ore",
+      "planetsplus:molten_delta_small",
+	  "planetsplus:vulcan/melting_wasteland/magma_patches"
+    ]
+  ]
+}

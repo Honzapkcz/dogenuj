@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:callisto/callisto_small_corrupted_lunarian_tower",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 486424619,
+    "spacing": 26,
+    "separation": 21,
+    "type": "minecraft:random_spread"
+  }
+}

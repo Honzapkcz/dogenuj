@@ -1,0 +1,15 @@
+{
+  "name": "planetsplus:meteor/meteor",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "planetsplus:meteor",
+        "processors": "ad_astra:void_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

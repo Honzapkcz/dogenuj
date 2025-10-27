@@ -1,0 +1,60 @@
+{
+  "name": "planetsplus:tower/fierer/side",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "planetsplus:tower/fierer/fierer_dungeon_tower_sidetower1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "planetsplus:tower/fierer/fierer_dungeon_tower_sidetower2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "planetsplus:tower/fierer/fierer_dungeon_tower_sidetower3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "planetsplus:tower/fierer/fierer_dungeon_tower_sidetower4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "planetsplus:tower/fierer/fierer_dungeon_tower_sidetower5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "planetsplus:tower/fierer/fierer_dungeon_tower_sidetower6",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+      "max_inclusive": 7,
+      "min_inclusive": 2
+      }
+    },
+    "state": {
+      "Name": "ad_astra:venus_cobblestone",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "target": {
+      "Name": "minecraft:diorite"
+    }
+  }
+}

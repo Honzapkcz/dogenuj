@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:evedva",
+  "gravity": 8.44,
+  "orbit": "planetsplus:evedva_orbit",
+  "oxygen": false,
+  "solar_power": 7,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": -76,
+  "tier": 12
+}

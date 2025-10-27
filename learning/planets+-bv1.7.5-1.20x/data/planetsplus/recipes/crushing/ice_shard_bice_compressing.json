@@ -1,0 +1,20 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_ice"
+    }
+  ],
+  "processingTime": 900,
+  "results": [
+    {
+      "count": 24,
+      "item": "ad_astra:ice_shards"
+    },
+    {
+      "chance": 0.25,
+	  "count": 3
+      "item": "create:experience_nugget"
+    }
+  ]
+}

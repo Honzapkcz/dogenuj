@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:flade/flade_dungeon",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 1361819893,
+    "spacing": 26,
+    "separation": 13,
+    "type": "minecraft:random_spread"
+  }
+}

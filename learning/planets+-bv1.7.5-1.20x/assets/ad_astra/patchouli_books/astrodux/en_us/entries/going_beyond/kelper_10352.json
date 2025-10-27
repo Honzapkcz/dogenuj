@@ -1,0 +1,120 @@
+{
+  "name": "Kelper 10352",
+  "icon": "planetsplus:textures/environment/stars/white_sun.png",
+  "sortnum": 2,
+  "category": "ad_astra:going_beyond",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Kelper 10405 System",
+      "text": "Kelper 10405 is F5 Class Star System with 5 Planets and 1 Dwarf planet. There are 2 Gas Giants and 3 Rocky Planets. 2 of the Rocky Planets and 1 of the Gas Giants are in the inner Part and the other one is in a more outer part including the other Gas Giant. The names in order are Graze, Unity. Glacies, Javea and Eclipsa"
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Soulfer",
+	  "item": "ad_astra:mars_cobblestone",
+      "text": "Soulfer is sulfuric dwarf planet with many molten regions and many soul sand underground caves they reason thats its a dwarf planet is cause it crosses Grazes orbit"
+	},
+	{
+	  "type": "patchouli:text",
+      "title": "Graze",
+      "text": "Graze is a green gas giant and is the systems first planet it has 2.5x the mass of neptune which is why the atmosphere hasnt been blown away"
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Flade",
+	  "item": "ad_astra:calorite_ingot",
+      "text": "Flade is a Venus like world but with a bit more heat this is due to very intense tidel forces and also just graze being near to its star its atmosphere is 6 Bars/atmos"
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Mixeus",
+	  "item": "minecraft:emerald",
+      "text": "Mixeus is spotted moon with giant fields and plains of calcite and diorite with sand patches which kinda look like a golf course"
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Dune",
+	  "item": "minecraft:copper_ingot",
+      "text": "Dune is a dusty world and is very magnetic due to the extreme copper make up and do to this also making a magnetic field it has a atmosphere thinner then mars about 137 pascels"
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Unity",
+	  "item": "minecraft:grass_block",
+      "text": "Unity is an Earth like planet that has life and supports it too! But it does have extreme seasons though due to its eliptcal orbit but sometimes you ever forget your not on Earth just look the night sky and its 4 moons!"
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Dread",
+	  "item": "minecraft:redstone",
+      "text": "Dread is volcanicly active moon with sulfur and lots of electric charge this maybe due to its giant redstone caves it orbits closer then the moon to the earth cause of Unitys lowwer mass"	 
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Glacies",
+	  "item": "ad_astra:desh_ingot",
+      "text": "Glacies is very icy world with sand pits and a whispy atmosphere sadly its even thinner then Dunes but hey those ice spike caves are pretty cool!"
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Cration",
+	  "item": "ad_astra:sky_stone",
+      "text": ""	  	  
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Voltic",
+	  "item": "minecraft:structure_void",
+      "text": ""
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Vonic",
+	  "item": "minecraft:structure_void",
+      "text": "Vonic is tidelly heated world but its still pretty cold this is cause its the 2nd moon of the system so its not as close like Voltic but there's still major oceans few beachs and icy lands and caves"	  
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Reveda",
+	  "item": "minecraft:structure_void",
+      "text": ""
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Obrina",
+	  "item": "minecraft:structure_void",
+      "text": ""	  
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Baydin",
+	  "item": "minecraft:structure_void",
+      "text": ""
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Evedva",
+	  "item": "minecraft:structure_void",
+      "text": "Evedva is a giant moon of Javea but this is like theroyized to be a captured planet its almost the size of venus and has a thick atmospher and some kind of mushrooms on the surface its atmosphere is 0.64 Bar/Atmos so powered flight is very easy just landing is a bit hard!"	  	  
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Eclipsa",
+	  "item": "ad_astra:moon_sand",
+      "text": "Eclipsa is icy volcanic planet with a somewhat thick atmosphere it has many hot and freezing regions like its deltas or its frozen ice spikes. The volcanizium is like due to its 2 major moons"
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Atmas",
+	  "item": "minecraft:gold_ingot",
+      "text": "Atmas is a moon that has half the mass of the moon but its still very dense and even though its very icy. it has a thin very strechted atmosphere which 243 Pascals but the sky is barely tinted but cause its atmosphere is strechted it can light scatter the so the sunset is pink!  "	  
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Ringetic",
+	  "item": "ad_astra:etrium_ingot",
+      "text": ""
+    }
+  ]
+}

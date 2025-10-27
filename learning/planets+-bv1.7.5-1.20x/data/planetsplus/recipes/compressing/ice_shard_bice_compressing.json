@@ -1,0 +1,12 @@
+{
+  "type": "ad_astra:compressing",
+  "cookingtime": 1800,
+  "energy": 40,
+  "ingredient": {
+    "item": "minecraft:blue_ice"
+  },
+  "result": {
+    "count": 24,
+    "id": "ad_astra:ice_shard"
+  }
+}
