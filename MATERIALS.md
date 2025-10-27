@@ -115,7 +115,7 @@
 * **Create**
   - Brass
   - Andesite Alloy
-* **Create Dreams & Desires*
+* **Create Dreams & Desires**
   - Amber Alloy
   - Lapis Alloy
   - Overcharge Alloy
