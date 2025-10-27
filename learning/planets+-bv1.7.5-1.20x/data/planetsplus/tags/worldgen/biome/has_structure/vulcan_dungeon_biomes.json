@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "planetsplus:vulcan/vulcan_molten_plains",
+    "planetsplus:vulcan/vulcan_melting_deltas",
+	"planetsplus:vulcan/vulcan_melting_wasteland"
+  ]
+}

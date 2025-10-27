@@ -1,0 +1,204 @@
+{
+  "planet.planetsplus.jada": "Jada",
+  "planet.planetsplus.diater": "Diater",
+  "planet.planetsplus.ceres": "Ceres",
+  
+  "planet.planetsplus.ganymede": "Ganymede",
+  "planet.planetsplus.europa": "Europa",
+  "planet.planetsplus.callisto": "Callisto",
+  "planet.planetsplus.io": "Io",
+  
+  "planet.planetsplus.enceladus": "Enceladus",
+  "planet.planetsplus.iapetus": "Iapetus",
+  "planet.planetsplus.mimas": "Mimas",
+  "planet.planetsplus.titan": "Titan",
+  
+  "planet.planetsplus.pluto": "Pluto",
+  "planet.planetsplus.charon": "Charon",
+
+  "planet.planetsplus.jada_orbit": "Jada orbit",
+  "planet.planetsplus.diater_orbit": "Diater orbit",
+  "planet.planetsplus.Ceres_orbit": "Ceres orbit",
+
+  "planet.planetsplus.ganymede_orbit": "Ganymede orbit",
+  "planet.planetsplus.europa_orbit": "Europa orbit",
+  "planet.planetsplus.callisto_orbit": "Callisto orbit",
+  "planet.planetsplus.io_orbit": "Io orbit",
+  
+  "planet.planetsplus.enceladus_orbit": "Enceladus orbit",
+  "planet.planetsplus.iapetus_orbit": "Iapetus orbit",
+  "planet.planetsplus.mimas_orbit": "Mimas orbit",
+  "planet.planetsplus.titan_orbit": "Titan orbit",
+  
+  "planet.planetsplus.pluto_orbit": "Pluto orbit",
+  "planet.planetsplus.charon_orbit": "Charon orbit",
+  
+
+  "solar_system.planetsplus.kepler_centauri": "Kepler Centauri",
+
+  "planet.planetsplus.vulcan": "Vulcan",
+  "planet.planetsplus.fierer": "Fierer",
+  "planet.planetsplus.galia": "Galia",
+  "planet.planetsplus.lazap": "lazap",
+
+  "planet.planetsplus.vulcan_orbit": "Vulcan orbit",
+  "planet.planetsplus.fierer_orbit": "Fierer orbit",
+  "planet.planetsplus.galia_orbit": "Galia orbit",
+  "planet.planetsplus.soulfer_orbit": "Soulfer orbit",
+
+
+ "solar_system.planetsplus.kepler_10352": "Kepler 10352",
+
+  "planet.planetsplus.soulfer": "Soulfer",
+
+  "planet.planetsplus.flade": "Flade",
+  "planet.planetsplus.mixeus": "Mixeus",
+  "planet.planetsplus.dune": "Dune",
+
+  "planet.planetsplus.unity": "Unity",
+  "planet.planetsplus.dread": "Dread",
+
+  "planet.planetsplus.glacies": "Glacies",
+  "planet.planetsplus.cration": "Cration",
+
+  "planet.planetsplus.voltic": "Voltic",
+  "planet.planetsplus.vonic": "Vonic",
+  "planet.planetsplus.reveda": "Reveda",
+  "planet.planetsplus.obrina": "Obrina",
+  "planet.planetsplus.baydin": "Baydin",
+  "planet.planetsplus.evedva": "Evedva",
+
+  "planet.planetsplus.eclipsa": "Eclipsa",
+  "planet.planetsplus.atmas": "Atmas",
+  "planet.planetsplus.ringetic": "Ringetic",
+  
+
+  "planet.planetsplus.flade_orbit": "Flade orbit",
+  "planet.planetsplus.mixeus_orbit": "Mixeus orbit",
+  "planet.planetsplus.dune_orbit": "Dune orbit",
+
+  "planet.planetsplus.unity_orbit": "Unity orbit",
+  "planet.planetsplus.dread_orbit": "Dread orbit",
+
+  "planet.planetsplus.glacies_orbit": "Glacies orbit",
+  "planet.planetsplus.cration_orbit": "Cration orbit",
+  
+  "planet.planetsplus.voltic_orbit": "Voltic orbit",
+  "planet.planetsplus.vonic_orbit": "Vonic orbit",
+  "planet.planetsplus.reveda_orbit": "Reveda orbit",
+  "planet.planetsplus.obrina_orbit": "Obrina orbit",
+  "planet.planetsplus.baydin_orbit": "Baydin orbit",
+  "planet.planetsplus.evedva_orbit": "Evedva orbit",
+
+  "planet.planetsplus.eclipsa_orbit": "Eclipsa orbit",
+  "planet.planetsplus.atmas_orbit": "Atmas orbit",
+  "planet.planetsplus.ringetic_orbit": "Ringetic orbit",
+  
+  
+  
+  "solar_system.planetsplus.kepler_10352": "Kepler 10352",
+  
+  "planet.planetsplus.sorea": "Sorea",
+  "planet.planetsplus.molvon": "Molvon",
+  
+  "planet.planetsplus.sorea_orbit": "Sorea orbit",
+  "planet.planetsplus.molvon_orbit": "Molvon orbit",
+  
+  
+  
+  "advancements.solar_system.jada_landed.title": "This Isn't On The Maps?",
+  "advancements.solar_system.jada_landed.description": "Land on Jada",
+  
+  "advancements.solar_system.diater_landed.title": "Don't Dia-her",
+  "advancements.solar_system.diater_landed.description": "Land on Diater",
+  
+  
+  "advancements.solar_system.jupiter.title": "Radiation Whats That?",
+  "advancements.solar_system.jupiter.description": "Enter the Jovien System",
+  
+  "advancements.solar_system.jupiter.callisto_landed.title": "Its a Rock",
+  "advancements.solar_system.jupiter.callisto_landed.description": "Land on Callsito",
+  
+  "advancements.solar_system.jupiter.europa_landed.title": "Where's The Underground Ocean!?",
+  "advancements.solar_system.jupiter.europa_landed.description": "Land on Europa",
+  
+  "advancements.solar_system.jupiter.ganymede_landed.title": "The Real Titan",
+  "advancements.solar_system.jupiter.ganymede_landed.description": "Land on Ganymede",
+  
+  "advancements.solar_system.jupiter.io_landed.title": "Landed on 10",
+  "advancements.solar_system.jupiter.io_landed.description": "Land on Io",
+  
+  
+  "advancements.solar_system.saturn.title": "OOhhhhh prreetttyyy!",
+  "advancements.solar_system.saturn.description": "Enter the Saturns System",
+  
+  "advancements.solar_system.saturn.titan_landed.title": "Where's The Liquid Methane?",
+  "advancements.solar_system.saturn.titan_landed.description": "Land on Titan. NOW WITH LESS LIQUIDS",
+  
+  "advancements.solar_system.saturn.iapetus_landed.title": "Ice Rock Ice Rock Ice Rock Ice Rock Ice Rock",
+  "advancements.solar_system.saturn.iapetus_landed.description": "Land on Iapetus. Its like Enceladus but now, WITH ROCKS",
+  
+  "advancements.solar_system.saturn.enceladus_landed.title": "Ice Ice Ice Ice Ice Ice Ice Ice Ice",
+  "advancements.solar_system.saturn.enceladus_landed.description": "Land on Enceladus. Baby not included!",
+  
+  
+  "advancements.solar_system.pluto_landed.title": "Almost absolute 0",
+  "advancements.solar_system.pluto_landed.description": "Land on Pluto. Ice at this point is just rock!",
+  
+  "advancements.solar_system.charon_landed.title": "The Annoying Sister",
+  "advancements.solar_system.charon_landed.description": "Land on Charon.",
+  
+  
+  "advancements.kelper_centauri.vulcan_landed.title": "Mercury V2",
+  "advancements.kelper_centauri.vulcan_landed.description": "Land on Vulcan. Is This a Planet, or Just a Mass of Liquid Metal!?.",
+  
+  "advancements.kelper_centauri.fierer_landed.title": "The Favorite Cozien",
+  "advancements.kelper_centauri.fierer_landed.description": "Land on Fierer.",
+  
+  "advancements.kelper_centauri.galia_landed.title": "Some How Better Then The Real Devs!",
+  "advancements.kelper_centauri.galia_landed.description": "Land on Galia.",
+  
+  "advancements.kelper_centauri.dytiona_landed.title": "This isn't Lazap?",
+  "advancements.kelper_centauri.dytiona_landed.description": "Land on Dytiona.",
+  
+  
+  "advancements.kelper_10352.soulfer_landed.title": "Did You Mean? Sulfur",
+  "advancements.kelper_10352.soulfer_landed.description": "Land on Soulfer.",
+  
+  
+  "advancements.kelper_10352.graze.title": "No Jools here!",
+  "advancements.kelper_10352.graze.description": "Enter the Grazien System.",
+  
+  "advancements.kelper_10352.graze.flade_landed.title": "Venus Jr.",
+  "advancements.kelper_10352.graze.flade_landed.description": "Land on Flade.",
+  
+  "advancements.kelper_10352.graze.mixeus_landed.title": "Nothing to Mix Here.",
+  "advancements.kelper_10352.graze.mixeus_landed.description": "Land on Mixeus.",
+  
+  "advancements.kelper_10352.graze.dune_landed.title": "Its High Dune",
+  "advancements.kelper_10352.graze.dune_landed.description": "Land on Dune.",
+  
+  
+  "advancements.kelper_10352.dread_landed.title": "Unitys Non Cheesey Moon.",
+  "advancements.kelper_10352.dread_landed.description": "Land on Dread.",
+  "advancements.kelper_10352.dread_redstone_caves_discover.title": "When the Redstone Caves Got Drip",
+  "advancements.kelper_10352.dread_redstone_caves_discover.description": "Find the Dread Dripping Redstone Caves.",
+  
+  
+  "advancements.kelper_10352.glacies_landed.title": "Aland of Frost.",
+  "advancements.kelper_10352.glacies_landed.description": "Land on Glacies.",  
+  
+  
+  "advancements.kelper_10352.eclipsa_landed.title": "The Great Divide.",
+  "advancements.kelper_10352.eclipsa_landed.description": "Land on Eclipsa.",  
+  
+  "advancements.kelper_10352.atmas_landed.title": "Tiny little Minmu- I mean Atmas.",
+  "advancements.kelper_10352.atmas_landed.description": "Land on Atmas.",  
+  "advancements.kelper_10352.atmas_crystal_caves_discover.title": "Literally Infinte Amethyst.",
+  "advancements.kelper_10352.atmas_crystal_caves_discover.description": "Find the Atmas Crystal Caves.",  
+  "advancements.kelper_10352.atmas_friction_caves_discover.title": "Rubbing Alcacore, Do Not Drink.",
+  "advancements.kelper_10352.atmas_friction_caves_discover.description": "Find the Atmas Friction Caves.",  
+  
+  "advancements.kelper_10352.ringetic_landed.title": "Impossible Ring system.",
+  "advancements.kelper_10352.ringetic_landed.title": "Land on Ringetic."
+}

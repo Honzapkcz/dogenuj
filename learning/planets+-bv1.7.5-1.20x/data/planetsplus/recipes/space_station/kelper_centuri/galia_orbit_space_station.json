@@ -1,0 +1,49 @@
+{
+  "type": "ad_astra:space_station_recipe",
+  "dimension": "planetsplus:galia_orbit",
+  "ingredients": [
+    {
+      "count": 64,
+      "ingredient": {
+        "tag": "ad_astra:iron_plates"
+      }
+    },
+    {
+      "count": 32,
+      "ingredient": {
+        "tag": "ad_astra:steel_ingots"
+      }
+    },
+    {
+      "count": 32,
+      "ingredient": {
+        "tag": "ad_astra:desh_ingots"
+      }
+    },
+    {
+      "count": 48,
+      "ingredient": {
+        "tag": "ad_astra:desh_plates"
+      }
+    },
+    {
+      "count": 32,
+      "ingredient": {
+        "tag": "ad_astra:ostrum_ingots"
+      }
+    },
+    {
+      "count": 32,
+      "ingredient": {
+        "tag": "ad_astra:ostrum_plates"
+      }
+    },
+    {
+      "count": 8,
+      "ingredient": {
+        "item": "minecraft:diamond"			
+      }
+    }
+  ],
+  "structure": "planetsplus:space_station_tier2"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "planetsplus:vonic",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:vonic",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:vonic/vonic_oceans",
+          "parameters": {
+            "temperature": -0.25,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.205,
+            "weirdness": 0.045,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.125
+          }
+        },
+        {
+          "biome": "planetsplus:vonic/vonic_stoney_plains",
+          "parameters": {
+            "temperature": -0.2525,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.2125,
+            "weirdness": 0.115,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

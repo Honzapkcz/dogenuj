@@ -1,0 +1,36 @@
+{
+  "type": "planetsplus:callisto",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:callisto",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:callisto/callisto_icy_wasteland",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.1,
+            "weirdness": 0.15,
+            "depth": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "planetsplus:callisto/callisto_grinded_lands",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.15,
+            "weirdness": 0.25,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

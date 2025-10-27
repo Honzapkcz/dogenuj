@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:mars_globe"
+    },
+    "title": {
+      "translate": "advancements.solar_system.saturn.titan_landed.title"
+    },
+    "description": {
+      "translate": "advancements.solar_system.saturn.titan_landed.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "titan": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:titan"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "planetsplus:solar_system/saturn/saturn_enter"
+}

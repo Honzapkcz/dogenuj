@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:eclipsa",
+  "gravity": 9.61,
+  "orbit": "planetsplus:eclipsa_orbit",
+  "oxygen": false,
+  "solar_power": 7,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": -142,
+  "tier": 4
+}

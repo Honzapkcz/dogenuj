@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": 4,
+    "argument2": {
+      "type": "minecraft:quarter_negative",
+      "argument": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": "planetsplus:reveda/depth",
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": {
+              "type": "minecraft:flat_cache",
+              "argument": {
+                "type": "minecraft:cache_2d",
+                "argument": {
+                  "type": "minecraft:add",
+                  "argument1": {
+                    "type": "minecraft:mul",
+                    "argument1": 0,
+                    "argument2": {
+                      "type": "minecraft:add",
+                      "argument1": 1,
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": -1,
+                        "argument2": {
+                          "type": "minecraft:cache_once",
+                          "argument": {
+                            "type": "minecraft:blend_alpha"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": {
+                      "type": "minecraft:clamp",
+                      "input": {
+                        "type": "minecraft:spline",
+                        "spline": -0.3
+                      },
+                      "min": -1.35,
+                      "max": 1.4
+                    },
+                    "argument2": {
+                      "type": "minecraft:cache_once",
+                      "argument": {
+                        "type": "minecraft:blend_alpha"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:half_negative",
+              "argument": {
+                "type": "minecraft:noise",
+                "noise": "minecraft:jagged",
+                "xz_scale": 1300,
+                "y_scale": 200
+              }
+            }
+          }
+        },
+        "argument2": "planetsplus:reveda/factor"
+      }
+    }
+  },
+  "argument2": "planetsplus:reveda/base_3d_noise"
+}

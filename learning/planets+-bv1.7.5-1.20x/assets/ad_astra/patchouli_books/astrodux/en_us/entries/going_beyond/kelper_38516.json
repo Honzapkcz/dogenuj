@@ -1,0 +1,25 @@
+{
+  "name": "Kelper 38516",
+  "icon": "planetsplus:textures/environment/stars/half_orange_sun.png",
+  "sortnum": 1,
+  "category": "ad_astra:going_beyond",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Kelper 38516 System",
+      "text": "Kelper 38516 is a a double star system with many intersting planets"
+	},
+	{
+      "type": "patchouli:spotlight",
+      "title": "Sorea",
+	  "item": "minecraft:magma_block",
+      "text": "Sorea is a super Venus and when I say super Venus I mean it do you like standing? well guess what Sorea's ultra high surface gravity will make sure you don't trying to use solar panels? guess what, the air and cloud cover is so thick barley any sunlight reaches the surface and solar panels don't work at all! The air pressure is 1.7x that of Venus so good luck with even moving in what is a soild!"		
+	},
+	{
+      "type": "patchouli:spotlight",
+      "title": "Molvon",
+	  "item": "minecraft:lava_bucket",
+      "text": "Soreas moon"
+    }
+  ]
+}

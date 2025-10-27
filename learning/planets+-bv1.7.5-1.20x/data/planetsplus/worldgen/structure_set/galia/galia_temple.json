@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:galia/galia_temple",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 4864240619,
+    "spacing": 38,
+    "separation": 27,
+    "type": "minecraft:random_spread"
+  }
+}

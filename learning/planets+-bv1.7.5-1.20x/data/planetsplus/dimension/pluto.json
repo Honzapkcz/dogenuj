@@ -1,0 +1,60 @@
+{
+  "type": "planetsplus:pluto",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:pluto",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:pluto/pluto_icy_wasteland",
+          "parameters": {
+            "temperature": -0.525,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.35,
+            "weirdness": 0.1,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:pluto/pluto_frosted_valleys",
+          "parameters": {
+            "temperature": -0.5135,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.275,
+            "weirdness": 0.175,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:pluto/pluto_cracked_redden_lands",
+          "parameters": {
+            "temperature": -0.51,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.265,
+            "weirdness": 0.2,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:pluto/pluto_redden_lands",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.25,
+            "weirdness": 0.3,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

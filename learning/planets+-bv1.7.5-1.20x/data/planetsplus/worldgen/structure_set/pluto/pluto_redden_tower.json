@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:pluto/pluto_redden_tower",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 486424619,
+    "spacing": 30,
+    "separation": 25,
+    "type": "minecraft:random_spread"
+  }
+}

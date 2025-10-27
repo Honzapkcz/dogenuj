@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+      "max_inclusive": 4,
+      "min_inclusive": 2
+      }
+    },
+    "state": {
+      "Name": "ad_astra:mars_cobblestone",
+      "Properties": {
+      }
+    },
+    "target": {
+      "Name": "ad_astra:venus_cobblestone"
+    }
+  }
+}

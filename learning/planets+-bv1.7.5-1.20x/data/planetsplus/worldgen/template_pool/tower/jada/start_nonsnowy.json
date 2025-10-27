@@ -1,0 +1,24 @@
+{
+  "name": "planetsplus:tower/jada/start_nonsnowy",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "planetsplus:tower/jada/jada_dungeon_tower_main_nonsnowy",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  	{
+      "weight": 5,
+      "element": {
+        "location": "planetsplus:tower/jada/super_jada_dungeon_tower_main_nonsnowy_top",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    }
+  ]
+}

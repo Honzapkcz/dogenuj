@@ -1,0 +1,34 @@
+{
+	"feature": "planetsplus:dread/driping_redstone_caves/redstone_stalagtites",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:biased_to_bottom",
+				"value": {
+					"min_inclusive": 3,
+					"max_inclusive": 8
+				}
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+		  "type": "minecraft:height_range",
+		  "height": {
+			"type": "minecraft:biased_to_bottom",
+			"min_inclusive": {
+			  "absolute": -54
+			},
+			"max_inclusive": {
+			  "absolute": 85
+			}
+		  }
+		},
+		{
+		  "type": "minecraft:biome"
+		}
+	  ]
+	}
+	

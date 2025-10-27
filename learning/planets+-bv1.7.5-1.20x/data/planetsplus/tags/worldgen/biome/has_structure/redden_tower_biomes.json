@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "planetsplus:pluto/pluto_redden_lands",
+	  "planetsplus:charon/charon_redden_spilled_lands"
+  ]
+}

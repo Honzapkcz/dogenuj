@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "planetsplus:jada/jada_wasteland",
+    "planetsplus:jada/jada_frozen_canyon",
+	"planetsplus:jada/jada_ice_desert"
+  ]
+}

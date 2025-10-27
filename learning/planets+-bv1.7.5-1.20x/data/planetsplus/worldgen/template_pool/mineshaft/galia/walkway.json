@@ -1,0 +1,78 @@
+{
+  "name": "planetsplus:mineshaft/galia/walkway",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 60,
+      "element": {
+        "location": "planetsplus:mineshaft/galia/galia_mineshaft_walkway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "planetsplus:mineshaft/galia/galia_mineshaft_walkway_chest",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:mineshaft/galia/galia_mineshaft_walkway_rightturn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "planetsplus:mineshaft/galia/galia_mineshaft_walkway_lefttturn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "planetsplus:mineshaft/galia/galia_mineshaft_walkway_ladder",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "planetsplus:mineshaft/galia/galia_mineshaft_walkway_ladder",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "planetsplus:mineshaft/galia/galia_mineshaft_walkway_ladder",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"	
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "planetsplus:mineshaft/galia/galia_mineshaft_big_walkway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"										
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "type": "planetsplus:glacies",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:glacies",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:glacies/glacies_permafrost_lands",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.085,
+            "weirdness": -0.175,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.125
+          }
+        },
+        {
+          "biome": "planetsplus:glacies/glacies_snowed_barrens",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.105,
+            "weirdness": -0.075,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:glacies/glacies_sandy_plains",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.15,
+            "weirdness": 0.25,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:glacies/glacies_frosted_caves",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.025,
+            "weirdness": -0.1,
+            "depth": [
+              0.415,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:glacies/glacies_ice_spike_caves",
+          "parameters": {
+            "temperature": -0.99,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.2,
+            "weirdness": -0.1,
+            "depth": [
+              0.415,
+              1
+            ],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

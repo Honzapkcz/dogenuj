@@ -1,0 +1,87 @@
+{
+  "type": "planetsplus:atmas",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:atmas",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:atmas/atmas_icy_vally",
+          "parameters": {
+            "temperature": -0.25,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.205,
+            "weirdness": 0.045,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.125
+          }
+        },
+        {
+          "biome": "planetsplus:atmas/atmas_ice_lands",
+          "parameters": {
+            "temperature": -0.2525,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.2125,
+            "weirdness": 0.115,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:atmas/atmas_frosted_barrens",
+          "parameters": {
+            "temperature": -0.25,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.235,
+            "weirdness": 0.185,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.15
+          }
+        },
+        {
+          "biome": "planetsplus:atmas/atmas_crystal_caves",
+          "parameters": {
+            "temperature": -0.25,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": -0.35,
+            "weirdness": 0.4,
+            "depth": [
+              0.725,
+              1
+            ],
+            "offset": 0.15
+          }
+        },
+        {
+          "biome": "planetsplus:atmas/atmas_friction_caves",
+          "parameters": {
+            "temperature": -0.25,
+            "humidity": 0.125,
+            "continentalness": 0,
+            "erosion": 0.35,
+            "weirdness": -0.25,
+            "depth": [
+              0.725,
+              1
+            ],
+            "offset": 0.125
+          }
+        }
+      ]
+    }
+  }
+}

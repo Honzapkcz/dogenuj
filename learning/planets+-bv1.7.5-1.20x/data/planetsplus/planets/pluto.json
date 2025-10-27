@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:pluto",
+  "gravity": 0.68,
+  "orbit": "planetsplus:pluto_orbit",
+  "oxygen": false,
+  "solar_power": 0,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -173,
+  "tier": 3
+}

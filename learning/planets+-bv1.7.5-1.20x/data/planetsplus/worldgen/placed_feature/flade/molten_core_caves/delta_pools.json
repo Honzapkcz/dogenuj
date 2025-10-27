@@ -1,0 +1,12 @@
+{
+  "feature": "planetsplus:flade/molten_core_caves/delta_pools",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 55
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

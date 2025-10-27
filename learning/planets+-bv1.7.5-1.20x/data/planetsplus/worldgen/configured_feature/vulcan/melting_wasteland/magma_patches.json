@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+      "max_inclusive": 5,
+      "min_inclusive": 1
+      }
+    },
+    "state": {
+      "Name": "minecraft:magma_block",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "target": {
+      "Name": "ad_astra:mercury_cobblestone"
+    }
+  }
+}

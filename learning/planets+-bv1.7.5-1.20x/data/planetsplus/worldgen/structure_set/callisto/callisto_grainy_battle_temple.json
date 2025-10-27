@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:callisto/callisto_grainy_battle_temple",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 486424619,
+    "spacing": 36,
+    "separation": 27,
+    "type": "minecraft:random_spread"
+  }
+}

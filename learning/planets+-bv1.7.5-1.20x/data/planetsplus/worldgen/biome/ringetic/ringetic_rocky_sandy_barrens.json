@@ -1,0 +1,59 @@
+{
+  "temperature": 1.0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 15450131,
+    "fog_color": 16178002,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.6,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:sulfur_creeper",
+        "weight": 90,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "ad_astra:martian_raptor",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:sulfur_creeper": {
+      "energy_budget": 0.0190,
+      "charge": 0.195
+    },
+    "ad_astra:martian_raptor": {
+      "energy_budget": 0.0215,
+      "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "minecraft:glow_lichen",
+      "planetsplus:ringetic/ringetic_copper_ore",
+      "planetsplus:ringetic/ringetic_diamond_ore",
+      "planetsplus:ringetic/ringetic_ice_shard_ore",
+      "planetsplus:ringetic/ringetic_iron_ore",
+      "planetsplus:ringetic/ringetic_ostrum_ore",
+	  "planetsplus:ringetic/rocky_sandy_barrens/rocky_sandy_barrens_rock",
+	  "planetsplus:ringetic/rocky_sandy_barrens/stone_spike"
+    ]
+  ]
+}

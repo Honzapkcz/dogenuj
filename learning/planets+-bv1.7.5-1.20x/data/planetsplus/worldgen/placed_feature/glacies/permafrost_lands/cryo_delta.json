@@ -1,0 +1,27 @@
+{
+  "feature": "planetsplus:glacies/permafrost_lands/cryo_delta",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 35
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+		  "type": "minecraft:height_range",
+		  "height": {
+			"type": "minecraft:trapezoid",
+			"min_inclusive": {
+			  "absolute": -48
+			},
+			"max_inclusive": {
+			  "absolute": 140
+			}
+		  }
+		},
+		{
+		  "type": "minecraft:biome"
+		}
+	  ]
+	}

@@ -1,0 +1,47 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 4872287,
+    "fog_color": 5862780,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.6,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:corrupted_lunarian",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:corrupted_lunarian": {
+      "energy_budget": 0.02,
+      "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "planetsplus:ice_chasm",
+      "planetsplus:pluto/pluto_iron_ore",
+      "planetsplus:pluto/pluto_copper_ore",
+	  "planetsplus:pluto/pluto_ice_shard_ore",
+      "planetsplus:pluto/pluto_ostrum_ore",
+	  "planetsplus:pluto/icy_rocky_chasm"
+    ]
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "temperature": 1.0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 2437429,
+    "fog_color": 2505539,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.65,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:corrupted_lunarian",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 7
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:corrupted_lunarian": {
+      "energy_budget": 0.02,
+      "charge": 0.25
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+     "minecraft:glow_lichen",
+     "planetsplus:atmas/atmas_coal_ore",
+     "planetsplus:atmas/atmas_diamond_ore",
+     "planetsplus:atmas/friction_caves/extra_gold_ore",
+     "planetsplus:atmas/atmas_ice_shard_ore",
+     "planetsplus:atmas/atmas_iron_ore",
+	   "planetsplus:atmas/friction_caves/deepslate_chasm",
+	   "planetsplus:atmas/friction_caves/deepslate_blobs",
+	   "planetsplus:atmas/friction_caves/magma_chasm",
+     "planetsplus:atmas/friction_caves/cobblestone_chasm",
+     "planetsplus:atmas/friction_caves/delta",
+	 "planetsplus:atmas/friction_caves/atmas_friction_caves_geode"
+    ]
+  ]
+}

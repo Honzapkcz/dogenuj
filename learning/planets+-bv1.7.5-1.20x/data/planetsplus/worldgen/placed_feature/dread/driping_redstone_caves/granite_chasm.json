@@ -1,0 +1,27 @@
+{
+  "feature": "planetsplus:dread/driping_redstone_caves/granite_chasm",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 45
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "min_inclusive": {
+          "absolute": -64
+        },
+        "max_inclusive": {
+          "absolute": 75
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

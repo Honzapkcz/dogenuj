@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+	"ad_astra:venus_stone",
+	"ad_astra:mercury_cobblestone",
+	"minecraft:magma_block",
+	"minecraft:blackstone",
+	"minecraft:smooth_basalt"
+  ]
+}

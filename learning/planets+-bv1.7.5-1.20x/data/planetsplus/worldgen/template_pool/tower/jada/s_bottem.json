@@ -1,0 +1,15 @@
+{
+  "name": "planetsplus:tower/jada/s_bottem",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "planetsplus:tower/jada/super_jada_dungeon_tower_main_bottem",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

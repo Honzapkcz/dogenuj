@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:titan/titan_rock_outpost",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 5863176374,
+    "spacing": 28,
+    "separation": 17,
+    "type": "minecraft:random_spread"
+  }
+}

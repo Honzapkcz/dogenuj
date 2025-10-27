@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "ad_astra:moon_stone",
+	"minecraft:packed_ice",
+	"minecraft:blackstone",
+	"minecraft:smooth_basalt",
+	"minecraft:magma_block",
+	"minecraft:cobbled_deepslate"
+  ]
+}

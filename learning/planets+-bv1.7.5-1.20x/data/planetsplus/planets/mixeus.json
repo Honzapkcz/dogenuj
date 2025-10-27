@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:mixeus",
+  "gravity": 2.07,
+  "orbit": "planetsplus:mixeus_orbit",
+  "oxygen": false,
+  "solar_power": 25,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": 119,
+  "tier": 4
+}

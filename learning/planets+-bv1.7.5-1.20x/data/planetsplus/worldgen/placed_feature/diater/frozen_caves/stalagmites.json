@@ -1,0 +1,34 @@
+{
+	"feature": "planetsplus:diater/frozen_caves/stalagmites",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:biased_to_bottom",
+				"value": {
+					"min_inclusive": 9,
+					"max_inclusive": 13
+				}
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+		  "type": "minecraft:height_range",
+		  "height": {
+			"type": "minecraft:biased_to_bottom",
+			"min_inclusive": {
+			  "absolute": -54
+			},
+			"max_inclusive": {
+			  "absolute": 85
+			}
+		  }
+		},
+		{
+		  "type": "minecraft:biome"
+		}
+	  ]
+	}
+	

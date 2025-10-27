@@ -1,0 +1,132 @@
+{
+  "name": "planetsplus:dungeon/vulcan/room",
+  "fallback": "planetsplus:dungeon/vulcan/hallway",
+  "elements": [
+    {
+      "weight": 40,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_hallway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_halldrop",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_threeway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_stairsplit",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_stairwell",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_fourway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 80,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_battle1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 80,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_battle2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"			
+      }
+    },
+    {
+      "weight": 80,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_battle3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"			
+      }
+    },
+    {
+      "weight": 80,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_battle4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"			
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_lavapool",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_storage",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"					
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_science",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"							
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:dungeon/vulcan/vulcan_dungeon_boss",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"							
+      }
+    }
+  ]
+}

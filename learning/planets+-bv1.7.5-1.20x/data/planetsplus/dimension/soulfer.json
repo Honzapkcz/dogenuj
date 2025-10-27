@@ -1,0 +1,84 @@
+{
+  "type": "planetsplus:soulfer",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:soulfer",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:soulfer/soulfer_sulfuric_plateau",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.05,
+            "weirdness": -0.1,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.175
+          }
+        },
+        {
+          "biome": "planetsplus:soulfer/soulfer_spired_wastelands",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.05,
+            "weirdness": 0.125,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:soulfer/soulfer_volcanicized_spired_wastelands",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.075,
+            "weirdness": 0.25,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:soulfer/soulfer_volcanicized_plains",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.085,
+            "weirdness": 0.4,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:soulfer/soulfer_soulfonic_caves",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": -0.1,
+            "weirdness": 0.2,
+            "depth": [
+              0.45,
+              1
+            ],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

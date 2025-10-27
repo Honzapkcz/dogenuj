@@ -1,0 +1,15 @@
+{
+  "name": "planetsplus:dungeon/flade/end",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_end",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

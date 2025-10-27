@@ -1,0 +1,114 @@
+{
+  "type": "planetsplus:eclipsa",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:eclipsa",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:eclipsa/eclipsa_frozen_frostlands",
+          "parameters": {
+            "temperature": 0.675,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.195,
+            "weirdness": 0.335,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.125
+          }
+        },
+        {
+          "biome": "planetsplus:eclipsa/eclipsa_icy_plains",
+          "parameters": {
+            "temperature": 0.685,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.175,
+            "weirdness": 0.3,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:eclipsa/eclipsa_temperate_wasteland",
+          "parameters": {
+            "temperature": 0.7,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.15,
+            "weirdness": 0.275,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.05
+          }
+        },
+        {
+          "biome": "planetsplus:eclipsa/eclipsa_cooler_volcanic_plains",
+          "parameters": {
+            "temperature": 0.735,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.1,
+            "weirdness": 0.225,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:eclipsa/eclipsa_volcanic_wasteland",
+          "parameters": {
+            "temperature": 0.75,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.085,
+            "weirdness": 0.2,
+            "depth": 0,
+            "offset": 0.125
+          }
+        },
+        {
+          "biome": "planetsplus:eclipsa/eclipsa_icy_caves",
+          "parameters": {
+            "temperature": 0.75,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.08,
+            "weirdness": 0.15,
+            "depth": [
+              0.45,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:eclipsa/eclipsa_volcanic_caves",
+          "parameters": {
+            "temperature": 0.825,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.175,
+            "weirdness": -0.075,
+            "depth": [
+              0.6,
+              1
+            ],
+            "offset": 0.1
+          }
+        }
+      ]
+    }
+  }
+}

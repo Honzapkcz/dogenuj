@@ -1,0 +1,60 @@
+{
+  "name": "planetsplus:dungeon/flade/hallways",
+  "fallback": "planetsplus:dungeon/flade/end",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_hallway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 70,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_right_turn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 70,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_left_turn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_three_way",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_four_way",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_stairs_down",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    }
+  ]
+}

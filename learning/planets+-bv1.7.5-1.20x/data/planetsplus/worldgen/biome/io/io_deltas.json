@@ -1,0 +1,69 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 4089221,
+    "fog_color": 3044526,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.2,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:mogler",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "ad_astra:sulfur_creeper",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "ad_astra:corrupted_lunarian",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:mogler": {
+      "energy_budget": 0.015,
+      "charge": 0.2
+    },
+    "ad_astra:sulfur_creeper": {
+      "energy_budget": 0.02,
+      "charge": 0.2
+    },
+    "ad_astra:corrupted_lunarian": {
+      "energy_budget": 0.012,
+      "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "planetsplus:io/io_coal_ore",
+      "planetsplus:io/io_diamond_ore",
+      "planetsplus:io/io_gold_ore",
+      "planetsplus:io/io_ostrum_ore",
+	  "planetsplus:io/io_iron_ore",
+      "planetsplus:io/deltas/delta",
+      "minecraft:small_basalt_columns",
+      "minecraft:large_basalt_columns"
+    ]
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "temperature": 4.0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 2891547,
+    "fog_color": 10367263,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.2,
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:magma_cube": {
+      "energy_budget": 0.0175,
+      "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "planetsplus:fierer/fierer_copper_ore",
+      "planetsplus:fierer/fierer_desh_ore",
+      "planetsplus:fierer/fierer_diamond_ore",
+      "planetsplus:fierer/fierer_ostrum_ore",
+	  "planetsplus:fierer/fierer_iron_ore",
+	  "planetsplus:fierer/burnt_wastelands/stone_patches"
+    ]
+  ]
+}

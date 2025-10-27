@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:jada/jada_dungeon",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 96427375,
+    "spacing": 28,
+    "separation": 19,
+    "type": "minecraft:random_spread"
+  }
+}

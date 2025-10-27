@@ -1,0 +1,51 @@
+{
+  "name": "planetsplus:dungeon/flade/main_hallway_side",
+  "fallback": "planetsplus:dungeon/flade/end",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_hallway_side1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_hallway_side2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_hallway_side3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"			
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_hallway_side4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "planetsplus:dungeon/flade/flade_dungeon_hallway_side_secert",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    }
+  ]
+}

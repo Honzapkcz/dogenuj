@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "ad_astra:mercury_stone",
+	"ad_astra:mars_cobblestone",
+	"minecraft:basalt",
+	"minecraft:smooth_basalt",
+	"minecraft:cobblestone",
+	"minecraft:tuff",
+	"ad_astra:mars_stone",
+	"ad_astra:venus_stone"
+  ]
+}

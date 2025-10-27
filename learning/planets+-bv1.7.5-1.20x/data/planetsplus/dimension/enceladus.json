@@ -1,0 +1,11 @@
+{
+  "type": "planetsplus:enceladus",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:enceladus",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "planetsplus:enceladus_frozen_surface"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "temperature": 1.0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 15450131,
+    "fog_color": 16178002,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.6,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:corrupted_lunarian",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "ad_astra:martian_raptor",
+        "weight": 75,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:corrupted_lunarian": {
+      "energy_budget": 0.02,
+      "charge": 0.2
+    },
+    "ad_astra:martian_raptor": {
+      "energy_budget": 0.0175,
+      "charge": 0.15
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "minecraft:glow_lichen",
+      "planetsplus:ringetic/ringetic_copper_ore",
+      "planetsplus:ringetic/ringetic_diamond_ore",
+      "planetsplus:ringetic/ringetic_ice_shard_ore",
+      "planetsplus:ringetic/ringetic_iron_ore",
+      "planetsplus:ringetic/ringetic_ostrum_ore",
+	  "planetsplus:ringetic/highlands_plains/massive_spires"
+    ]
+  ]
+}

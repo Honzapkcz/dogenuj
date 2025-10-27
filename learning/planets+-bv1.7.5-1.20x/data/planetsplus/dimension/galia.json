@@ -1,0 +1,102 @@
+{
+  "type": "planetsplus:galia",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:galia",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:galia/galia_spikey_valley",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.1,
+            "weirdness": 0.125,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.5
+          }
+        },
+        {
+          "biome": "planetsplus:galia/galia_rocky_plains",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.05,
+            "weirdness": -0.1,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "planetsplus:galia/galia_cold_desert",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0.015,
+            "continentalness": 0,
+            "erosion": 0.06,
+            "weirdness": -0.2,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:galia/galia_snowed_over_caps",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0.02,
+            "continentalness": 0,
+            "erosion": 0.1,
+            "weirdness": -0.3,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "planetsplus:galia/galia_density_caves",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.11,
+            "weirdness": -0.1,
+            "depth": [
+              0.4,
+              1
+            ],
+            "offset": 0.165
+          }
+        },
+        {
+          "biome": "planetsplus:galia/galia_badland_caves",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.035,
+            "weirdness": -0.13,
+            "depth": [
+              0.4,
+              1
+            ],
+            "offset": 0.165
+          }
+        }
+      ]
+    }
+  }
+}

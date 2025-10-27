@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"ad_astra:mars_stone",
+	"ad_astra:mars_cobblestone",
+	"ad_astra:mars_sand"
+  ]
+}

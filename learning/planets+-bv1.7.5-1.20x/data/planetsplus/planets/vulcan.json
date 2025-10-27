@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:vulcan",
+  "gravity": 4.679,
+  "orbit": "planetsplus:vulcan_orbit",
+  "oxygen": false,
+  "solar_power": 80,
+  "solar_system": "planetsplus:kepler_centauri",
+  "temperature": 673,
+  "tier": 4
+}

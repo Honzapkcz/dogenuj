@@ -1,0 +1,51 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 3487020,
+    "fog_color": 4408119,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.6,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:pygro",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:pygro": {
+      "energy_budget": 0.025,
+      "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "minecraft:glow_lichen",
+	  "planetsplus:dune/dune_coal_ore",
+	  "planetsplus:dune/dune_copper_ore",
+	  "planetsplus:dune/dune_desh_ore",
+	  "planetsplus:dune/dune_diamond_ore",
+	  "planetsplus:dune/dune_iron_ore",
+	  "planetsplus:dune/dusty_caves/dune_dusty_caves_geode",
+	  "planetsplus:dune/dusty_caves/cobble_patches",
+	  "planetsplus:dune/dusty_caves/cobble_chasm",
+	  "planetsplus:dune/dusty_caves/stone_spike"
+    ]
+  ]
+}

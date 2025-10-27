@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:sorea",
+  "gravity": 15.45,
+  "orbit": "planetsplus:sorea_orbit",
+  "oxygen": false,
+  "solar_power": 0,
+  "solar_system": "planetsplus:kepler_38516",
+  "temperature": 574,
+  "tier": 22
+}

@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:vonic",
+  "gravity": 2.24,
+  "orbit": "planetsplus:vonic_orbit",
+  "oxygen": false,
+  "solar_power": 10,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": 13,
+  "tier": 9
+}

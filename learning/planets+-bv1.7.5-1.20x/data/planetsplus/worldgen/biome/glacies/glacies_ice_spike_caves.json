@@ -1,0 +1,63 @@
+{
+  "temperature": 1,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 3161926,
+    "fog_color": 4873828,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.6,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:corrupted_lunarian",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "ad_astra:star_crawler",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:corrupted_lunarian": {
+      "energy_budget": 0.02,
+      "charge": 0.2
+    },
+      "ad_astra:star_crawler": {
+        "energy_budget": 0.02,
+        "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "planetsplus:ice_chasm",
+	  "planetsplus:glacies/ice_spike_caves/glacies_ice_spike_caves_cobblestone_blobs",
+	  "planetsplus:glacies/ice_spike_caves/glacies_ice_spike_caves_snow_blobs",
+      "planetsplus:glacies/glacies_desh_ore",
+      "planetsplus:glacies/glacies_ice_shard_ore",
+	  "planetsplus:glacies/glacies_iron_ore",
+      "planetsplus:glacies/glacies_coal_ore",
+      "planetsplus:glacies/ice_spike_caves/ice_spike_geode",
+      "planetsplus:glacies/ice_spike_caves/glacies_lapis_ore",
+	   "planetsplus:glacies/ice_spike_caves/underground_ice_spike",
+      "planetsplus:glacies/ice_spike_caves/underground_ice_spike_stalagtites",
+      "minecraft:ice_spike"
+    ]
+  ]
+}

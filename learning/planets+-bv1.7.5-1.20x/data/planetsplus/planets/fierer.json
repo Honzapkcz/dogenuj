@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:fierer",
+  "gravity": 5.349,
+  "orbit": "planetsplus:fierer_orbit",
+  "oxygen": false,
+  "solar_power": 30,
+  "solar_system": "planetsplus:kepler_centauri",
+  "temperature": 337,
+  "tier": 4
+}

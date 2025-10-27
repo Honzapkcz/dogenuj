@@ -1,0 +1,141 @@
+{
+  "name": "planetsplus:dungeon/jada/room",
+  "fallback": "planetsplus:dungeon/jada/hallway",
+  "elements": [
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_hallway",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_left_turn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_right_turn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_ladder",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_hallway_step",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_cross",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_stairs_up",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_stairs_down",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    },
+    {
+      "weight": 80,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_battle1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"		
+      }
+    },
+    {
+      "weight": 80,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_battle2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"			
+      }
+    },
+    {
+      "weight": 80,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_battle3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"			
+      }
+    },
+    {
+      "weight": 80,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_battle4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"			
+      }
+    },
+    {
+      "weight": 70,
+      "element": {
+        "location": "planetsplus:dungeon/jada/freezer",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"				
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_storage",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"					
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "planetsplus:dungeon/jada/jada_dungeon_boss",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"							
+      }
+    }
+  ]
+}

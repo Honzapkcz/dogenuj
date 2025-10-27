@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:galia/galia_dungeon",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 1361819893,
+    "spacing": 32,
+    "separation": 14,
+    "type": "minecraft:random_spread"
+  }
+}

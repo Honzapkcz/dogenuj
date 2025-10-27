@@ -1,0 +1,183 @@
+{
+  "custom_clouds": false,
+  "custom_sky": true,
+  "custom_weather": false,
+  "dimension": "planetsplus:eclipsa_orbit",
+  "has_fog": false,
+  "has_thick_fog": false,
+  "render_in_rain": true,
+  "sky_renderables": [
+    {
+      "back_light_color": 16041355,
+      "back_light_scale": 21.0,
+      "blend": false,
+      "global_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 6.0,
+      "texture": "planetsplus:textures/environment/stars/white_sun.png"
+     },
+     {
+      "back_light_color": 4646655,
+      "back_light_scale": 23.0,
+      "blend": false,
+      "global_rotation": [
+        29.0,
+        -7.0,
+        87.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 11.0,
+      "texture": "planetsplus:textures/environment/moons/atmas.png"
+    },
+    {
+      "back_light_color": 16759115,
+      "back_light_scale": 22.0,
+      "blend": false,
+      "global_rotation": [
+        -37.0,
+        -6.0,
+        -46.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 8.0,
+      "texture": "planetsplus:textures/environment/moons/rotate_fix/ringetic.png"	
+    },
+    {
+      "back_light_color": 9854606,
+      "back_light_scale": 0.0,
+      "blend": false,
+      "global_rotation": [
+        -37.0,
+        -6.0,
+        -46.0
+      ],
+      "local_rotation": [
+        80.0,
+        0.0,
+        -5.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 20.0,
+      "texture": "planetsplus:textures/environment/rings/ringetic_rings.png"		  
+    },
+    {
+      "back_light_color": 9854606,
+      "back_light_scale": 1.35,
+      "blend": true,
+      "global_rotation": [
+        45.0,
+        -16.0,
+        180.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 0.5,
+      "texture": "planetsplus:textures/environment/astroids/eclipsa_am1.png"		 
+    },
+    {
+      "back_light_color": 9854606,
+      "back_light_scale": 0.95,
+      "blend": true,
+      "global_rotation": [
+        -57.0,
+        28.0,
+        174.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 0.35,
+      "texture": "planetsplus:textures/environment/astroids/eclipsa_am2.png"	
+    },
+    {
+      "back_light_color": 16732756,
+      "back_light_scale": 240.0,
+      "blend": false,
+      "global_rotation": [
+        180.0,
+        180.0,
+        0.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "STATIC",
+      "scale": 80.0,
+      "texture": "planetsplus:textures/environment/planets/eclipsa.png"		  	  
+    }
+  ],
+  "star_brightness": 0.6,
+  "star_colors": [
+    {
+      "data": -1447239681,
+      "weight": 3
+    },
+    {
+      "data": -1143472129,
+      "weight": 5
+    },
+    {
+      "data": -726785,
+      "weight": 100
+    },
+    {
+      "data": -3038977,
+      "weight": 80
+    },
+    {
+      "data": -7697665,
+      "weight": 150
+    },
+    {
+      "data": -12254977,
+      "weight": 10
+    },
+    {
+      "data": -2817,
+      "weight": 60
+    },
+    {
+      "data": -464897,
+      "weight": 40
+    },
+    {
+      "data": -256,
+      "weight": 20
+    },
+    {
+      "data": -65536,
+      "weight": 1
+    }
+  ],
+  "stars": 13000,
+  "sunrise_angle": 0,
+  "sunrise_color": 0
+}

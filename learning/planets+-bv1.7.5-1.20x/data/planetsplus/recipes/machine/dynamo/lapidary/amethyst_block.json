@@ -1,0 +1,7 @@
+{
+  "type": "thermal:lapidary_fuel",
+  "ingredient": {
+    "item": "minecraft:amethyst_block"
+  },
+  "energy": 160000
+}

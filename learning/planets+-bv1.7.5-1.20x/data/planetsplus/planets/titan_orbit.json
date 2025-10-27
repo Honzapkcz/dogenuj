@@ -1,0 +1,9 @@
+{
+  "dimension": "planetsplus:titan_orbit",
+  "gravity": 0.0,
+  "oxygen": false,
+  "solar_power": 3,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": -116,
+  "tier": 3
+}

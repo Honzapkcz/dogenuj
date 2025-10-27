@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:mercury_globe"
+    },
+    "title": {
+      "translate": "advancements.kelper_centauri.fierer_landed.title"
+    },
+    "description": {
+      "translate": "advancements.kelper_centauri.fierer_landed.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fierer": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:fierer"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "ad_astra:tier_4_rocket"
+}

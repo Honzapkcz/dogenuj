@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:canyon",
+  "config": {
+    "probability": 0.05,
+    "y": {
+      "type": "minecraft:uniform",
+      "min_inclusive": {
+        "absolute": -45
+      },
+      "max_inclusive": {
+        "absolute": 130
+      }
+    },
+    "yScale": 6,
+    "lava_level": {
+      "absolute": -54
+    },
+    "replaceable": "#planetsplus:galia_ore_replaceables",
+    "vertical_rotation": 0.45,
+    "shape": {
+      "distance_factor": 1.65,
+      "thickness": 2,
+      "width_smoothness": 1,
+      "horizontal_radius_factor": 2.25,
+      "vertical_radius_default_factor": 0.25,
+      "vertical_radius_center_factor": 0.45
+    }
+  }
+}

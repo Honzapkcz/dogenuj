@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:vulcan/vulcan_dungeon",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 60417375,
+    "spacing": 29,
+    "separation": 23,
+    "type": "minecraft:random_spread"
+  }
+}

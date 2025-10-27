@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:dune",
+  "gravity": 2.20,
+  "orbit": "planetsplus:dune_orbit",
+  "oxygen": false,
+  "solar_power": 25,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": 112,
+  "tier": 4
+}

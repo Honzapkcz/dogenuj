@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "planetsplus:flade/flade_wasteland",
+	"planetsplus:flade/flade_heated_canyon",
+	"planetsplus:flade/flade_molten_core_caves"
+  ]
+}

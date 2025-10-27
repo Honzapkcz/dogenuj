@@ -1,0 +1,87 @@
+{
+  "type": "planetsplus:dune",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:dune",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:dune/dune_valleys",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.2,
+            "weirdness": 0.2,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:dune/dune_ridge",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": -0.025,
+            "weirdness": -0.1,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.125
+          }
+        },
+        {
+          "biome": "planetsplus:dune/dune_highlands",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": -0.1,
+            "weirdness": -0.2,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:dune/dune_dusty_caves",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.2,
+            "weirdness": -0.1,
+            "depth": [
+              0.5,
+              1
+            ],
+            "offset": 0.25
+          }
+        },
+        {
+          "biome": "planetsplus:dune/dune_connductive_caves",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.1,
+            "weirdness": 0.275,
+            "depth": [
+              0.5,
+              1
+            ],
+            "offset": 0.15
+          }
+        }
+      ]
+    }
+  }
+}

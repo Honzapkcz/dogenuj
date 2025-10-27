@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:diater/diater_dungeon_tower",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 18984519,
+    "spacing": 32,
+    "separation": 24,
+    "type": "minecraft:random_spread"
+  }
+}

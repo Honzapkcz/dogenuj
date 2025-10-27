@@ -1,0 +1,13 @@
+{
+  "name": "Jada",
+  "icon": "planetsplus:textures/environment/planets/jada.png",
+  "sortnum": 1,
+  "category": "ad_astra:planet_invader",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Jada",
+      "text": "Jada is a roghe planet that has enter the solar system with it's moon Diater. - (Atmosphere) Jada has decently think atmosphere that has a pink or magent color to and a green sunrise/set! but no oxygen - (Surface) The surface seems to be coverd in a lot of snow and simler to the moon in the none snow areas its surface gravity is about 6.1 m/s."
+    }
+  ]
+}

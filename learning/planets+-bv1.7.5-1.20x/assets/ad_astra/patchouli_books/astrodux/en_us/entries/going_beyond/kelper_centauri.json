@@ -1,0 +1,42 @@
+{
+  "name": "Kelper Centauri",
+  "icon": "planetsplus:textures/environment/stars/orange_sun.png",
+  "sortnum": 1,
+  "category": "ad_astra:going_beyond",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Kelper Centauri System",
+      "text": "Kelper Centauri is a K4 Class Star System with 4 Planets and 1 Dwarf planet. There are 3 rocky planets and one Gas Giant that's 20% the size of the star making it easy to see from Fierer and Galia. The Planet names in order are Vulcan Fierer Ronxys Galia and Dytiona!"
+	},
+	{
+      "type": "patchouli:spotlight",
+      "title": "Vulcan",
+	  "item": "minecraft:iron_ingot",
+      "text": "Vulcan is a super mercury that is dangerously close to its host star due to that it is melting there! But due to it being extremely dense there's a boat load of iron there."		
+	},
+	{
+      "type": "patchouli:spotlight",
+      "title": "Fierer",
+	  "item": "minecraft:raw_iron",
+      "text": "Fierer is also a super Mercury and acually has more mass then Vulcan but however it is not as close to it's host star and is less dense due to there being less iron in it but still has a ton!"
+	},
+	{
+      "type": "patchouli:text",
+      "title": "Ronxys",
+      "text": "Ronxys is it's systems only gas giant and has 2 moon's. The reason for its very low moon count is that it's somewhat close to its host star so the moons would either get pulled out into orbit then sling shoted into the star or out of the system or was pulled so there orbit would fall into Ronxys! On the bright side it's massive compared to its host star so can be easily seen from Fierer and Galia."
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Galia",
+	  "item": "ad_astra:mars_sand",
+      "text": "Galia is mar's type planets all though there is no sign of lakes or river's most likey showing that Galia has always been like this. Galia is also the only rocky body to have a moon it about 45km's in size."
+	},
+	{
+	  "type": "patchouli:spotlight",
+      "title": "Dytiona",
+      "item": "minecraft:sand",
+	  "text": "Dytiona is the systems dwarf planet! It has a modest size and simlar surface gravity to Titan with a ecliptical orbit that does near Galia. Dytiona is rich with quartz sand simlar to Earths and tons of water ice. The dwarf planet has 2 moons and a ring system making the surface look amazing!"	  
+    }
+  ]
+}

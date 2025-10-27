@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ad_astra:moon_stone",
+	"ad_astra:glacio_cobblestone",
+	"minecraft:packed_ice"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "type": "planetsplus:mixeus",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:mixeus",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:mixeus/mixeus_calcite_plains",
+          "parameters": {
+            "temperature": 0.75,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.125,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:mixeus/mixeus_unpristen_creek",
+          "parameters": {
+            "temperature": 0.71,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.09,
+            "weirdness": 0.01,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:mixeus/mixeus_dusty_canyon",
+          "parameters": {
+            "temperature": 0.675,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.2,
+            "weirdness": -0.2,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:mixeus/mixeus_rocky_dusty_lands",
+          "parameters": {
+            "temperature": 0.67,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.35,
+            "weirdness": -0.4,
+            "depth": [
+              0,
+              1
+            ],
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "planetsplus:mixeus/mixeus_polished_caves",
+          "parameters": {
+            "temperature": 0.7,
+            "humidity": 0.125,
+            "continentalness": 0.1,
+            "erosion": 0.225,
+            "weirdness": 0.245,
+            "depth": [
+              0.55,
+              1
+            ],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

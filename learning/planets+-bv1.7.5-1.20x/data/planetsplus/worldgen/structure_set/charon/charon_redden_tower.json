@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:charon/charon_redden_tower",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 704598959,
+    "spacing": 29,
+    "separation": 25,
+    "type": "minecraft:random_spread"
+  }
+}

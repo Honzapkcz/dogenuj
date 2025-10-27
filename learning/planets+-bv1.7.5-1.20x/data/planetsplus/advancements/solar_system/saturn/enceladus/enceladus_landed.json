@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:glacio_globe"
+    },
+    "title": {
+      "translate": "advancements.solar_system.saturn.enceladus_landed.title"
+    },
+    "description": {
+      "translate": "advancements.solar_system.saturn.enceladus_landed.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enceladus": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:enceladus"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "planetsplus:solar_system/saturn/saturn_enter"
+}

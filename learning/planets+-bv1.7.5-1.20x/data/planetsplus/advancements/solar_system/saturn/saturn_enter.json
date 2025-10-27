@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:venus_globe"
+    },
+    "title": {
+      "translate": "advancements.solar_system.saturn.title"
+    },
+    "description": {
+      "translate": "advancements.solar_system.saturn.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ad_astra:tier_3_rocket",
+  "criteria": {
+    "planetsplus:titan": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:titan"
+      }
+    },
+    "planetsplus:enceledus": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:enceladus"
+      }
+    },
+    "planetsplus:iapetus": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:iapetus"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "planetsplus:titan",
+      "planetsplus:enceledus",
+      "planetsplus:iapetus"
+    ]
+  ],
+  "rewards": {
+    "experience": 1750
+  }
+}
