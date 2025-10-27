@@ -37,11 +37,45 @@ ServerEvents.recipes(e => {
     e.replaceInput({input: "createdeco:andesite_sheet"},
         "createdeco:andesite_sheet", "create_dd:andesite_sheet"
     )
+	e.custom({
+		type: "create:compacting",
+		heatRequirement: "heated",
+		ingredients: [
+			{item: "minecraft:cobblestone", count: 2},
+			{item: "minecraft:sand", count: 2}
+		],
+		results: [
+			{item: "minecraft:end_stone"}
+		]
+	})
 
     /* RECIPES OF RESOURCES */
     //TODO: brass, bronze, industrial ingot, steel
+    e.replaceInput({input: "#c:bronze_plates"}, "#c:bronze_plates", "create_dd:bronze_sheet")
+    e.replaceInput({input: "#c:bronze_ingots"}, "#c:bronze_ingots", "crate_dd:bronze_ingot")
+    e.replaceInput({input: "create_ironworks:bronze_ingot"}, "create_ironworks:bronze_ingot", "create_dd:bronze_ingot")
+    e.replaceInput({input: "techreborn:bronze_ingot"}, "techreborn:bronze_ingot", "create_dd:bronze_ingot")
+    //TODO: remove some recipes after brass merge
+    
     // alloying brass
 
-    /* RECIPES OF BASIC THINGS */
+    /* KINEMATICS */
+    e.remove({id: "create:crafting/kinetics/large_cogwheel"})
+    e.remove({id: "create:crafting/kinetics/large_cogwheel_from_little"})
+    e.remove({id: "create:crafting/kinetics/cogwheel"})
+    e.remove({id: "create:crafting/kinetics/brass_hand"})
+    e.remove({id: "create_dd:crafting/brass_hand"})
+    e.shaped(Item.of("create:brass_hand"),
+		[
+			" A ",
+			"BBB",
+			" B "
+		],
+		{
+			A: "create:andesite_alloy",
+			B: "create_dd:bronze_sheet",
+	})
+
+	//e.replaceInput({id: "create:crafting_"})
     /* RECIPES OF MACHINES */
 })
