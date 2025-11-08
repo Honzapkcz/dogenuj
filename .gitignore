@@ -36,6 +36,7 @@ rhino.local.properties
 /XaeroWaypoints_BACKUP*
 *.luastatic.c
 hs_err_pid*
+/.minecraft
 /.fabric
 /.mixin.out
 /.replay_cache

@@ -11,6 +11,7 @@ package.cpath = "lib/?/core.so;lib/?.so"
 local term = require("terminal")
 local http = require("socket.http")
 local lfs = require("lfs")
+local zip = require("brimworks.zip")
 
 local version = "KUJNUJ 2.3.1"
 http.USERAGENT = "Kujnuj/2.3.1 (honzapkcz)"
@@ -326,6 +327,7 @@ function downloadlist(list, folder)
 end
 
 local cwd = lfs.currentdir()
+---TODO: invoke with luasocket
 local newest = run("curl -s "..upstream)
 local modpack = "Žádný"
 
@@ -371,4 +373,88 @@ function installmodpack()
 	write(".VERSION", version)
 	modpack = version
 	print("\27[32mModpack "..version.." úspěšně nainstalován!\27[0m")
+end
+
+function uninstallmodpack()
+	print("\27[31mTato akce nejde vrátit zpět!\27[0m")
+	print("\27[31mOpravdu si přejete nadobro vymazat všechny módy?\27[0m")
+	io.write("[ano/ne] ")
+	local yes = io.read("l")
+	if yes ~= "ano" then
+		print("Nic neprovedeno")
+		return
+	end
+	print("Maži mods")
+	for p in lfs.dir("mods") do
+		os.remove(p)
+	end
+	print("\27[31mChcete vymazat i configy?\27[0m")
+	io.write("[ano/ne] ")
+	local yes = io.read("l")
+	if yes == "ano" then
+		print("Maži config")
+		for p in lfs.dir("config") do
+			os.remove(p)
+		end
+		os.remove("options.txt")
+	else
+		print("Přeskakuji config")
+	end
+	print("Maži instrukce")
+	os.remove("INSTALACE.txt")
+	os.remove(".VERSION")
+	modpack = "Žádný"
+end
+
+function diagnose()
+	print("\27[32mVerze Skriptu: \27[0m"..version)
+	print("\27[32mDetekovaný Modpack: \27[0m"..modpack)
+	print("\27[32mNejnovější Verze: \27[0m"..newest)
+	print("\27[32mInstalační Cesta: \27[0m"..cwd)
+
+	local n = 0
+	pcall(function ()
+		for p in lfs.dir("mods") do
+			if string.match(p, ".*.jar") then
+				n = n + 1
+			end
+		end
+	end)
+	print("\27[32mPočet modů v mods složce: \27[0m"..n)
+	print("\27[32mPočet modů v modpacku: \27[0m"..#mods)
+	print("\27[32mUpstream: \27[0m"..upstream)
+
+	print("\27[32m\27[0m")
+	if modpack ~= "Žádný" and modpack ~= version then
+		print("\27[32mDetekován jiný modpack. Při instalaci je nutno tuto verzi odinstalovat.\27[0m")
+	end
+	if version ~= newest then
+		print("\27[32mJe dostupná novější verze tohoto modpacku a instalátoru: \27[0m"..newest)
+	end
+end
+
+diagnose()
+
+local alive = true
+while alive do
+	print("")
+	print("Dostupné akce:")
+	print("    1 - Nainstalovat Modpack")
+	print("    2 - Odinstalovat/Vyčistit Modpack")
+	print("    3 - Diagnostika")
+	print("    4 - Odejít")
+	print("")
+	io.write("[Akce] ")
+	local usin = io.read("l")
+	print("")
+	if usin == "1" then
+		installmodpack()
+	elseif usin == "2" then
+		uninstallmodpack()
+	elseif usin == "3" then
+		diagnose()
+	elseif usin == "4" then
+		alive = false
+		print("[Konec]")
+	end
 end

@@ -1,0 +1,11 @@
+rock_manifest = {
+   doc = {
+      ["README.txt"] = "123a1518ebb03c6259f5bee23abbcc18"
+   },
+   lib = {
+      brimworks = {
+         ["zip.so"] = "02a4960f518312d1876e90f24f67274a"
+      }
+   },
+   ["lua-zip-0.2-0.rockspec"] = "dd7c0a5080f74fa8752e603151b2309e"
+}

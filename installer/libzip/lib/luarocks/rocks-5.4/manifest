@@ -1,0 +1,30 @@
+commands = {}
+dependencies = {
+   ["lua-zip"] = {
+      ["0.2-0"] = {
+         {
+            constraints = {},
+            name = "lua"
+         }
+      }
+   }
+}
+modules = {
+   ["brimworks.zip"] = {
+      "lua-zip/0.2-0"
+   }
+}
+repository = {
+   ["lua-zip"] = {
+      ["0.2-0"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               ["brimworks.zip"] = "brimworks/zip.so"
+            }
+         }
+      }
+   }
+}
