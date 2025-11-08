@@ -167,4 +167,17 @@ Instead of awarding random crap, we use Create Numismatics coins. Those coins ca
 
 To have a use for coins in singleplayer, players can buy some items in the special *Money* chapter which they might rather pay for then having to go to find it (like blaze burners)
 
+## Gallery
 
+Our beautiful loading screen (this happenned to someone's computer when they launched version 2.0.0 with 4GB RAM)
+![loading screen with adios logo](learning/adios.png)
+
+Powershell version of the installer (linux version is the same)
+![installer running in command line](learning/installer.png)
+
+Main menu designed with help of fancy menu.
+![redesigned minecraft main menu](learning/menu.png)
+
+Questlines of Farmer's Delight and AE2 (under rework)
+![questline of farmers delight](learning/farmerquest.png)
+![questline of applied energistics 2](learning/ae2quest.png)

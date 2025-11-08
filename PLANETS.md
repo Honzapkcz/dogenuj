@@ -1,5 +1,7 @@
 # PLANETY A DIMENZE
 
+> TODO: get list of all resources
+
 ## Země / Overworld
 
 * spawn; hlavní dění
@@ -9,6 +11,11 @@
 
 * cesta přes portál
 * Create Brass Age
+
+## End
+
+* end jak ho známe; ender drak
+* Better End
 
 ## Měsíc
 
