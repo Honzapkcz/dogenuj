@@ -1,11 +1,11 @@
-# DOGENUJ+ MODPACK
+# KUJNUJ MODPACK
 
 ## Introduction
 
-Dogenuj (formally known as KUJNUJ) is Minecraft modpack made by Honzapkcz for his semi-private server.
+Kujnuj (formally known as Dogenuj (formally known as KUJNUJ)) is Minecraft modpack made by Honzapkcz for his semi-private server.
 Started by forking Majnr+, it grew up to 400 (this number is being reduced) mods giving optimal performance (honzapkcz here, yes i'm playing on 4k monitor with 14 years old office laptop) and a lot of new content for everyone to never get bored (from looting dungeons to building fusion reactors)!
 
-> **NOTE*: This is currently kitchen sink modpack. It's meant so everyone has fun on my server. I'm doing a lot of rework and integration but I'm alone, so it's going to take a little time.
+> **NOTE**: This is currently kitchen sink modpack. It's meant so everyone has fun on my server. I'm doing a lot of rework and integration but I'm alone, so it's going to take a little time.
 
 **Everything tech related goes around these:**
 
@@ -63,15 +63,18 @@ Don't use a translator, ask us, we know English really well.
 
 We use our own installer instead of standard zips. Why? See #Contributing section.
 
-It doesn't do much, it can install, uninstall or show diagnostics and warnings if something feels off.
+They don't do much, they can install, uninstall or show diagnostics and warnings if something feels off.
 (if the folder isn't .minecraft or if there are already mods in mods folder)
 
 Shove one into your minecraft folder (or clone with repository) and run correspondingly.
 
-We supply `.ps1` for windows users (use the compiled `.exe` in Releases for painless experience)
-And `.sh` for Linux. (just `chmod +x installer.sh` and run it)
+~~We supply `.ps1` for windows users (use the compiled `.exe` in Releases for painless experience)
+And `.sh` for Linux. (just `chmod +x installer.sh` and run it)~~
 
-A new cross-compatible installer with more advanced interface in Lua is in development.
+A new cross-compatible installer with more advanced interface in Python is under deployement.
+
+And hopefully ready to use! We compile them for Linux and Windows and optionally supply raw .py files.
+
 
 ## A ~~little bit of~~ history
 
@@ -148,13 +151,14 @@ For quick info, we (I to be correct) use KubeJS for recipes, FTBQuests for quest
 - Nobody (yet) uses launcher that supports modpack installing.
 - You don't need to wait 2 hours to download preinstalled zipped modpack. (I have 2 ISPs yet 15MB/s peak)
 - Some scumbags don't even know how to properly unpack zips!
+- They cannot download anything more than mods (github support is sometimes needed).
 - I'm just lazy to look how it works >:).
 
 This is the reason this repository consists of mostly Powershell and shell.
 
 ### Recipes & Stuff
 
-Before 3.0.0 we used CraftTweaker, but due to it's esoteric design, constant error splash and terrible writing speed (like 5 LoC per hour),
+Before 3.0.0 we used CraftTweaker, but due to it's esoteric design, constant error splash and terrible writing speed (like 5 lines of code per hour),
 we switched to KubeJS.
 
 Files are mostly named after the mod they modify, the game stage (like early_game) or (more rarely) thing they do.

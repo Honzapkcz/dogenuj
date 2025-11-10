@@ -7,8 +7,8 @@
 	"author": "honzapkcz",
 	"website": "hbmy.eu",
 	"extract": {
-		"kubejs": "https://srv.hbmc.net/modpack/kujnuj/scripts.zip", // TODO
-		"config": "https://srv.hbmc.net/modpack/kujnuj/config.zip", // TODO
+		"kubejs": "https://srv.hbmc.net/modpack/kujnuj/kubejs.zip",
+		"config": "https://srv.hbmc.net/modpack/kujnuj/config.zip"
 	},
 	"fetch": {
 		"resourcepacks": [
